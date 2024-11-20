@@ -1,0 +1,9 @@
+make[1]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+CMake Error at CMakeLists.txt:30:
+  Parse error.  Expected a command name, got right paren with text ")".
+
+
+-- Configuring incomplete, errors occurred!
+See also "/home/iliass/ros2_athens_ws/build/stm_interfaces/CMakeFiles/CMakeOutput.log".
+make[1]: *** [Makefile:988: cmake_check_build_system] Error 1
+make[1]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'

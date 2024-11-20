@@ -1,0 +1,24 @@
+[0.019s] Invoking command in '/home/iliass/ros2_athens_ws/build/stm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --build /home/iliass/ros2_athens_ws/build/stm_interfaces -- -j16 -l16
+[0.162s] make[1]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.162s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.162s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.162s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.256s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.258s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[2.760s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.784s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[2.802s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[2.873s] CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[2.874s]   ament_package_xml() package name 'stm_interfaces' in '/package.xml' does
+[2.874s]   not match current PROJECT_NAME 'first_interfaces'.  You must call project()
+[2.874s]   with the same package name before.
+[2.874s] Call Stack (most recent call first):
+[2.874s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[2.874s]   CMakeLists.txt:31 (rosidl_generate_interfaces)
+[2.874s] 
+[2.874s] 
+[2.874s] -- Configuring incomplete, errors occurred!
+[2.874s] See also "/home/iliass/ros2_athens_ws/build/stm_interfaces/CMakeFiles/CMakeOutput.log".
+[2.877s] make[1]: *** [Makefile:222: cmake_check_build_system] Error 1
+[2.878s] make[1]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[2.880s] Invoked command in '/home/iliass/ros2_athens_ws/build/stm_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --build /home/iliass/ros2_athens_ws/build/stm_interfaces -- -j16 -l16

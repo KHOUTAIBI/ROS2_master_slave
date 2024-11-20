@@ -1,0 +1,10 @@
+CMake Error at /opt/ros/foxy/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+  ament_package_xml() package name 'stm_interfaces' in '/package.xml' does
+  not match current PROJECT_NAME 'first_interfaces'.  You must call project()
+  with the same package name before.
+Call Stack (most recent call first):
+  /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+  CMakeLists.txt:31 (rosidl_generate_interfaces)
+
+
+make[1]: *** [Makefile:222: cmake_check_build_system] Error 1

@@ -1,0 +1,16 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from first_interfaces/msg/Custom.msg
+// generated code does not contain a copyright notice
+
+
+module first_interfaces {
+  module msg {
+    struct Custom {
+      float range;
+
+      sequence<float> range_list;
+
+      string name;
+    };
+  };
+};

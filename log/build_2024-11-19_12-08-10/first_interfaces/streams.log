@@ -1,0 +1,73 @@
+[0.020s] Invoking command in '/home/iliass/ros2_athens_ws/build/first_interfaces': CMAKE_PREFIX_PATH=/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake /home/iliass/ros2_athens_ws/src/first_interfaces -DCMAKE_INSTALL_PREFIX=/home/iliass/ros2_athens_ws/install/first_interfaces
+[0.324s] -- The C compiler identification is GNU 9.4.0
+[0.804s] -- The CXX compiler identification is GNU 9.4.0
+[1.183s] -- Check for working C compiler: /usr/bin/cc
+[1.948s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.950s] -- Detecting C compiler ABI info
+[2.757s] -- Detecting C compiler ABI info - done
+[2.820s] -- Detecting C compile features
+[2.822s] -- Detecting C compile features - done
+[2.836s] -- Check for working CXX compiler: /usr/bin/c++
+[3.697s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[3.698s] -- Detecting CXX compiler ABI info
+[4.462s] -- Detecting CXX compiler ABI info - done
+[4.473s] -- Detecting CXX compile features
+[4.474s] -- Detecting CXX compile features - done
+[4.476s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.477s] -- Found ament_cmake_core: 0.9.12 (/opt/ros/foxy/share/ament_cmake_core/cmake)
+[4.500s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[4.500s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.688s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.696s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[9.305s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[13.405s] -- Found FastRTPS: /opt/ros/foxy/include  
+[22.910s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[22.960s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[22.997s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[23.116s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[23.566s] CMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[23.567s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[23.567s]   first_interfaces --arguments-file
+[23.567s]   /home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_adapter__arguments__first_interfaces.json
+[23.567s]   --output-dir
+[23.567s]   /home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_adapter/first_interfaces
+[23.567s]   --output-file
+[23.567s]   /home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_adapter/first_interfaces.idls)
+[23.567s]   returned error code 1:
+[23.568s] 
+[23.568s]   Error processing 'flaot34 range' of 'first_interfaces/Custom_message':
+[23.568s]   ''flaot34' is an invalid message name.  It should have the pattern
+[23.568s]   '^[A-Z][A-Za-z0-9]*$''
+[23.568s] 
+[23.568s]   Traceback (most recent call last):
+[23.568s] 
+[23.568s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[23.568s]       return _run_code(code, main_globals, None,
+[23.568s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[23.569s]       exec(code, run_globals)
+[23.569s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[23.569s]       sys.exit(main())
+[23.570s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[23.570s]       abs_idl_file = convert_to_idl(
+[23.570s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[23.570s]       return convert_msg_to_idl(
+[23.570s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[23.570s]       msg = parse_message_string(package_name, input_file.stem, content)
+[23.570s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 516, in parse_message_string
+[23.571s]       Type(type_string, context_package_name=pkg_name),
+[23.571s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 276, in __init__
+[23.571s]       super(Type, self).__init__(
+[23.571s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 204, in __init__
+[23.571s]       raise InvalidResourceName(
+[23.571s] 
+[23.571s]   rosidl_adapter.parser.InvalidResourceName: 'flaot34' is an invalid message
+[23.572s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[23.572s] 
+[23.572s] Call Stack (most recent call first):
+[23.572s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[23.572s]   CMakeLists.txt:38 (rosidl_generate_interfaces)
+[23.572s] 
+[23.572s] 
+[23.572s] -- Configuring incomplete, errors occurred!
+[23.573s] See also "/home/iliass/ros2_athens_ws/build/first_interfaces/CMakeFiles/CMakeOutput.log".
+[23.590s] Invoked command in '/home/iliass/ros2_athens_ws/build/first_interfaces' returned '1': CMAKE_PREFIX_PATH=/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake /home/iliass/ros2_athens_ws/src/first_interfaces -DCMAKE_INSTALL_PREFIX=/home/iliass/ros2_athens_ws/install/first_interfaces

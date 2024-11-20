@@ -1,0 +1,7 @@
+[console_scripts]
+simple_publisher_node = first_package.simple_publisher:main
+simple_pubsub_node = first_package.simple_pubsub:main
+simple_serive_node = first_package.simple_service_node:main
+simple_serive_parameter_node = first_package.simple_service_parameter_node:main
+simple_subscriber_node = first_package.simple_subscriber:main
+

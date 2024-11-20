@@ -1,0 +1,1122 @@
+[0.000000] (-) TimerEvent: {}
+[0.000316] (first_interfaces) JobQueued: {'identifier': 'first_interfaces', 'dependencies': OrderedDict()}
+[0.001045] (stm_interfaces) JobQueued: {'identifier': 'stm_interfaces', 'dependencies': OrderedDict()}
+[0.001117] (first_package) JobQueued: {'identifier': 'first_package', 'dependencies': OrderedDict([('first_interfaces', '/home/iliass/ros2_athens_ws/install/first_interfaces')])}
+[0.001166] (stm_station) JobQueued: {'identifier': 'stm_station', 'dependencies': OrderedDict([('stm_interfaces', '/home/iliass/ros2_athens_ws/install/stm_interfaces')])}
+[0.001212] (first_interfaces) JobStarted: {'identifier': 'first_interfaces'}
+[0.009032] (stm_interfaces) JobStarted: {'identifier': 'stm_interfaces'}
+[0.027288] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'cmake'}
+[0.027404] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'build'}
+[0.027453] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iliass/ros2_athens_ws/build/first_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/iliass/ros2_athens_ws/build/first_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iliass'), ('GIT_ASKPASS', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/home/iliass/ros2_athens_ws/install/stm_interfaces/lib:/home/iliass/ros2_athens_ws/install/first_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('SHLVL', '2'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/iliass'), ('OLDPWD', '/home/iliass/ros2_athens_ws/src'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b3bc636d-7c05-4f0b-811d-0fbfa5917cef.sock'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MAKEFLAGS', ''), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('MAKE_TERMERR', '/dev/pts/5'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'iliass'), ('_', '/usr/bin/make'), ('WSL_INTEROP', '/run/WSL/1635_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('NAME', 'Code'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/home/iliass/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/MySQL/MySQL Shell 9.0/bin/:/mnt/c/Users/ailia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ailia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ailia/AppData/Roaming/npm:/mnt/c/Users/ailia/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/Users/ailia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/ailia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/snap/bin'), ('WT_SESSION', '47b55be5-831f-412f-90d0-1edaef3a63b4'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('MAKELEVEL', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfefee26d2.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/stm_interfaces:/home/iliass/ros2_athens_ws/install/first_package:/home/iliass/ros2_athens_ws/install/first_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('MAKE_TERMOUT', '/dev/pts/5'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/iliass/ros2_athens_ws/build/first_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MFLAGS', ''), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install/stm_interfaces:/home/iliass/ros2_athens_ws/install/first_interfaces:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy')]), 'shell': False}
+[0.038924] (stm_interfaces) JobProgress: {'identifier': 'stm_interfaces', 'progress': 'cmake'}
+[0.039060] (stm_interfaces) JobProgress: {'identifier': 'stm_interfaces', 'progress': 'build'}
+[0.039105] (stm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iliass/ros2_athens_ws/build/stm_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/iliass/ros2_athens_ws/build/stm_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iliass'), ('GIT_ASKPASS', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/home/iliass/ros2_athens_ws/install/stm_interfaces/lib:/home/iliass/ros2_athens_ws/install/first_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('SHLVL', '2'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/iliass'), ('OLDPWD', '/home/iliass/ros2_athens_ws/src'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b3bc636d-7c05-4f0b-811d-0fbfa5917cef.sock'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MAKEFLAGS', ''), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('MAKE_TERMERR', '/dev/pts/5'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'iliass'), ('_', '/usr/bin/make'), ('WSL_INTEROP', '/run/WSL/1635_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('NAME', 'Code'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/home/iliass/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/MySQL/MySQL Shell 9.0/bin/:/mnt/c/Users/ailia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ailia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ailia/AppData/Roaming/npm:/mnt/c/Users/ailia/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/Users/ailia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/ailia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/snap/bin'), ('WT_SESSION', '47b55be5-831f-412f-90d0-1edaef3a63b4'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('MAKELEVEL', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfefee26d2.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/stm_interfaces:/home/iliass/ros2_athens_ws/install/first_package:/home/iliass/ros2_athens_ws/install/first_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('MAKE_TERMOUT', '/dev/pts/5'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/iliass/ros2_athens_ws/build/stm_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MFLAGS', ''), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install/stm_interfaces:/home/iliass/ros2_athens_ws/install/first_interfaces:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy')]), 'shell': False}
+[0.042988] (first_interfaces) StdoutLine: {'line': b"make[1]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.050593] (stm_interfaces) StdoutLine: {'line': b"make[1]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[0.061459] (first_interfaces) StdoutLine: {'line': b"make[2]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.062743] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.063260] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.066906] (stm_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.071428] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.071858] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.081771] (first_interfaces) StdoutLine: {'line': b'[  3%] Built target first_interfaces__cpp\n'}
+[0.081941] (first_interfaces) StdoutLine: {'line': b'[ 12%] Built target first_interfaces__rosidl_generator_c\n'}
+[0.084529] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.084725] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.085139] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.085386] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.086192] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.094074] (stm_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.094315] (stm_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.094759] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.094970] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.096088] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.097366] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.097749] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.099696] (-) TimerEvent: {}
+[0.107171] (first_interfaces) StdoutLine: {'line': b'[ 22%] Built target first_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.109511] (first_interfaces) StdoutLine: {'line': b'[ 35%] Built target first_interfaces__rosidl_typesupport_cpp\n'}
+[0.109856] (first_interfaces) StdoutLine: {'line': b'[ 41%] Built target first_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.111505] (first_interfaces) StdoutLine: {'line': b'[ 51%] Built target first_interfaces__rosidl_typesupport_c\n'}
+[0.112629] (first_interfaces) StdoutLine: {'line': b'[ 61%] Built target first_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.115760] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.126602] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.140352] (first_interfaces) StdoutLine: {'line': b'[ 70%] Built target first_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.142236] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.151413] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.160921] (first_interfaces) StdoutLine: {'line': b'[ 70%] Built target first_interfaces\n'}
+[0.162948] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.171955] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.182203] (first_interfaces) StdoutLine: {'line': b'[ 74%] Built target first_interfaces__py\n'}
+[0.184650] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.193309] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.199840] (-) TimerEvent: {}
+[0.205921] (first_interfaces) StdoutLine: {'line': b'[ 80%] Built target first_interfaces__python\n'}
+[0.208494] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.208902] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.209219] (first_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.218244] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.218805] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.220447] (first_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.233159] (first_interfaces) StdoutLine: {'line': b'[ 87%] Built target first_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.233430] (first_interfaces) StdoutLine: {'line': b'[ 93%] Built target first_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.234320] (first_interfaces) StdoutLine: {'line': b'[100%] Built target first_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.235173] (first_interfaces) StdoutLine: {'line': b"make[2]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.244021] (first_interfaces) StdoutLine: {'line': b"make[1]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.248918] (first_interfaces) CommandEnded: {'returncode': 0}
+[0.287253] (stm_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[0.300009] (-) TimerEvent: {}
+[0.310791] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'install'}
+[0.319422] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/iliass/ros2_athens_ws/build/first_interfaces'], 'cwd': '/home/iliass/ros2_athens_ws/build/first_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iliass'), ('GIT_ASKPASS', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/home/iliass/ros2_athens_ws/install/stm_interfaces/lib:/home/iliass/ros2_athens_ws/install/first_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('SHLVL', '2'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/iliass'), ('OLDPWD', '/home/iliass/ros2_athens_ws/src'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b3bc636d-7c05-4f0b-811d-0fbfa5917cef.sock'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MAKEFLAGS', ''), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('MAKE_TERMERR', '/dev/pts/5'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'iliass'), ('_', '/usr/bin/make'), ('WSL_INTEROP', '/run/WSL/1635_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('NAME', 'Code'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/home/iliass/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/MySQL/MySQL Shell 9.0/bin/:/mnt/c/Users/ailia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ailia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ailia/AppData/Roaming/npm:/mnt/c/Users/ailia/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/Users/ailia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/ailia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/snap/bin'), ('WT_SESSION', '47b55be5-831f-412f-90d0-1edaef3a63b4'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('MAKELEVEL', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfefee26d2.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/stm_interfaces:/home/iliass/ros2_athens_ws/install/first_package:/home/iliass/ros2_athens_ws/install/first_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('MAKE_TERMOUT', '/dev/pts/5'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/iliass/ros2_athens_ws/build/first_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MFLAGS', ''), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install/stm_interfaces:/home/iliass/ros2_athens_ws/install/first_interfaces:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy')]), 'shell': False}
+[0.332665] (first_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.333412] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/ament_index/resource_index/rosidl_interfaces/first_interfaces\n'}
+[0.333651] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces\n'}
+[0.333827] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[0.333963] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[0.334024] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__functions.c\n'}
+[0.334081] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom_message__functions.h\n'}
+[0.334475] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__functions.h\n'}
+[0.334557] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__struct.h\n'}
+[0.334657] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom_message__type_support.h\n'}
+[0.334789] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom_message__functions.c\n'}
+[0.334858] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom_message__struct.h\n'}
+[0.335028] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__type_support.h\n'}
+[0.335120] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/custom.h\n'}
+[0.335444] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.335508] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/custom_message.h\n'}
+[0.335561] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/library_path.sh\n'}
+[0.335686] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/library_path.dsv\n'}
+[0.336053] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_generator_c.so\n'}
+[0.336143] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces\n'}
+[0.336204] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[0.336538] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[0.336710] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__rosidl_typesupport_fastrtps_c.h\n'}
+[0.336839] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.337024] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.337211] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces\n'}
+[0.337293] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[0.337429] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[0.337726] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom_message__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.337842] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.337899] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/dds_fastrtps\n'}
+[0.337953] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.338002] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.338049] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces\n'}
+[0.338103] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[0.338155] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[0.338208] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__rosidl_typesupport_introspection_c.h\n'}
+[0.338268] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__type_support.c\n'}
+[0.338315] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.338362] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.338410] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_c.so\n'}
+[0.338461] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces\n'}
+[0.338506] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[0.338649] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[0.338753] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__struct.hpp\n'}
+[0.338810] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom_message__builder.hpp\n'}
+[0.338858] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__type_support.hpp\n'}
+[0.338905] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom_message__traits.hpp\n'}
+[0.338952] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom_message__type_support.hpp\n'}
+[0.338999] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom_message__struct.hpp\n'}
+[0.339047] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__traits.hpp\n'}
+[0.339092] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__builder.hpp\n'}
+[0.339140] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.339185] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/custom_message.hpp\n'}
+[0.339229] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/custom.hpp\n'}
+[0.339275] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces\n'}
+[0.339322] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg\n'}
+[0.339370] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail\n'}
+[0.339416] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom_message__type_support.cpp\n'}
+[0.339462] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__type_support.cpp\n'}
+[0.339514] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339559] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/include/first_interfaces/msg/detail/custom_message__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.339603] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.339647] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.339693] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/pythonpath.sh\n'}
+[0.339737] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/pythonpath.dsv\n'}
+[0.339788] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/__init__.py\n'}
+[0.373739] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg\n'}
+[0.374187] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg/__init__.py\n'}
+[0.374397] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg/_custom.py\n'}
+[0.374509] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/msg/_custom_s.c\n'}
+[0.374595] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.374839] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.375757] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages/first_interfaces/first_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[0.376337] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/lib/libfirst_interfaces__python.so\n'}
+[0.376599] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/msg/Custom.idl\n'}
+[0.376981] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/msg/Custom.msg\n'}
+[0.377241] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/ament_index/resource_index/package_run_dependencies/first_interfaces\n'}
+[0.377308] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/ament_index/resource_index/parent_prefix_path/first_interfaces\n'}
+[0.377359] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.sh\n'}
+[0.377413] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.377591] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/path.sh\n'}
+[0.377674] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/environment/path.dsv\n'}
+[0.377850] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/local_setup.bash\n'}
+[0.378016] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/local_setup.sh\n'}
+[0.378108] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/local_setup.zsh\n'}
+[0.378316] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/local_setup.dsv\n'}
+[0.378396] (first_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/package.dsv\n'}
+[0.378450] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/ament_index/resource_index/packages/first_interfaces\n'}
+[0.378510] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.378633] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.378792] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.378870] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.378928] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.379065] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.379280] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.379798] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.380052] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.380114] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.380199] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.380297] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.380354] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.380401] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.380463] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.380506] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.380552] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.380598] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.380643] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig.cmake\n'}
+[0.380711] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/cmake/first_interfacesConfig-version.cmake\n'}
+[0.381110] (first_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/first_interfaces/share/first_interfaces/package.xml\n'}
+[0.382530] (first_interfaces) CommandEnded: {'returncode': 0}
+[0.400178] (-) TimerEvent: {}
+[0.473449] (first_interfaces) JobEnded: {'identifier': 'first_interfaces', 'rc': 0}
+[0.474926] (first_package) JobStarted: {'identifier': 'first_package'}
+[0.500384] (-) TimerEvent: {}
+[0.575273] (stm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.580910] (stm_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.600486] (-) TimerEvent: {}
+[0.701084] (-) TimerEvent: {}
+[0.801989] (-) TimerEvent: {}
+[0.902608] (-) TimerEvent: {}
+[1.003092] (-) TimerEvent: {}
+[1.103728] (-) TimerEvent: {}
+[1.204881] (-) TimerEvent: {}
+[1.306060] (-) TimerEvent: {}
+[1.407289] (-) TimerEvent: {}
+[1.508480] (-) TimerEvent: {}
+[1.609709] (-) TimerEvent: {}
+[1.710164] (-) TimerEvent: {}
+[1.810618] (-) TimerEvent: {}
+[1.911005] (-) TimerEvent: {}
+[1.934532] (first_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/first_package', 'build', '--build-base', '/home/iliass/ros2_athens_ws/build/first_package/build', 'install', '--record', '/home/iliass/ros2_athens_ws/build/first_package/install.log', '--install-scripts', '$base/lib/first_package', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/iliass/ros2_athens_ws/src/first_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'iliass', 'GIT_ASKPASS': '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/home/iliass/ros2_athens_ws/install/first_interfaces/lib:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'SHLVL': '2', 'WT_PROFILE_ID': '{4dd1e689-b517-5f39-947d-78e8a8bdf958}', 'HOME': '/home/iliass', 'OLDPWD': '/home/iliass/ros2_athens_ws/src', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b3bc636d-7c05-4f0b-811d-0fbfa5917cef.sock', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': '', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'MAKE_TERMERR': '/dev/pts/5', 'ROS_DISTRO': 'foxy', 'COLCON_PREFIX_PATH': '/home/iliass/ros2_athens_ws/install', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'iliass', '_': '/usr/bin/make', 'WSL_INTEROP': '/run/WSL/1635_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', 'NAME': 'Code', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/home/iliass/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/MySQL/MySQL Shell 9.0/bin/:/mnt/c/Users/ailia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ailia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ailia/AppData/Roaming/npm:/mnt/c/Users/ailia/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/Users/ailia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/ailia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/snap/bin', 'WT_SESSION': '47b55be5-831f-412f-90d0-1edaef3a63b4', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'MAKELEVEL': '1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dfefee26d2.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/stm_interfaces:/home/iliass/ros2_athens_ws/install/first_package:/home/iliass/ros2_athens_ws/install/first_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'MAKE_TERMOUT': '/dev/pts/5', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/iliass/ros2_athens_ws/build/first_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/iliass/ros2_athens_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'MFLAGS': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:', 'CMAKE_PREFIX_PATH': '/home/iliass/ros2_athens_ws/install/first_interfaces:/home/iliass/ros2_athens_ws/install/stm_interfaces'}, 'shell': False}
+[2.011273] (-) TimerEvent: {}
+[2.111745] (-) TimerEvent: {}
+[2.155208] (first_package) StdoutLine: {'line': b'running egg_info\n'}
+[2.155850] (first_package) StdoutLine: {'line': b'writing ../../build/first_package/first_package.egg-info/PKG-INFO\n'}
+[2.156398] (first_package) StdoutLine: {'line': b'writing dependency_links to ../../build/first_package/first_package.egg-info/dependency_links.txt\n'}
+[2.156651] (first_package) StdoutLine: {'line': b'writing entry points to ../../build/first_package/first_package.egg-info/entry_points.txt\n'}
+[2.157059] (first_package) StdoutLine: {'line': b'writing requirements to ../../build/first_package/first_package.egg-info/requires.txt\n'}
+[2.157243] (first_package) StdoutLine: {'line': b'writing top-level names to ../../build/first_package/first_package.egg-info/top_level.txt\n'}
+[2.203641] (first_package) StdoutLine: {'line': b"reading manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[2.206167] (first_package) StdoutLine: {'line': b"writing manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[2.206547] (first_package) StdoutLine: {'line': b'running build\n'}
+[2.206728] (first_package) StdoutLine: {'line': b'running build_py\n'}
+[2.208306] (first_package) StdoutLine: {'line': b'running install\n'}
+[2.211722] (first_package) StdoutLine: {'line': b'running install_lib\n'}
+[2.212119] (-) TimerEvent: {}
+[2.216471] (first_package) StdoutLine: {'line': b'running install_data\n'}
+[2.216871] (first_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.222443] (first_package) StdoutLine: {'line': b"removing '/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages/first_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[2.223895] (first_package) StdoutLine: {'line': b'Copying ../../build/first_package/first_package.egg-info to /home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages/first_package-0.0.0-py3.8.egg-info\n'}
+[2.228877] (first_package) StdoutLine: {'line': b'running install_scripts\n'}
+[2.262828] (first_package) StdoutLine: {'line': b'Installing simple_publisher_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[2.263311] (first_package) StdoutLine: {'line': b'Installing simple_pubsub_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[2.263607] (first_package) StdoutLine: {'line': b'Installing simple_serive_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[2.263761] (first_package) StdoutLine: {'line': b'Installing simple_serive_parameter_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[2.264121] (first_package) StdoutLine: {'line': b'Installing simple_subscriber_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[2.264190] (first_package) StdoutLine: {'line': b"writing list of installed files to '/home/iliass/ros2_athens_ws/build/first_package/install.log'\n"}
+[2.285601] (first_package) CommandEnded: {'returncode': 0}
+[2.296547] (first_package) JobEnded: {'identifier': 'first_package', 'rc': 0}
+[2.312344] (-) TimerEvent: {}
+[2.413707] (-) TimerEvent: {}
+[2.514953] (-) TimerEvent: {}
+[2.616271] (-) TimerEvent: {}
+[2.717828] (-) TimerEvent: {}
+[2.819478] (-) TimerEvent: {}
+[2.920876] (-) TimerEvent: {}
+[3.022356] (-) TimerEvent: {}
+[3.124041] (-) TimerEvent: {}
+[3.225271] (-) TimerEvent: {}
+[3.326550] (-) TimerEvent: {}
+[3.427810] (-) TimerEvent: {}
+[3.529165] (-) TimerEvent: {}
+[3.630632] (-) TimerEvent: {}
+[3.731836] (-) TimerEvent: {}
+[3.832785] (-) TimerEvent: {}
+[3.933839] (-) TimerEvent: {}
+[4.034913] (-) TimerEvent: {}
+[4.135908] (-) TimerEvent: {}
+[4.236527] (-) TimerEvent: {}
+[4.337587] (-) TimerEvent: {}
+[4.438531] (-) TimerEvent: {}
+[4.539435] (-) TimerEvent: {}
+[4.640585] (-) TimerEvent: {}
+[4.741942] (-) TimerEvent: {}
+[4.843735] (-) TimerEvent: {}
+[4.944992] (-) TimerEvent: {}
+[5.046230] (-) TimerEvent: {}
+[5.147486] (-) TimerEvent: {}
+[5.248842] (-) TimerEvent: {}
+[5.349750] (-) TimerEvent: {}
+[5.450326] (-) TimerEvent: {}
+[5.551278] (-) TimerEvent: {}
+[5.652707] (-) TimerEvent: {}
+[5.753442] (-) TimerEvent: {}
+[5.853944] (-) TimerEvent: {}
+[5.954612] (-) TimerEvent: {}
+[6.055624] (-) TimerEvent: {}
+[6.156606] (-) TimerEvent: {}
+[6.257298] (-) TimerEvent: {}
+[6.358351] (-) TimerEvent: {}
+[6.460110] (-) TimerEvent: {}
+[6.561637] (-) TimerEvent: {}
+[6.662901] (-) TimerEvent: {}
+[6.764470] (-) TimerEvent: {}
+[6.866096] (-) TimerEvent: {}
+[6.967639] (-) TimerEvent: {}
+[7.069044] (-) TimerEvent: {}
+[7.170629] (-) TimerEvent: {}
+[7.272219] (-) TimerEvent: {}
+[7.373891] (-) TimerEvent: {}
+[7.475185] (-) TimerEvent: {}
+[7.576469] (-) TimerEvent: {}
+[7.677457] (-) TimerEvent: {}
+[7.777985] (-) TimerEvent: {}
+[7.878730] (-) TimerEvent: {}
+[7.979163] (-) TimerEvent: {}
+[8.079552] (-) TimerEvent: {}
+[8.179933] (-) TimerEvent: {}
+[8.280311] (-) TimerEvent: {}
+[8.380724] (-) TimerEvent: {}
+[8.481158] (-) TimerEvent: {}
+[8.581630] (-) TimerEvent: {}
+[8.682305] (-) TimerEvent: {}
+[8.782769] (-) TimerEvent: {}
+[8.883373] (-) TimerEvent: {}
+[8.983969] (-) TimerEvent: {}
+[9.084507] (-) TimerEvent: {}
+[9.185025] (-) TimerEvent: {}
+[9.285509] (-) TimerEvent: {}
+[9.385955] (-) TimerEvent: {}
+[9.486651] (-) TimerEvent: {}
+[9.587816] (-) TimerEvent: {}
+[9.689346] (-) TimerEvent: {}
+[9.791012] (-) TimerEvent: {}
+[9.892370] (-) TimerEvent: {}
+[9.993606] (-) TimerEvent: {}
+[10.094570] (-) TimerEvent: {}
+[10.196165] (-) TimerEvent: {}
+[10.298045] (-) TimerEvent: {}
+[10.399726] (-) TimerEvent: {}
+[10.501242] (-) TimerEvent: {}
+[10.602754] (-) TimerEvent: {}
+[10.704085] (-) TimerEvent: {}
+[10.805704] (-) TimerEvent: {}
+[10.907059] (-) TimerEvent: {}
+[11.008411] (-) TimerEvent: {}
+[11.109360] (-) TimerEvent: {}
+[11.210169] (-) TimerEvent: {}
+[11.311075] (-) TimerEvent: {}
+[11.411718] (-) TimerEvent: {}
+[11.512620] (-) TimerEvent: {}
+[11.613338] (-) TimerEvent: {}
+[11.714638] (-) TimerEvent: {}
+[11.815898] (-) TimerEvent: {}
+[11.916545] (-) TimerEvent: {}
+[12.017270] (-) TimerEvent: {}
+[12.118238] (-) TimerEvent: {}
+[12.219092] (-) TimerEvent: {}
+[12.320383] (-) TimerEvent: {}
+[12.421495] (-) TimerEvent: {}
+[12.522158] (-) TimerEvent: {}
+[12.623267] (-) TimerEvent: {}
+[12.724222] (-) TimerEvent: {}
+[12.825210] (-) TimerEvent: {}
+[12.925899] (-) TimerEvent: {}
+[13.026585] (-) TimerEvent: {}
+[13.128045] (-) TimerEvent: {}
+[13.229117] (-) TimerEvent: {}
+[13.330353] (-) TimerEvent: {}
+[13.431791] (-) TimerEvent: {}
+[13.533127] (-) TimerEvent: {}
+[13.634391] (-) TimerEvent: {}
+[13.735694] (-) TimerEvent: {}
+[13.837166] (-) TimerEvent: {}
+[13.938398] (-) TimerEvent: {}
+[14.040093] (-) TimerEvent: {}
+[14.141292] (-) TimerEvent: {}
+[14.242334] (-) TimerEvent: {}
+[14.342932] (-) TimerEvent: {}
+[14.443852] (-) TimerEvent: {}
+[14.545134] (-) TimerEvent: {}
+[14.646462] (-) TimerEvent: {}
+[14.747506] (-) TimerEvent: {}
+[14.848379] (-) TimerEvent: {}
+[14.949978] (-) TimerEvent: {}
+[15.051574] (-) TimerEvent: {}
+[15.153047] (-) TimerEvent: {}
+[15.254426] (-) TimerEvent: {}
+[15.355919] (-) TimerEvent: {}
+[15.457277] (-) TimerEvent: {}
+[15.558753] (-) TimerEvent: {}
+[15.660010] (-) TimerEvent: {}
+[15.761367] (-) TimerEvent: {}
+[15.862566] (-) TimerEvent: {}
+[15.963791] (-) TimerEvent: {}
+[16.065825] (-) TimerEvent: {}
+[16.167602] (-) TimerEvent: {}
+[16.269057] (-) TimerEvent: {}
+[16.370470] (-) TimerEvent: {}
+[16.472141] (-) TimerEvent: {}
+[16.573489] (-) TimerEvent: {}
+[16.674729] (-) TimerEvent: {}
+[16.776028] (-) TimerEvent: {}
+[16.877231] (-) TimerEvent: {}
+[16.978384] (-) TimerEvent: {}
+[17.079870] (-) TimerEvent: {}
+[17.181206] (-) TimerEvent: {}
+[17.282548] (-) TimerEvent: {}
+[17.383778] (-) TimerEvent: {}
+[17.484987] (-) TimerEvent: {}
+[17.586438] (-) TimerEvent: {}
+[17.687389] (-) TimerEvent: {}
+[17.788674] (-) TimerEvent: {}
+[17.890153] (-) TimerEvent: {}
+[17.991576] (-) TimerEvent: {}
+[18.093100] (-) TimerEvent: {}
+[18.195331] (-) TimerEvent: {}
+[18.296277] (-) TimerEvent: {}
+[18.397021] (-) TimerEvent: {}
+[18.498162] (-) TimerEvent: {}
+[18.599229] (-) TimerEvent: {}
+[18.700312] (-) TimerEvent: {}
+[18.801604] (-) TimerEvent: {}
+[18.902848] (-) TimerEvent: {}
+[19.004142] (-) TimerEvent: {}
+[19.105400] (-) TimerEvent: {}
+[19.206640] (-) TimerEvent: {}
+[19.307812] (-) TimerEvent: {}
+[19.409159] (-) TimerEvent: {}
+[19.510772] (-) TimerEvent: {}
+[19.612637] (-) TimerEvent: {}
+[19.713855] (-) TimerEvent: {}
+[19.815088] (-) TimerEvent: {}
+[19.916205] (-) TimerEvent: {}
+[20.018427] (-) TimerEvent: {}
+[20.120332] (-) TimerEvent: {}
+[20.221473] (-) TimerEvent: {}
+[20.322849] (-) TimerEvent: {}
+[20.424056] (-) TimerEvent: {}
+[20.525469] (-) TimerEvent: {}
+[20.626486] (-) TimerEvent: {}
+[20.727119] (-) TimerEvent: {}
+[20.828028] (-) TimerEvent: {}
+[20.929659] (-) TimerEvent: {}
+[21.031067] (-) TimerEvent: {}
+[21.132754] (-) TimerEvent: {}
+[21.234062] (-) TimerEvent: {}
+[21.335397] (-) TimerEvent: {}
+[21.436804] (-) TimerEvent: {}
+[21.538129] (-) TimerEvent: {}
+[21.639613] (-) TimerEvent: {}
+[21.741048] (-) TimerEvent: {}
+[21.842015] (-) TimerEvent: {}
+[21.942765] (-) TimerEvent: {}
+[22.044308] (-) TimerEvent: {}
+[22.145743] (-) TimerEvent: {}
+[22.247130] (-) TimerEvent: {}
+[22.348492] (-) TimerEvent: {}
+[22.353999] (stm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[22.449132] (-) TimerEvent: {}
+[22.550380] (-) TimerEvent: {}
+[22.595671] (stm_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[22.650619] (-) TimerEvent: {}
+[22.676026] (stm_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[22.750740] (-) TimerEvent: {}
+[22.851392] (-) TimerEvent: {}
+[22.952501] (-) TimerEvent: {}
+[23.053992] (-) TimerEvent: {}
+[23.101707] (stm_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[23.154715] (-) TimerEvent: {}
+[23.256285] (-) TimerEvent: {}
+[23.357672] (-) TimerEvent: {}
+[23.459323] (-) TimerEvent: {}
+[23.560790] (-) TimerEvent: {}
+[23.662339] (-) TimerEvent: {}
+[23.763951] (-) TimerEvent: {}
+[23.865387] (-) TimerEvent: {}
+[23.966244] (-) TimerEvent: {}
+[24.067109] (-) TimerEvent: {}
+[24.168504] (-) TimerEvent: {}
+[24.269986] (-) TimerEvent: {}
+[24.371124] (-) TimerEvent: {}
+[24.472476] (-) TimerEvent: {}
+[24.574036] (-) TimerEvent: {}
+[24.675541] (-) TimerEvent: {}
+[24.777405] (-) TimerEvent: {}
+[24.878867] (-) TimerEvent: {}
+[24.980274] (-) TimerEvent: {}
+[25.082023] (-) TimerEvent: {}
+[25.183436] (-) TimerEvent: {}
+[25.284766] (-) TimerEvent: {}
+[25.386301] (-) TimerEvent: {}
+[25.487966] (-) TimerEvent: {}
+[25.589743] (-) TimerEvent: {}
+[25.691407] (-) TimerEvent: {}
+[25.793222] (-) TimerEvent: {}
+[25.894782] (-) TimerEvent: {}
+[25.996372] (-) TimerEvent: {}
+[26.097813] (-) TimerEvent: {}
+[26.198942] (-) TimerEvent: {}
+[26.299820] (-) TimerEvent: {}
+[26.401148] (-) TimerEvent: {}
+[26.502626] (-) TimerEvent: {}
+[26.604080] (-) TimerEvent: {}
+[26.705591] (-) TimerEvent: {}
+[26.806797] (-) TimerEvent: {}
+[26.908379] (-) TimerEvent: {}
+[27.010285] (-) TimerEvent: {}
+[27.111773] (-) TimerEvent: {}
+[27.212758] (-) TimerEvent: {}
+[27.313819] (-) TimerEvent: {}
+[27.415063] (-) TimerEvent: {}
+[27.516379] (-) TimerEvent: {}
+[27.617638] (-) TimerEvent: {}
+[27.719206] (-) TimerEvent: {}
+[27.820357] (-) TimerEvent: {}
+[27.921718] (-) TimerEvent: {}
+[28.023258] (-) TimerEvent: {}
+[28.124820] (-) TimerEvent: {}
+[28.226326] (-) TimerEvent: {}
+[28.327875] (-) TimerEvent: {}
+[28.429557] (-) TimerEvent: {}
+[28.530858] (-) TimerEvent: {}
+[28.632195] (-) TimerEvent: {}
+[28.733608] (-) TimerEvent: {}
+[28.834851] (-) TimerEvent: {}
+[28.936049] (-) TimerEvent: {}
+[29.037380] (-) TimerEvent: {}
+[29.138993] (-) TimerEvent: {}
+[29.240418] (-) TimerEvent: {}
+[29.341841] (-) TimerEvent: {}
+[29.443367] (-) TimerEvent: {}
+[29.544947] (-) TimerEvent: {}
+[29.646305] (-) TimerEvent: {}
+[29.747571] (-) TimerEvent: {}
+[29.848911] (-) TimerEvent: {}
+[29.950105] (-) TimerEvent: {}
+[30.051707] (-) TimerEvent: {}
+[30.153143] (-) TimerEvent: {}
+[30.254675] (-) TimerEvent: {}
+[30.356083] (-) TimerEvent: {}
+[30.457320] (-) TimerEvent: {}
+[30.558489] (-) TimerEvent: {}
+[30.659883] (-) TimerEvent: {}
+[30.761222] (-) TimerEvent: {}
+[30.862456] (-) TimerEvent: {}
+[30.963352] (-) TimerEvent: {}
+[31.064471] (-) TimerEvent: {}
+[31.165969] (-) TimerEvent: {}
+[31.267414] (-) TimerEvent: {}
+[31.368930] (-) TimerEvent: {}
+[31.470575] (-) TimerEvent: {}
+[31.572048] (-) TimerEvent: {}
+[31.673591] (-) TimerEvent: {}
+[31.775114] (-) TimerEvent: {}
+[31.876705] (-) TimerEvent: {}
+[31.978449] (-) TimerEvent: {}
+[32.079983] (-) TimerEvent: {}
+[32.181587] (-) TimerEvent: {}
+[32.283081] (-) TimerEvent: {}
+[32.384308] (-) TimerEvent: {}
+[32.485682] (-) TimerEvent: {}
+[32.587088] (-) TimerEvent: {}
+[32.689020] (-) TimerEvent: {}
+[32.790610] (-) TimerEvent: {}
+[32.892360] (-) TimerEvent: {}
+[32.993913] (-) TimerEvent: {}
+[33.095527] (-) TimerEvent: {}
+[33.196906] (-) TimerEvent: {}
+[33.298355] (-) TimerEvent: {}
+[33.400134] (-) TimerEvent: {}
+[33.501599] (-) TimerEvent: {}
+[33.602953] (-) TimerEvent: {}
+[33.704072] (-) TimerEvent: {}
+[33.805243] (-) TimerEvent: {}
+[33.906762] (-) TimerEvent: {}
+[34.009007] (-) TimerEvent: {}
+[34.110462] (-) TimerEvent: {}
+[34.211836] (-) TimerEvent: {}
+[34.313361] (-) TimerEvent: {}
+[34.414815] (-) TimerEvent: {}
+[34.516295] (-) TimerEvent: {}
+[34.618066] (-) TimerEvent: {}
+[34.719888] (-) TimerEvent: {}
+[34.821256] (-) TimerEvent: {}
+[34.922644] (-) TimerEvent: {}
+[35.024138] (-) TimerEvent: {}
+[35.125513] (-) TimerEvent: {}
+[35.227112] (-) TimerEvent: {}
+[35.328932] (-) TimerEvent: {}
+[35.430576] (-) TimerEvent: {}
+[35.532044] (-) TimerEvent: {}
+[35.633680] (-) TimerEvent: {}
+[35.735327] (-) TimerEvent: {}
+[35.836780] (-) TimerEvent: {}
+[35.938145] (-) TimerEvent: {}
+[36.040184] (-) TimerEvent: {}
+[36.141603] (-) TimerEvent: {}
+[36.243145] (-) TimerEvent: {}
+[36.344629] (-) TimerEvent: {}
+[36.445683] (-) TimerEvent: {}
+[36.547304] (-) TimerEvent: {}
+[36.648963] (-) TimerEvent: {}
+[36.750400] (-) TimerEvent: {}
+[36.851732] (-) TimerEvent: {}
+[36.952735] (-) TimerEvent: {}
+[37.053897] (-) TimerEvent: {}
+[37.155432] (-) TimerEvent: {}
+[37.257024] (-) TimerEvent: {}
+[37.358465] (-) TimerEvent: {}
+[37.460166] (-) TimerEvent: {}
+[37.561868] (-) TimerEvent: {}
+[37.663463] (-) TimerEvent: {}
+[37.764968] (-) TimerEvent: {}
+[37.866430] (-) TimerEvent: {}
+[37.968011] (-) TimerEvent: {}
+[38.069648] (-) TimerEvent: {}
+[38.171021] (-) TimerEvent: {}
+[38.272790] (-) TimerEvent: {}
+[38.374299] (-) TimerEvent: {}
+[38.475928] (-) TimerEvent: {}
+[38.577551] (-) TimerEvent: {}
+[38.679205] (-) TimerEvent: {}
+[38.780912] (-) TimerEvent: {}
+[38.882739] (-) TimerEvent: {}
+[38.984206] (-) TimerEvent: {}
+[39.085702] (-) TimerEvent: {}
+[39.187317] (-) TimerEvent: {}
+[39.288985] (-) TimerEvent: {}
+[39.390384] (-) TimerEvent: {}
+[39.491605] (-) TimerEvent: {}
+[39.592793] (-) TimerEvent: {}
+[39.694093] (-) TimerEvent: {}
+[39.795494] (-) TimerEvent: {}
+[39.896706] (-) TimerEvent: {}
+[39.998080] (-) TimerEvent: {}
+[40.099268] (-) TimerEvent: {}
+[40.200204] (-) TimerEvent: {}
+[40.301496] (-) TimerEvent: {}
+[40.402689] (-) TimerEvent: {}
+[40.504055] (-) TimerEvent: {}
+[40.605406] (-) TimerEvent: {}
+[40.706715] (-) TimerEvent: {}
+[40.808054] (-) TimerEvent: {}
+[40.909336] (-) TimerEvent: {}
+[41.010640] (-) TimerEvent: {}
+[41.111631] (-) TimerEvent: {}
+[41.212028] (-) TimerEvent: {}
+[41.312449] (-) TimerEvent: {}
+[41.413286] (-) TimerEvent: {}
+[41.514893] (-) TimerEvent: {}
+[41.616609] (-) TimerEvent: {}
+[41.718195] (-) TimerEvent: {}
+[41.819723] (-) TimerEvent: {}
+[41.920823] (-) TimerEvent: {}
+[42.021243] (-) TimerEvent: {}
+[42.122046] (-) TimerEvent: {}
+[42.223421] (-) TimerEvent: {}
+[42.325137] (-) TimerEvent: {}
+[42.426684] (-) TimerEvent: {}
+[42.528214] (-) TimerEvent: {}
+[42.630440] (-) TimerEvent: {}
+[42.732090] (-) TimerEvent: {}
+[42.833825] (-) TimerEvent: {}
+[42.935432] (-) TimerEvent: {}
+[43.036963] (-) TimerEvent: {}
+[43.139010] (-) TimerEvent: {}
+[43.240232] (-) TimerEvent: {}
+[43.341051] (-) TimerEvent: {}
+[43.441833] (-) TimerEvent: {}
+[43.543294] (-) TimerEvent: {}
+[43.644650] (-) TimerEvent: {}
+[43.746074] (-) TimerEvent: {}
+[43.847663] (-) TimerEvent: {}
+[43.949298] (-) TimerEvent: {}
+[44.050817] (-) TimerEvent: {}
+[44.152355] (-) TimerEvent: {}
+[44.254276] (-) TimerEvent: {}
+[44.355440] (-) TimerEvent: {}
+[44.456624] (-) TimerEvent: {}
+[44.557762] (-) TimerEvent: {}
+[44.659245] (-) TimerEvent: {}
+[44.760784] (-) TimerEvent: {}
+[44.862867] (-) TimerEvent: {}
+[44.964367] (-) TimerEvent: {}
+[45.065870] (-) TimerEvent: {}
+[45.168174] (-) TimerEvent: {}
+[45.269389] (-) TimerEvent: {}
+[45.371123] (-) TimerEvent: {}
+[45.472627] (-) TimerEvent: {}
+[45.574061] (-) TimerEvent: {}
+[45.675142] (-) TimerEvent: {}
+[45.776032] (-) TimerEvent: {}
+[45.877309] (-) TimerEvent: {}
+[45.978520] (-) TimerEvent: {}
+[46.080152] (-) TimerEvent: {}
+[46.181352] (-) TimerEvent: {}
+[46.282482] (-) TimerEvent: {}
+[46.383639] (-) TimerEvent: {}
+[46.484756] (-) TimerEvent: {}
+[46.585533] (-) TimerEvent: {}
+[46.686591] (-) TimerEvent: {}
+[46.787412] (-) TimerEvent: {}
+[46.888129] (-) TimerEvent: {}
+[46.989107] (-) TimerEvent: {}
+[47.089763] (-) TimerEvent: {}
+[47.190902] (-) TimerEvent: {}
+[47.292040] (-) TimerEvent: {}
+[47.393523] (-) TimerEvent: {}
+[47.494644] (-) TimerEvent: {}
+[47.595686] (-) TimerEvent: {}
+[47.697444] (-) TimerEvent: {}
+[47.798867] (-) TimerEvent: {}
+[47.900383] (-) TimerEvent: {}
+[48.001628] (-) TimerEvent: {}
+[48.103016] (-) TimerEvent: {}
+[48.204453] (-) TimerEvent: {}
+[48.305641] (-) TimerEvent: {}
+[48.406945] (-) TimerEvent: {}
+[48.508100] (-) TimerEvent: {}
+[48.609352] (-) TimerEvent: {}
+[48.710667] (-) TimerEvent: {}
+[48.811945] (-) TimerEvent: {}
+[48.913259] (-) TimerEvent: {}
+[49.014580] (-) TimerEvent: {}
+[49.116059] (-) TimerEvent: {}
+[49.217500] (-) TimerEvent: {}
+[49.319072] (-) TimerEvent: {}
+[49.420277] (-) TimerEvent: {}
+[49.521044] (-) TimerEvent: {}
+[49.621516] (-) TimerEvent: {}
+[49.723099] (-) TimerEvent: {}
+[49.826142] (-) TimerEvent: {}
+[49.927467] (-) TimerEvent: {}
+[50.028810] (-) TimerEvent: {}
+[50.130222] (-) TimerEvent: {}
+[50.232152] (-) TimerEvent: {}
+[50.333596] (-) TimerEvent: {}
+[50.434817] (-) TimerEvent: {}
+[50.536677] (-) TimerEvent: {}
+[50.637885] (-) TimerEvent: {}
+[50.738990] (-) TimerEvent: {}
+[50.839902] (-) TimerEvent: {}
+[50.941093] (-) TimerEvent: {}
+[51.042371] (-) TimerEvent: {}
+[51.143757] (-) TimerEvent: {}
+[51.244978] (-) TimerEvent: {}
+[51.346918] (-) TimerEvent: {}
+[51.448304] (-) TimerEvent: {}
+[51.549587] (-) TimerEvent: {}
+[51.650963] (-) TimerEvent: {}
+[51.752367] (-) TimerEvent: {}
+[51.853487] (-) TimerEvent: {}
+[51.954738] (-) TimerEvent: {}
+[52.056290] (-) TimerEvent: {}
+[52.157806] (-) TimerEvent: {}
+[52.259377] (-) TimerEvent: {}
+[52.360752] (-) TimerEvent: {}
+[52.462325] (-) TimerEvent: {}
+[52.563732] (-) TimerEvent: {}
+[52.665335] (-) TimerEvent: {}
+[52.726647] (stm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[52.742721] (stm_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[52.765441] (-) TimerEvent: {}
+[52.780176] (stm_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[52.780734] (stm_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[52.814377] (stm_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[52.814775] (stm_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[52.814908] (stm_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[52.855161] (stm_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[52.865551] (-) TimerEvent: {}
+[52.867619] (stm_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[52.869170] (stm_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[52.869975] (stm_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[52.872963] (stm_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[52.926869] (stm_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[52.938024] (stm_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/iliass/ros2_athens_ws/build/stm_interfaces\n'}
+[52.966012] (-) TimerEvent: {}
+[52.968642] (stm_interfaces) StdoutLine: {'line': b"make[2]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[52.971203] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[52.972391] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[52.987191] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[52.989713] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[52.993172] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.001687] (stm_interfaces) StdoutLine: {'line': b'[  2%] Built target stm_interfaces__cpp\n'}
+[53.005089] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.006170] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.006766] (stm_interfaces) StdoutLine: {'line': b'[  4%] \x1b[32m\x1b[1mLinking C shared library libstm_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[53.007587] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.017194] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.019725] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.020622] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.020776] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.023893] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.027069] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.035006] (stm_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32m\x1b[1mLinking CXX shared library libstm_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[53.038302] (stm_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32m\x1b[1mLinking CXX shared library libstm_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[53.042054] (stm_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32m\x1b[1mLinking CXX shared library libstm_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[53.066208] (-) TimerEvent: {}
+[53.166854] (-) TimerEvent: {}
+[53.267918] (-) TimerEvent: {}
+[53.373358] (-) TimerEvent: {}
+[53.425609] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.444971] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.456928] (stm_interfaces) StdoutLine: {'line': b'[ 19%] Built target stm_interfaces__rosidl_generator_c\n'}
+[53.460634] (stm_interfaces) StdoutLine: {'line': b'[ 27%] Built target stm_interfaces__rosidl_typesupport_cpp\n'}
+[53.461844] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.462185] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.472902] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.473692] (-) TimerEvent: {}
+[53.474085] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.476273] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.477536] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.479200] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.487130] (stm_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[32m\x1b[1mLinking C shared library libstm_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[53.487402] (stm_interfaces) StdoutLine: {'line': b'[ 31%] \x1b[32m\x1b[1mLinking CXX shared library libstm_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[53.488697] (stm_interfaces) StdoutLine: {'line': b'[ 40%] Built target stm_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[53.543533] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.552673] (stm_interfaces) StdoutLine: {'line': b'[ 48%] Built target stm_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[53.555280] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.566548] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.573757] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.573895] (-) TimerEvent: {}
+[53.584730] (stm_interfaces) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking CXX shared library libstm_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[53.664762] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.674026] (-) TimerEvent: {}
+[53.674896] (stm_interfaces) StdoutLine: {'line': b'[ 59%] Built target stm_interfaces__rosidl_typesupport_introspection_c\n'}
+[53.715362] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.727016] (stm_interfaces) StdoutLine: {'line': b'[ 68%] Built target stm_interfaces__rosidl_typesupport_c\n'}
+[53.774348] (-) TimerEvent: {}
+[53.875221] (-) TimerEvent: {}
+[53.885974] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.905586] (stm_interfaces) StdoutLine: {'line': b'[ 76%] Built target stm_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[53.911407] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.924838] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.936471] (stm_interfaces) StdoutLine: {'line': b'[ 76%] Built target stm_interfaces\n'}
+[53.940204] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.970258] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[53.975792] (-) TimerEvent: {}
+[54.008394] (stm_interfaces) StdoutLine: {'line': b'[ 78%] Built target stm_interfaces__py\n'}
+[54.018382] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.054974] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.076266] (-) TimerEvent: {}
+[54.089040] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.117943] (stm_interfaces) StdoutLine: {'line': b'[ 80%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/stm_interfaces/libstm_interfaces__python.so\x1b[0m\n'}
+[54.176671] (-) TimerEvent: {}
+[54.278053] (-) TimerEvent: {}
+[54.379328] (-) TimerEvent: {}
+[54.480483] (-) TimerEvent: {}
+[54.581612] (-) TimerEvent: {}
+[54.682761] (-) TimerEvent: {}
+[54.773083] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.783273] (-) TimerEvent: {}
+[54.808758] (stm_interfaces) StdoutLine: {'line': b'[ 87%] Built target stm_interfaces__python\n'}
+[54.820660] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.822269] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.823607] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.842440] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.842662] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.843246] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.852118] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.853441] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.857095] (stm_interfaces) StdoutLine: {'line': b"make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[54.870501] (stm_interfaces) StdoutLine: {'line': b'[ 89%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/stm_interfaces/stm_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[54.871513] (stm_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/stm_interfaces/stm_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[54.874487] (stm_interfaces) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/stm_interfaces/stm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[54.883647] (-) TimerEvent: {}
+[54.984963] (-) TimerEvent: {}
+[55.086360] (-) TimerEvent: {}
+[55.187558] (-) TimerEvent: {}
+[55.288689] (-) TimerEvent: {}
+[55.299203] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[55.299797] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[55.312088] (stm_interfaces) StdoutLine: {'line': b'[ 95%] Built target stm_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[55.313527] (stm_interfaces) StdoutLine: {'line': b'[ 97%] Built target stm_interfaces__rosidl_typesupport_c__pyext\n'}
+[55.338131] (stm_interfaces) StdoutLine: {'line': b"make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[55.352254] (stm_interfaces) StdoutLine: {'line': b'[100%] Built target stm_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[55.353629] (stm_interfaces) StdoutLine: {'line': b"make[2]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[55.380985] (stm_interfaces) StdoutLine: {'line': b"make[1]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'\n"}
+[55.388306] (stm_interfaces) CommandEnded: {'returncode': 0}
+[55.390664] (-) TimerEvent: {}
+[55.498089] (-) TimerEvent: {}
+[55.598771] (-) TimerEvent: {}
+[55.607108] (stm_interfaces) JobProgress: {'identifier': 'stm_interfaces', 'progress': 'install'}
+[55.610030] (stm_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/iliass/ros2_athens_ws/build/stm_interfaces'], 'cwd': '/home/iliass/ros2_athens_ws/build/stm_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iliass'), ('GIT_ASKPASS', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/home/iliass/ros2_athens_ws/install/stm_interfaces/lib:/home/iliass/ros2_athens_ws/install/first_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('SHLVL', '2'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/iliass'), ('OLDPWD', '/home/iliass/ros2_athens_ws/src'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-b3bc636d-7c05-4f0b-811d-0fbfa5917cef.sock'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MAKEFLAGS', ''), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('MAKE_TERMERR', '/dev/pts/5'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'iliass'), ('_', '/usr/bin/make'), ('WSL_INTEROP', '/run/WSL/1635_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('NAME', 'Code'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/home/iliass/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/MySQL/MySQL Shell 9.0/bin/:/mnt/c/Users/ailia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ailia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ailia/AppData/Roaming/npm:/mnt/c/Users/ailia/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/Users/ailia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/ailia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/snap/bin'), ('WT_SESSION', '47b55be5-831f-412f-90d0-1edaef3a63b4'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('MAKELEVEL', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfefee26d2.sock'), ('TERM_PROGRAM', 'vscode'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/stm_interfaces:/home/iliass/ros2_athens_ws/install/first_package:/home/iliass/ros2_athens_ws/install/first_interfaces:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('MAKE_TERMOUT', '/dev/pts/5'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/iliass/ros2_athens_ws/build/stm_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MFLAGS', ''), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install/stm_interfaces:/home/iliass/ros2_athens_ws/install/first_interfaces:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy')]), 'shell': False}
+[55.624546] (stm_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[55.625454] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/ament_index/resource_index/rosidl_interfaces/stm_interfaces\n'}
+[55.625969] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces\n'}
+[55.626251] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv\n'}
+[55.626623] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail\n'}
+[55.626751] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__functions.c\n'}
+[55.626861] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__struct.h\n'}
+[55.626963] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__functions.h\n'}
+[55.627065] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__functions.h\n'}
+[55.627212] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__functions.c\n'}
+[55.627367] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__functions.h\n'}
+[55.627541] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__type_support.h\n'}
+[55.628818] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__struct.h\n'}
+[55.628941] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__struct.h\n'}
+[55.629093] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__functions.c\n'}
+[55.629354] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__type_support.h\n'}
+[55.629509] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__type_support.h\n'}
+[55.630417] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/add_two_ints.h\n'}
+[55.630594] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/motor_service.h\n'}
+[55.630801] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/stm_set_control_type.h\n'}
+[55.630933] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg\n'}
+[55.631007] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/stm_control.h\n'}
+[55.631187] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail\n'}
+[55.631334] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__struct.h\n'}
+[55.631467] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__functions.h\n'}
+[55.631764] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__type_support.h\n'}
+[55.632242] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__functions.h\n'}
+[55.632567] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__functions.c\n'}
+[55.632775] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__functions.c\n'}
+[55.632985] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__struct.h\n'}
+[55.633106] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__type_support.h\n'}
+[55.633317] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/stm_state.h\n'}
+[55.633530] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[55.633744] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/library_path.sh\n'}
+[55.633900] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/library_path.dsv\n'}
+[55.634434] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_generator_c.so\n'}
+[55.634651] (stm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_generator_c.so" to ""\n'}
+[55.634983] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces\n'}
+[55.635078] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv\n'}
+[55.635191] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail\n'}
+[55.635341] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h\n'}
+[55.635477] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__rosidl_typesupport_fastrtps_c.h\n'}
+[55.635565] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__rosidl_typesupport_fastrtps_c.h\n'}
+[55.635673] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg\n'}
+[55.635913] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail\n'}
+[55.635989] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__rosidl_typesupport_fastrtps_c.h\n'}
+[55.636096] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__rosidl_typesupport_fastrtps_c.h\n'}
+[55.636204] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[55.636448] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[55.636522] (stm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[55.636589] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces\n'}
+[55.636649] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv\n'}
+[55.636707] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail\n'}
+[55.636764] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[55.636820] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[55.636875] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/dds_fastrtps\n'}
+[55.636929] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[55.636988] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg\n'}
+[55.637042] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail\n'}
+[55.637144] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[55.637210] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/dds_fastrtps\n'}
+[55.637380] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[55.637479] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[55.637633] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[55.637805] (stm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[55.637976] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces\n'}
+[55.638144] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv\n'}
+[55.638276] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail\n'}
+[55.638345] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__rosidl_typesupport_introspection_c.h\n'}
+[55.638658] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__type_support.c\n'}
+[55.638763] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__type_support.c\n'}
+[55.638823] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__type_support.c\n'}
+[55.638878] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h\n'}
+[55.638931] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__rosidl_typesupport_introspection_c.h\n'}
+[55.638984] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg\n'}
+[55.639036] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail\n'}
+[55.639088] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__type_support.c\n'}
+[55.639140] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__type_support.c\n'}
+[55.639193] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__rosidl_typesupport_introspection_c.h\n'}
+[55.639248] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__rosidl_typesupport_introspection_c.h\n'}
+[55.639304] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[55.639357] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[55.639410] (stm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[55.639461] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_c.so\n'}
+[55.639517] (stm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[55.639701] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces\n'}
+[55.639803] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv\n'}
+[55.639868] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail\n'}
+[55.639962] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__builder.hpp\n'}
+[55.640037] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__traits.hpp\n'}
+[55.640098] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__type_support.hpp\n'}
+[55.640156] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__struct.hpp\n'}
+[55.640215] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__traits.hpp\n'}
+[55.640273] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__type_support.hpp\n'}
+[55.640327] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__type_support.hpp\n'}
+[55.640381] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__builder.hpp\n'}
+[55.640437] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__struct.hpp\n'}
+[55.640491] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__traits.hpp\n'}
+[55.640544] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__builder.hpp\n'}
+[55.640599] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__struct.hpp\n'}
+[55.640651] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/add_two_ints.hpp\n'}
+[55.640704] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/stm_set_control_type.hpp\n'}
+[55.640777] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/motor_service.hpp\n'}
+[55.640833] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg\n'}
+[55.640886] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/stm_control.hpp\n'}
+[55.640937] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail\n'}
+[55.640987] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__builder.hpp\n'}
+[55.641040] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__type_support.hpp\n'}
+[55.641090] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__struct.hpp\n'}
+[55.641141] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__traits.hpp\n'}
+[55.641193] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__struct.hpp\n'}
+[55.641248] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__type_support.hpp\n'}
+[55.641298] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__builder.hpp\n'}
+[55.641349] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__traits.hpp\n'}
+[55.641402] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[55.641457] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/stm_state.hpp\n'}
+[55.641510] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces\n'}
+[55.641561] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv\n'}
+[55.641612] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail\n'}
+[55.641661] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__rosidl_typesupport_introspection_cpp.hpp\n'}
+[55.641712] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__type_support.cpp\n'}
+[55.641762] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__type_support.cpp\n'}
+[55.641813] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp\n'}
+[55.641862] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/motor_service__rosidl_typesupport_introspection_cpp.hpp\n'}
+[55.641912] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__type_support.cpp\n'}
+[55.641963] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg\n'}
+[55.642015] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail\n'}
+[55.642065] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__type_support.cpp\n'}
+[55.642117] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__rosidl_typesupport_introspection_cpp.hpp\n'}
+[55.642166] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__rosidl_typesupport_introspection_cpp.hpp\n'}
+[55.642214] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__type_support.cpp\n'}
+[55.642262] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[55.642311] (stm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[55.642361] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_cpp.so\n'}
+[55.642410] (stm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[55.642463] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/pythonpath.sh\n'}
+[55.642511] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/pythonpath.dsv\n'}
+[55.642564] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/__init__.py\n'}
+[55.693842] (stm_interfaces) StdoutLine: {'line': b"Compiling '/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/__init__.py'...\n"}
+[55.698979] (-) TimerEvent: {}
+[55.705882] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/msg\n'}
+[55.707562] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/msg/_stm_control.py\n'}
+[55.708042] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/msg/__init__.py\n'}
+[55.708244] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/msg/_stm_state_s.c\n'}
+[55.708418] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/msg/_stm_state.py\n'}
+[55.708920] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/msg/_stm_control_s.c\n'}
+[55.709660] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv\n'}
+[55.710404] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/_stm_set_control_type.py\n'}
+[55.711115] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/_add_two_ints.py\n'}
+[55.711921] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/_stm_set_control_type_s.c\n'}
+[55.714402] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/_add_two_ints_s.c\n'}
+[55.715280] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/__init__.py\n'}
+[55.715620] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/_motor_service.py\n'}
+[55.715931] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/_motor_service_s.c\n'}
+[55.716086] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[55.716248] (stm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[55.716379] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[55.716995] (stm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[55.719884] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[55.726780] (stm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[55.731247] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__python.so\n'}
+[55.733142] (stm_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__python.so" to ""\n'}
+[55.734612] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/msg/STMControl.idl\n'}
+[55.735259] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/msg/STMState.idl\n'}
+[55.735859] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/srv/STMSetControlType.idl\n'}
+[55.736329] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/msg/STMControl.msg\n'}
+[55.736628] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/msg/STMState.msg\n'}
+[55.737377] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/srv/STMSetControlType.srv\n'}
+[55.737985] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/srv/STMSetControlType_Request.msg\n'}
+[55.738146] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/srv/STMSetControlType_Response.msg\n'}
+[55.738268] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/ament_index/resource_index/package_run_dependencies/stm_interfaces\n'}
+[55.738623] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/ament_index/resource_index/parent_prefix_path/stm_interfaces\n'}
+[55.738981] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/ament_prefix_path.sh\n'}
+[55.739326] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/ament_prefix_path.dsv\n'}
+[55.739669] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/path.sh\n'}
+[55.740019] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/path.dsv\n'}
+[55.740361] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/local_setup.bash\n'}
+[55.740554] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/local_setup.sh\n'}
+[55.740903] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/local_setup.zsh\n'}
+[55.741244] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/local_setup.dsv\n'}
+[55.741587] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/package.dsv\n'}
+[55.741909] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/ament_index/resource_index/packages/stm_interfaces\n'}
+[55.742185] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_generator_cExport.cmake\n'}
+[55.743050] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[55.743219] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[55.743480] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[55.744182] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[55.744495] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[55.744952] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_generator_cppExport.cmake\n'}
+[55.745256] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[55.745620] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[55.746070] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[55.746252] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[55.746405] (stm_interfaces) StdoutLine: {'line': b'-- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[55.746514] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[55.746623] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[55.746933] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[55.747237] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[55.747570] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[55.747894] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[55.748206] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfacesConfig.cmake\n'}
+[55.748518] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfacesConfig-version.cmake\n'}
+[55.749100] (stm_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/package.xml\n'}
+[55.751263] (stm_interfaces) CommandEnded: {'returncode': 0}
+[55.799524] (-) TimerEvent: {}
+[55.900619] (-) TimerEvent: {}
+[55.973088] (stm_interfaces) JobEnded: {'identifier': 'stm_interfaces', 'rc': 0}
+[55.974241] (stm_station) JobStarted: {'identifier': 'stm_station'}
+[56.000916] (-) TimerEvent: {}
+[56.101794] (-) TimerEvent: {}
+[56.203366] (-) TimerEvent: {}
+[56.304791] (-) TimerEvent: {}
+[56.406080] (-) TimerEvent: {}
+[56.507505] (-) TimerEvent: {}
+[56.608864] (-) TimerEvent: {}
+[56.710033] (-) TimerEvent: {}
+[56.811281] (-) TimerEvent: {}
+[56.912539] (-) TimerEvent: {}
+[57.014104] (-) TimerEvent: {}
+[57.115792] (-) TimerEvent: {}
+[57.216493] (-) TimerEvent: {}
+[57.317270] (-) TimerEvent: {}
+[57.418672] (-) TimerEvent: {}
+[57.519620] (-) TimerEvent: {}
+[57.620716] (-) TimerEvent: {}
+[57.722182] (-) TimerEvent: {}
+[57.823655] (-) TimerEvent: {}
+[57.925063] (-) TimerEvent: {}
+[58.026089] (-) TimerEvent: {}
+[58.127487] (-) TimerEvent: {}
+[58.228956] (-) TimerEvent: {}
+[58.330049] (-) TimerEvent: {}
+[58.430820] (-) TimerEvent: {}
+[58.531870] (-) TimerEvent: {}
+[58.632622] (-) TimerEvent: {}
+[58.733150] (-) TimerEvent: {}
+[58.820507] (stm_station) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/stm_station', 'build', '--build-base', '/home/iliass/ros2_athens_ws/build/stm_station/build', 'install', '--record', '/home/iliass/ros2_athens_ws/build/stm_station/install.log', '--install-scripts', '$base/lib/stm_station', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/iliass/ros2_athens_ws/src/stm_station', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'iliass', 'GIT_ASKPASS': '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/home/iliass/ros2_athens_ws/install/stm_interfaces/lib:/home/iliass/ros2_athens_ws/install/first_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'SHLVL': '2', 'WT_PROFILE_ID': '{4dd1e689-b517-5f39-947d-78e8a8bdf958}', 'HOME': '/home/iliass', 'OLDPWD': '/home/iliass/ros2_athens_ws/src', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-b3bc636d-7c05-4f0b-811d-0fbfa5917cef.sock', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': '', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'MAKE_TERMERR': '/dev/pts/5', 'ROS_DISTRO': 'foxy', 'COLCON_PREFIX_PATH': '/home/iliass/ros2_athens_ws/install', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'iliass', '_': '/usr/bin/make', 'WSL_INTEROP': '/run/WSL/1635_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', 'NAME': 'Code', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/home/iliass/.local/bin:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/MySQL/MySQL Shell 9.0/bin/:/mnt/c/Users/ailia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ailia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ailia/AppData/Roaming/npm:/mnt/c/Users/ailia/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/Users/ailia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/ailia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/snap/bin', 'WT_SESSION': '47b55be5-831f-412f-90d0-1edaef3a63b4', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'MAKELEVEL': '1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dfefee26d2.sock', 'TERM_PROGRAM': 'vscode', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/stm_interfaces:/home/iliass/ros2_athens_ws/install/first_package:/home/iliass/ros2_athens_ws/install/first_interfaces:/opt/ros/foxy', 'SHELL': '/bin/bash', 'MAKE_TERMOUT': '/dev/pts/5', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/iliass/ros2_athens_ws/build/stm_station', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/iliass/ros2_athens_ws/build/stm_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'MFLAGS': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:', 'CMAKE_PREFIX_PATH': '/home/iliass/ros2_athens_ws/install/stm_interfaces:/home/iliass/ros2_athens_ws/install/first_interfaces'}, 'shell': False}
+[58.833286] (-) TimerEvent: {}
+[58.933673] (-) TimerEvent: {}
+[59.034171] (-) TimerEvent: {}
+[59.077721] (stm_station) StdoutLine: {'line': b'running egg_info\n'}
+[59.078512] (stm_station) StdoutLine: {'line': b'writing ../../build/stm_station/stm_station.egg-info/PKG-INFO\n'}
+[59.078843] (stm_station) StdoutLine: {'line': b'writing dependency_links to ../../build/stm_station/stm_station.egg-info/dependency_links.txt\n'}
+[59.079371] (stm_station) StdoutLine: {'line': b'writing entry points to ../../build/stm_station/stm_station.egg-info/entry_points.txt\n'}
+[59.079583] (stm_station) StdoutLine: {'line': b'writing requirements to ../../build/stm_station/stm_station.egg-info/requires.txt\n'}
+[59.079669] (stm_station) StdoutLine: {'line': b'writing top-level names to ../../build/stm_station/stm_station.egg-info/top_level.txt\n'}
+[59.134497] (-) TimerEvent: {}
+[59.136269] (stm_station) StdoutLine: {'line': b"reading manifest file '../../build/stm_station/stm_station.egg-info/SOURCES.txt'\n"}
+[59.139612] (stm_station) StdoutLine: {'line': b"writing manifest file '../../build/stm_station/stm_station.egg-info/SOURCES.txt'\n"}
+[59.140645] (stm_station) StdoutLine: {'line': b'running build\n'}
+[59.140958] (stm_station) StdoutLine: {'line': b'running build_py\n'}
+[59.142249] (stm_station) StdoutLine: {'line': b'running install\n'}
+[59.146420] (stm_station) StdoutLine: {'line': b'running install_lib\n'}
+[59.153109] (stm_station) StdoutLine: {'line': b'running install_data\n'}
+[59.154432] (stm_station) StdoutLine: {'line': b'running install_egg_info\n'}
+[59.160602] (stm_station) StdoutLine: {'line': b"removing '/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[59.165108] (stm_station) StdoutLine: {'line': b'Copying ../../build/stm_station/stm_station.egg-info to /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station-0.0.0-py3.8.egg-info\n'}
+[59.168060] (stm_station) StdoutLine: {'line': b'running install_scripts\n'}
+[59.214897] (stm_station) StdoutLine: {'line': b'Installing stm_control_node_poscontrol script to /home/iliass/ros2_athens_ws/install/stm_station/lib/stm_station\n'}
+[59.216234] (stm_station) StdoutLine: {'line': b'Installing stm_serial_node script to /home/iliass/ros2_athens_ws/install/stm_station/lib/stm_station\n'}
+[59.217535] (stm_station) StdoutLine: {'line': b'Installing stm_serial_node_pub_sub script to /home/iliass/ros2_athens_ws/install/stm_station/lib/stm_station\n'}
+[59.218728] (stm_station) StdoutLine: {'line': b"writing list of installed files to '/home/iliass/ros2_athens_ws/build/stm_station/install.log'\n"}
+[59.234902] (-) TimerEvent: {}
+[59.291240] (stm_station) CommandEnded: {'returncode': 0}
+[59.299898] (stm_station) JobEnded: {'identifier': 'stm_station', 'rc': 0}
+[59.300584] (-) EventReactorShutdown: {}

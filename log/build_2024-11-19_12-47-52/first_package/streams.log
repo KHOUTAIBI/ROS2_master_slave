@@ -1,0 +1,26 @@
+[0.576s] Invoking command in '/home/iliass/ros2_athens_ws/src/first_package': PYTHONPATH=/home/iliass/ros2_athens_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/first_package build --build-base /home/iliass/ros2_athens_ws/build/first_package/build install --record /home/iliass/ros2_athens_ws/build/first_package/install.log --install-scripts $base/lib/first_package --single-version-externally-managed install_data
+[0.700s] running egg_info
+[0.700s] writing ../../build/first_package/first_package.egg-info/PKG-INFO
+[0.700s] writing dependency_links to ../../build/first_package/first_package.egg-info/dependency_links.txt
+[0.701s] writing entry points to ../../build/first_package/first_package.egg-info/entry_points.txt
+[0.701s] writing requirements to ../../build/first_package/first_package.egg-info/requires.txt
+[0.701s] writing top-level names to ../../build/first_package/first_package.egg-info/top_level.txt
+[0.721s] reading manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'
+[0.722s] writing manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'
+[0.722s] running build
+[0.722s] running build_py
+[0.722s] copying first_package/simple_publisher.py -> /home/iliass/ros2_athens_ws/build/first_package/build/lib/first_package
+[0.722s] running install
+[0.723s] running install_lib
+[0.723s] copying /home/iliass/ros2_athens_ws/build/first_package/build/lib/first_package/simple_publisher.py -> /home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages/first_package
+[0.724s] byte-compiling /home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages/first_package/simple_publisher.py to simple_publisher.cpython-38.pyc
+[0.725s] running install_data
+[0.725s] running install_egg_info
+[0.726s] removing '/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages/first_package-0.0.0-py3.8.egg-info' (and everything under it)
+[0.726s] Copying ../../build/first_package/first_package.egg-info to /home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages/first_package-0.0.0-py3.8.egg-info
+[0.727s] running install_scripts
+[0.738s] Installing simple_publisher_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package
+[0.738s] Installing simple_pubsub_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package
+[0.738s] Installing simple_subscriber_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package
+[0.738s] writing list of installed files to '/home/iliass/ros2_athens_ws/build/first_package/install.log'
+[0.752s] Invoked command in '/home/iliass/ros2_athens_ws/src/first_package' returned '0': PYTHONPATH=/home/iliass/ros2_athens_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/first_package build --build-base /home/iliass/ros2_athens_ws/build/first_package/build install --record /home/iliass/ros2_athens_ws/build/first_package/install.log --install-scripts $base/lib/first_package --single-version-externally-managed install_data

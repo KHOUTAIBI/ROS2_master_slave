@@ -1,0 +1,94 @@
+[0.025s] Invoking command in '/home/iliass/ros2_athens_ws/build/first_interfaces': CMAKE_PREFIX_PATH=/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --build /home/iliass/ros2_athens_ws/build/first_interfaces -- -j16 -l16
+[0.040s] make[1]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[0.064s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.087s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.087s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.212s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[0.439s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.446s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[3.939s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.005s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[4.015s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[4.112s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[4.181s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[7.402s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[7.408s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[7.426s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[7.426s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[7.447s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[7.447s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[7.447s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[7.471s] -- Added test 'copyright' to check source files copyright and LICENSE
+[7.513s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[7.513s] -- Configured cppcheck include dirs: 
+[7.513s] -- Configured cppcheck exclude dirs and/or files: 
+[7.519s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[7.520s] -- Configured cpplint exclude dirs and/or files: 
+[7.521s] -- Added test 'flake8' to check Python code syntax and style conventions
+[7.523s] -- Added test 'lint_cmake' to check CMake code style
+[7.524s] -- Added test 'pep257' to check Python code against some of the style conventions in PEP 257
+[7.530s] -- Added test 'uncrustify' to check C / C++ code style
+[7.531s] -- Configured uncrustify additional arguments: 
+[7.532s] -- Added test 'xmllint' to check XML markup files
+[7.554s] -- Configuring done
+[7.590s] -- Generating done
+[7.592s] -- Build files have been written to: /home/iliass/ros2_athens_ws/build/first_interfaces
+[7.603s] make[2]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.604s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.607s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.611s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.612s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.615s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.619s] [  3%] Built target first_interfaces__cpp
+[7.620s] [  6%] [32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/custom_message__functions.c.o[0m
+[7.622s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.622s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.623s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.629s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.630s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.630s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.632s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.633s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.633s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.639s] [  9%] [32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_interfaces/msg/custom_message__type_support.cpp.o[0m
+[7.639s] [ 16%] [32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/dds_fastrtps/custom_message__type_support.cpp.o[0m
+[7.640s] [ 16%] [32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_interfaces/msg/detail/custom_message__type_support.cpp.o[0m
+[7.701s] In file included from [01m[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_generator_c/first_interfaces/msg/detail/custom_message__functions.h:19[m[K,
+[7.701s]                  from [01m[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_generator_c/first_interfaces/msg/detail/custom_message__functions.c:4[m[K:
+[7.701s] [01m[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_generator_c/first_interfaces/msg/detail/custom_message__struct.h:24:10:[m[K [01;31m[Kfatal error: [m[Kfirst_interfaces/msg/detail/string__struct.h: No such file or directory
+[7.701s]    24 | #include [01;31m[K"first_interfaces/msg/detail/string__struct.h"[m[K
+[7.701s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.701s] compilation terminated.
+[7.703s] make[3]: *** [CMakeFiles/first_interfaces__rosidl_generator_c.dir/build.make:92: CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/custom_message__functions.c.o] Error 1
+[7.703s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.704s] make[2]: *** [CMakeFiles/Makefile2:332: CMakeFiles/first_interfaces__rosidl_generator_c.dir/all] Error 2
+[7.704s] make[2]: *** Waiting for unfinished jobs....
+[7.751s] In file included from [01m[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_typesupport_cpp/first_interfaces/msg/custom_message__type_support.cpp:7[m[K:
+[7.751s] [01m[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_generator_cpp/first_interfaces/msg/detail/custom_message__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kfirst_interfaces/msg/detail/string__struct.hpp: No such file or directory
+[7.751s]    19 | #include [01;31m[K"first_interfaces/msg/detail/string__struct.hpp"[m[K
+[7.751s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.751s] compilation terminated.
+[7.752s] In file included from [01m[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/custom_message__rosidl_typesupport_fastrtps_cpp.hpp:11[m[K,
+[7.752s]                  from [01m[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/dds_fastrtps/custom_message__type_support.cpp:4[m[K:
+[7.752s] [01m[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_generator_cpp/first_interfaces/msg/detail/custom_message__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kfirst_interfaces/msg/detail/string__struct.hpp: No such file or directory
+[7.752s]    19 | #include [01;31m[K"first_interfaces/msg/detail/string__struct.hpp"[m[K
+[7.752s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.752s] compilation terminated.
+[7.752s] In file included from [01m[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_typesupport_introspection_cpp/first_interfaces/msg/detail/custom_message__type_support.cpp:12[m[K:
+[7.753s] [01m[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_generator_cpp/first_interfaces/msg/detail/custom_message__struct.hpp:19:10:[m[K [01;31m[Kfatal error: [m[Kfirst_interfaces/msg/detail/string__struct.hpp: No such file or directory
+[7.753s]    19 | #include [01;31m[K"first_interfaces/msg/detail/string__struct.hpp"[m[K
+[7.753s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[7.753s] compilation terminated.
+[7.754s] make[3]: *** [CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/build.make:73: CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_interfaces/msg/custom_message__type_support.cpp.o] Error 1
+[7.755s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.755s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.756s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.756s] make[3]: *** [CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:78: CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/dds_fastrtps/custom_message__type_support.cpp.o] Error 1
+[7.756s] make[2]: *** [CMakeFiles/Makefile2:499: CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/all] Error 2
+[7.756s] make[2]: *** [CMakeFiles/Makefile2:388: CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2
+[7.757s] make[3]: *** [CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:78: CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_interfaces/msg/detail/custom_message__type_support.cpp.o] Error 1
+[7.757s] make[2]: *** [CMakeFiles/Makefile2:526: CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2
+[7.758s] make[2]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.758s] make[1]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[7.758s] make[1]: *** [Makefile:141: all] Error 2
+[7.760s] Invoked command in '/home/iliass/ros2_athens_ws/build/first_interfaces' returned '2': CMAKE_PREFIX_PATH=/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --build /home/iliass/ros2_athens_ws/build/first_interfaces -- -j16 -l16

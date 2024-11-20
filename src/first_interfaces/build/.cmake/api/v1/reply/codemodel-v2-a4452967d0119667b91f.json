@@ -1,0 +1,213 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				},
+				{
+					"build" : "first_interfaces__py",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 0,
+					"source" : "build/first_interfaces__py",
+					"targetIndexes" : 
+					[
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0,
+						1
+					],
+					"name" : "first_interfaces",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces-Debug-f925e60f5f2bdfb6d0c4.json",
+					"name" : "first_interfaces",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces__cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces__cpp-Debug-1e6b16745235b822689b.json",
+					"name" : "first_interfaces__cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "first_interfaces__py::@48d853b84850f6b9704b",
+					"jsonFile" : "target-first_interfaces__py-Debug-1172b855d8935551eab1.json",
+					"name" : "first_interfaces__py",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces__python::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces__python-Debug-754b69ceba4e5aeafce9.json",
+					"name" : "first_interfaces__python",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces__rosidl_generator_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces__rosidl_generator_c-Debug-6dabd2c712d7d28baadb.json",
+					"name" : "first_interfaces__rosidl_generator_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces__rosidl_typesupport_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces__rosidl_typesupport_c-Debug-f38e53af3f2a0f8a0521.json",
+					"name" : "first_interfaces__rosidl_typesupport_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces__rosidl_typesupport_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces__rosidl_typesupport_c__pyext-Debug-41e2553140b049e2ee07.json",
+					"name" : "first_interfaces__rosidl_typesupport_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces__rosidl_typesupport_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces__rosidl_typesupport_cpp-Debug-a90f6f44815187ba4bf4.json",
+					"name" : "first_interfaces__rosidl_typesupport_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces__rosidl_typesupport_fastrtps_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces__rosidl_typesupport_fastrtps_c-Debug-86f8598885f5079e787f.json",
+					"name" : "first_interfaces__rosidl_typesupport_fastrtps_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces__rosidl_typesupport_fastrtps_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces__rosidl_typesupport_fastrtps_c__pyext-Debug-44556ac53ae33649ef6b.json",
+					"name" : "first_interfaces__rosidl_typesupport_fastrtps_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces__rosidl_typesupport_fastrtps_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces__rosidl_typesupport_fastrtps_cpp-Debug-9b1f2e88d37e3d6a82a3.json",
+					"name" : "first_interfaces__rosidl_typesupport_fastrtps_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces__rosidl_typesupport_introspection_c::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces__rosidl_typesupport_introspection_c-Debug-023be2011cc271e26067.json",
+					"name" : "first_interfaces__rosidl_typesupport_introspection_c",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces__rosidl_typesupport_introspection_c__pyext::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces__rosidl_typesupport_introspection_c__pyext-Debug-a80ca19ccf2c89474ad3.json",
+					"name" : "first_interfaces__rosidl_typesupport_introspection_c__pyext",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces__rosidl_typesupport_introspection_cpp::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces__rosidl_typesupport_introspection_cpp-Debug-b4d92af4603f5fd31618.json",
+					"name" : "first_interfaces__rosidl_typesupport_introspection_cpp",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "first_interfaces_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-first_interfaces_uninstall-Debug-55c238fa26b8449d2c6e.json",
+					"name" : "first_interfaces_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-a0c5129b0d0cbfaedb85.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/iliass/ros2_athens_ws/src/first_interfaces/build",
+		"source" : "/home/iliass/ros2_athens_ws/src/first_interfaces"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 0
+	}
+}

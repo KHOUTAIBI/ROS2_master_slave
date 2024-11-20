@@ -1,0 +1,25 @@
+[0.888s] Invoking command in '/home/iliass/ros2_athens_ws/src/first_package': CMAKE_PREFIX_PATH=/home/iliass/ros2_athens_ws/install/first_interfaces:/home/iliass/ros2_athens_ws/install/stm_interfaces LD_LIBRARY_PATH=/home/iliass/ros2_athens_ws/install/first_interfaces/lib:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/iliass/ros2_athens_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/first_package build --build-base /home/iliass/ros2_athens_ws/build/first_package/build install --record /home/iliass/ros2_athens_ws/build/first_package/install.log --install-scripts $base/lib/first_package --single-version-externally-managed install_data
+[1.081s] running egg_info
+[1.081s] writing ../../build/first_package/first_package.egg-info/PKG-INFO
+[1.081s] writing dependency_links to ../../build/first_package/first_package.egg-info/dependency_links.txt
+[1.082s] writing entry points to ../../build/first_package/first_package.egg-info/entry_points.txt
+[1.082s] writing requirements to ../../build/first_package/first_package.egg-info/requires.txt
+[1.082s] writing top-level names to ../../build/first_package/first_package.egg-info/top_level.txt
+[1.114s] reading manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'
+[1.115s] writing manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'
+[1.115s] running build
+[1.115s] running build_py
+[1.116s] running install
+[1.117s] running install_lib
+[1.118s] running install_data
+[1.119s] running install_egg_info
+[1.121s] removing '/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages/first_package-0.0.0-py3.8.egg-info' (and everything under it)
+[1.122s] Copying ../../build/first_package/first_package.egg-info to /home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages/first_package-0.0.0-py3.8.egg-info
+[1.123s] running install_scripts
+[1.142s] Installing simple_publisher_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package
+[1.143s] Installing simple_pubsub_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package
+[1.143s] Installing simple_serive_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package
+[1.143s] Installing simple_serive_parameter_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package
+[1.143s] Installing simple_subscriber_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package
+[1.144s] writing list of installed files to '/home/iliass/ros2_athens_ws/build/first_package/install.log'
+[1.165s] Invoked command in '/home/iliass/ros2_athens_ws/src/first_package' returned '0': CMAKE_PREFIX_PATH=/home/iliass/ros2_athens_ws/install/first_interfaces:/home/iliass/ros2_athens_ws/install/stm_interfaces LD_LIBRARY_PATH=/home/iliass/ros2_athens_ws/install/first_interfaces/lib:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib PYTHONPATH=/home/iliass/ros2_athens_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/first_package build --build-base /home/iliass/ros2_athens_ws/build/first_package/build install --record /home/iliass/ros2_athens_ws/build/first_package/install.log --install-scripts $base/lib/first_package --single-version-externally-managed install_data

@@ -1,0 +1,11 @@
+[0.018s] Invoking command in '/home/iliass/ros2_athens_ws/build/stm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --build /home/iliass/ros2_athens_ws/build/stm_interfaces -- -j16 -l16
+[0.159s] make[1]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.159s] -- Configuring incomplete, errors occurred!
+[0.159s] See also "/home/iliass/ros2_athens_ws/build/stm_interfaces/CMakeFiles/CMakeOutput.log".
+[0.160s] make[1]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.160s] CMake Error at CMakeLists.txt:30:
+[0.160s]   Parse error.  Expected a command name, got right paren with text ")".
+[0.160s] 
+[0.160s] 
+[0.160s] make[1]: *** [Makefile:988: cmake_check_build_system] Error 1
+[0.163s] Invoked command in '/home/iliass/ros2_athens_ws/build/stm_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --build /home/iliass/ros2_athens_ws/build/stm_interfaces -- -j16 -l16

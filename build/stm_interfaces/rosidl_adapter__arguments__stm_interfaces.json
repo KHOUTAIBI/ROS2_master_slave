@@ -1,0 +1,8 @@
+{
+  "package_name": "stm_interfaces",
+  "non_idl_tuples": [
+    "/home/iliass/ros2_athens_ws/src/stm_interfaces:msg/STMControl.msg",
+    "/home/iliass/ros2_athens_ws/src/stm_interfaces:msg/STMState.msg",
+    "/home/iliass/ros2_athens_ws/src/stm_interfaces:srv/STMSetControlType.srv"
+  ]
+}

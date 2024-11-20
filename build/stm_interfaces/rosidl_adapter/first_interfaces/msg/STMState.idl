@@ -1,0 +1,59 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from first_interfaces/msg/STMState.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module first_interfaces {
+  module msg {
+    struct STMState {
+      @verbatim (language="comment", text=
+        " Standard message header")
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        " Encoder value of the motor")
+      float motor_encoder;
+
+      @verbatim (language="comment", text=
+        " Motor velocity")
+      float motor_velocity;
+
+      @verbatim (language="comment", text=
+        " Acceleration in x-axis")
+      float accel_x;
+
+      @verbatim (language="comment", text=
+        " Acceleration in y-axis")
+      float accel_y;
+
+      @verbatim (language="comment", text=
+        " Acceleration in z-axis")
+      float accel_z;
+
+      @verbatim (language="comment", text=
+        " Gyroscope reading in x-axis")
+      float gyro_x;
+
+      @verbatim (language="comment", text=
+        " Gyroscope reading in y-axis")
+      float gyro_y;
+
+      @verbatim (language="comment", text=
+        " Gyroscope reading in z-axis")
+      float gyro_z;
+
+      @verbatim (language="comment", text=
+        " Angle in x-axis")
+      float angle_x;
+
+      @verbatim (language="comment", text=
+        " Angle in y-axis")
+      float angle_y;
+
+      @verbatim (language="comment", text=
+        " Angle in z-axis")
+      float angle_z;
+    };
+  };
+};

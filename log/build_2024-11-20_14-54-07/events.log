@@ -1,0 +1,25 @@
+[0.000000] (-) TimerEvent: {}
+[0.000891] (-) JobUnselected: {'identifier': 'first_interfaces'}
+[0.000972] (-) JobUnselected: {'identifier': 'first_package'}
+[0.000998] (-) JobUnselected: {'identifier': 'stm_interfaces'}
+[0.001019] (stm_station) JobQueued: {'identifier': 'stm_station', 'dependencies': OrderedDict([('stm_interfaces', '/home/iliass/ros2_athens_ws/install/stm_interfaces')])}
+[0.001578] (stm_station) JobStarted: {'identifier': 'stm_station'}
+[0.100789] (-) TimerEvent: {}
+[0.202853] (-) TimerEvent: {}
+[0.304378] (-) TimerEvent: {}
+[0.405922] (-) TimerEvent: {}
+[0.507363] (-) TimerEvent: {}
+[0.608904] (-) TimerEvent: {}
+[0.710465] (-) TimerEvent: {}
+[0.811931] (-) TimerEvent: {}
+[0.913048] (-) TimerEvent: {}
+[1.013544] (-) TimerEvent: {}
+[1.114226] (-) TimerEvent: {}
+[1.214974] (-) TimerEvent: {}
+[1.316022] (-) TimerEvent: {}
+[1.417618] (-) TimerEvent: {}
+[1.519240] (-) TimerEvent: {}
+[1.620933] (-) TimerEvent: {}
+[1.722473] (-) TimerEvent: {}
+[1.759226] (stm_station) JobEnded: {'identifier': 'stm_station', 'rc': 'SIGINT'}
+[1.771804] (-) EventReactorShutdown: {}

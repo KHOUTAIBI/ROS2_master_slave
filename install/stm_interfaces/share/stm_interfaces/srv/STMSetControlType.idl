@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from stm_interfaces/srv/STMSetControlType.srv
+// generated code does not contain a copyright notice
+
+
+module stm_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      " Request")
+    struct STMSetControlType_Request {
+      @verbatim (language="comment", text=
+        " Control mode: 0 = Stop, 1 = Position Control, 2 = PWM Control")
+      int32 control_type;
+
+      @verbatim (language="comment", text=
+        " Proportional control constant")
+      double kp;
+
+      @verbatim (language="comment", text=
+        " kd control constant")
+      double kd;
+    };
+    @verbatim (language="comment", text=
+      " Response")
+    struct STMSetControlType_Response {
+      @verbatim (language="comment", text=
+        " Indicates if the control type was successfully set")
+      boolean success;
+    };
+  };
+};

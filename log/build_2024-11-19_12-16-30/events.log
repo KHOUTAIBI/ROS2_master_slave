@@ -1,0 +1,445 @@
+[0.000000] (-) TimerEvent: {}
+[0.001085] (first_interfaces) JobQueued: {'identifier': 'first_interfaces', 'dependencies': OrderedDict()}
+[0.001242] (first_package) JobQueued: {'identifier': 'first_package', 'dependencies': OrderedDict()}
+[0.001291] (first_interfaces) JobStarted: {'identifier': 'first_interfaces'}
+[0.008022] (first_package) JobStarted: {'identifier': 'first_package'}
+[0.018715] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'cmake'}
+[0.020371] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'build'}
+[0.020450] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iliass/ros2_athens_ws/build/first_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/iliass/ros2_athens_ws/build/first_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iliass'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/iliass'), ('OLDPWD', '/home/iliass'), ('ROS_PYTHON_VERSION', '3'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('WAYLAND_DISPLAY', 'wayland-0'), ('COLCON_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install'), ('ROS_DISTRO', 'foxy'), ('LOGNAME', 'iliass'), ('NAME', 'MSI'), ('WSL_INTEROP', '/run/WSL/2089_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/MySQL/MySQL Shell 9.0/bin/:/mnt/c/Users/ailia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ailia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ailia/AppData/Roaming/npm:/mnt/c/Users/ailia/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/Users/ailia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/ailia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/snap/bin'), ('WT_SESSION', 'be61eace-b59d-4aea-9a9f-328efefd80ac'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_DOMAIN_ID', '7'), ('AMENT_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/iliass/ros2_athens_ws/build/first_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy')]), 'shell': False}
+[0.049404] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.050836] (first_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_core: 0.9.12 (/opt/ros/foxy/share/ament_cmake_core/cmake)\n'}
+[0.070218] (first_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.070365] (first_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.098748] (-) TimerEvent: {}
+[0.199127] (-) TimerEvent: {}
+[0.228395] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.230282] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.299283] (-) TimerEvent: {}
+[0.399650] (-) TimerEvent: {}
+[0.499983] (-) TimerEvent: {}
+[0.585323] (first_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/first_package', 'build', '--build-base', '/home/iliass/ros2_athens_ws/build/first_package/build', 'install', '--record', '/home/iliass/ros2_athens_ws/build/first_package/install.log', '--install-scripts', '$base/lib/first_package', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/iliass/ros2_athens_ws/src/first_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'iliass', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'WT_PROFILE_ID': '{4dd1e689-b517-5f39-947d-78e8a8bdf958}', 'HOME': '/home/iliass', 'OLDPWD': '/home/iliass', 'ROS_PYTHON_VERSION': '3', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/iliass/ros2_athens_ws/install', 'ROS_DISTRO': 'foxy', 'LOGNAME': 'iliass', 'NAME': 'MSI', 'WSL_INTEROP': '/run/WSL/2089_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/MySQL/MySQL Shell 9.0/bin/:/mnt/c/Users/ailia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ailia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ailia/AppData/Roaming/npm:/mnt/c/Users/ailia/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/Users/ailia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/ailia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/snap/bin', 'WT_SESSION': 'be61eace-b59d-4aea-9a9f-328efefd80ac', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_DOMAIN_ID': '7', 'AMENT_PREFIX_PATH': '/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'PWD': '/home/iliass/ros2_athens_ws/build/first_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/iliass/ros2_athens_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.600094] (-) TimerEvent: {}
+[0.700444] (-) TimerEvent: {}
+[0.775323] (first_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.775837] (first_package) StdoutLine: {'line': b'writing ../../build/first_package/first_package.egg-info/PKG-INFO\n'}
+[0.776105] (first_package) StdoutLine: {'line': b'writing dependency_links to ../../build/first_package/first_package.egg-info/dependency_links.txt\n'}
+[0.776358] (first_package) StdoutLine: {'line': b'writing entry points to ../../build/first_package/first_package.egg-info/entry_points.txt\n'}
+[0.776483] (first_package) StdoutLine: {'line': b'writing requirements to ../../build/first_package/first_package.egg-info/requires.txt\n'}
+[0.776541] (first_package) StdoutLine: {'line': b'writing top-level names to ../../build/first_package/first_package.egg-info/top_level.txt\n'}
+[0.800517] (-) TimerEvent: {}
+[0.811077] (first_package) StdoutLine: {'line': b"reading manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[0.812205] (first_package) StdoutLine: {'line': b"writing manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[0.812589] (first_package) StdoutLine: {'line': b'running build\n'}
+[0.812690] (first_package) StdoutLine: {'line': b'running build_py\n'}
+[0.813317] (first_package) StdoutLine: {'line': b'running install\n'}
+[0.814492] (first_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.815855] (first_package) StdoutLine: {'line': b'running install_data\n'}
+[0.816154] (first_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.817591] (first_package) StdoutLine: {'line': b"removing '/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages/first_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.818038] (first_package) StdoutLine: {'line': b'Copying ../../build/first_package/first_package.egg-info to /home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages/first_package-0.0.0-py3.8.egg-info\n'}
+[0.818787] (first_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.835960] (first_package) StdoutLine: {'line': b'Installing simple_publisher_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[0.836177] (first_package) StdoutLine: {'line': b'Installing simple_pubsub_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[0.836408] (first_package) StdoutLine: {'line': b'Installing simple_subscriber_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[0.836631] (first_package) StdoutLine: {'line': b"writing list of installed files to '/home/iliass/ros2_athens_ws/build/first_package/install.log'\n"}
+[0.855368] (first_package) CommandEnded: {'returncode': 0}
+[0.865557] (first_package) JobEnded: {'identifier': 'first_package', 'rc': 0}
+[0.900667] (-) TimerEvent: {}
+[1.001116] (-) TimerEvent: {}
+[1.102101] (-) TimerEvent: {}
+[1.203822] (-) TimerEvent: {}
+[1.305469] (-) TimerEvent: {}
+[1.406810] (-) TimerEvent: {}
+[1.508854] (-) TimerEvent: {}
+[1.610162] (-) TimerEvent: {}
+[1.711703] (-) TimerEvent: {}
+[1.813248] (-) TimerEvent: {}
+[1.914809] (-) TimerEvent: {}
+[2.016109] (-) TimerEvent: {}
+[2.117355] (-) TimerEvent: {}
+[2.218500] (-) TimerEvent: {}
+[2.319504] (-) TimerEvent: {}
+[2.420038] (-) TimerEvent: {}
+[2.520594] (-) TimerEvent: {}
+[2.621924] (-) TimerEvent: {}
+[2.723715] (-) TimerEvent: {}
+[2.825154] (-) TimerEvent: {}
+[2.926647] (-) TimerEvent: {}
+[3.028036] (-) TimerEvent: {}
+[3.129313] (-) TimerEvent: {}
+[3.230600] (-) TimerEvent: {}
+[3.332047] (-) TimerEvent: {}
+[3.433375] (-) TimerEvent: {}
+[3.534957] (-) TimerEvent: {}
+[3.636195] (-) TimerEvent: {}
+[3.737584] (-) TimerEvent: {}
+[3.839420] (-) TimerEvent: {}
+[3.940879] (-) TimerEvent: {}
+[4.042200] (-) TimerEvent: {}
+[4.143647] (-) TimerEvent: {}
+[4.245020] (-) TimerEvent: {}
+[4.346303] (-) TimerEvent: {}
+[4.447650] (-) TimerEvent: {}
+[4.549277] (-) TimerEvent: {}
+[4.650622] (-) TimerEvent: {}
+[4.752037] (-) TimerEvent: {}
+[4.853643] (-) TimerEvent: {}
+[4.954759] (-) TimerEvent: {}
+[5.055951] (-) TimerEvent: {}
+[5.156938] (-) TimerEvent: {}
+[5.257719] (-) TimerEvent: {}
+[5.358588] (-) TimerEvent: {}
+[5.459884] (-) TimerEvent: {}
+[5.561168] (-) TimerEvent: {}
+[5.662080] (-) TimerEvent: {}
+[5.763001] (-) TimerEvent: {}
+[5.863769] (-) TimerEvent: {}
+[5.965237] (-) TimerEvent: {}
+[6.066741] (-) TimerEvent: {}
+[6.170100] (-) TimerEvent: {}
+[6.271018] (-) TimerEvent: {}
+[6.371508] (-) TimerEvent: {}
+[6.472182] (-) TimerEvent: {}
+[6.572710] (-) TimerEvent: {}
+[6.673193] (-) TimerEvent: {}
+[6.773846] (-) TimerEvent: {}
+[6.874444] (-) TimerEvent: {}
+[6.975472] (-) TimerEvent: {}
+[7.076500] (-) TimerEvent: {}
+[7.177738] (-) TimerEvent: {}
+[7.278583] (-) TimerEvent: {}
+[7.379458] (-) TimerEvent: {}
+[7.480527] (-) TimerEvent: {}
+[7.581663] (-) TimerEvent: {}
+[7.682459] (-) TimerEvent: {}
+[7.783109] (-) TimerEvent: {}
+[7.883622] (-) TimerEvent: {}
+[7.984379] (-) TimerEvent: {}
+[8.085597] (-) TimerEvent: {}
+[8.186002] (-) TimerEvent: {}
+[8.286567] (-) TimerEvent: {}
+[8.387329] (-) TimerEvent: {}
+[8.487915] (-) TimerEvent: {}
+[8.588474] (-) TimerEvent: {}
+[8.689092] (-) TimerEvent: {}
+[8.789994] (-) TimerEvent: {}
+[8.891060] (-) TimerEvent: {}
+[8.992307] (-) TimerEvent: {}
+[9.093506] (-) TimerEvent: {}
+[9.193947] (-) TimerEvent: {}
+[9.294562] (-) TimerEvent: {}
+[9.395254] (-) TimerEvent: {}
+[9.496477] (-) TimerEvent: {}
+[9.597830] (-) TimerEvent: {}
+[9.699295] (-) TimerEvent: {}
+[9.800378] (-) TimerEvent: {}
+[9.901074] (-) TimerEvent: {}
+[10.002959] (-) TimerEvent: {}
+[10.103754] (-) TimerEvent: {}
+[10.204463] (-) TimerEvent: {}
+[10.305477] (-) TimerEvent: {}
+[10.407051] (-) TimerEvent: {}
+[10.509328] (-) TimerEvent: {}
+[10.610688] (-) TimerEvent: {}
+[10.712807] (-) TimerEvent: {}
+[10.814537] (-) TimerEvent: {}
+[10.916814] (-) TimerEvent: {}
+[11.018337] (-) TimerEvent: {}
+[11.119655] (-) TimerEvent: {}
+[11.220665] (-) TimerEvent: {}
+[11.321605] (-) TimerEvent: {}
+[11.422576] (-) TimerEvent: {}
+[11.523791] (-) TimerEvent: {}
+[11.625097] (-) TimerEvent: {}
+[11.726540] (-) TimerEvent: {}
+[11.827629] (-) TimerEvent: {}
+[11.928179] (-) TimerEvent: {}
+[12.029208] (-) TimerEvent: {}
+[12.130662] (-) TimerEvent: {}
+[12.231898] (-) TimerEvent: {}
+[12.333372] (-) TimerEvent: {}
+[12.434986] (-) TimerEvent: {}
+[12.536708] (-) TimerEvent: {}
+[12.638373] (-) TimerEvent: {}
+[12.739631] (-) TimerEvent: {}
+[12.840511] (-) TimerEvent: {}
+[12.941102] (-) TimerEvent: {}
+[13.041956] (-) TimerEvent: {}
+[13.143045] (-) TimerEvent: {}
+[13.244245] (-) TimerEvent: {}
+[13.345393] (-) TimerEvent: {}
+[13.447138] (-) TimerEvent: {}
+[13.548749] (-) TimerEvent: {}
+[13.650323] (-) TimerEvent: {}
+[13.751715] (-) TimerEvent: {}
+[13.853034] (-) TimerEvent: {}
+[13.954542] (-) TimerEvent: {}
+[14.055609] (-) TimerEvent: {}
+[14.156962] (-) TimerEvent: {}
+[14.258171] (-) TimerEvent: {}
+[14.359280] (-) TimerEvent: {}
+[14.460812] (-) TimerEvent: {}
+[14.562122] (-) TimerEvent: {}
+[14.663575] (-) TimerEvent: {}
+[14.764867] (-) TimerEvent: {}
+[14.866125] (-) TimerEvent: {}
+[14.966942] (-) TimerEvent: {}
+[15.067668] (-) TimerEvent: {}
+[15.080155] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[15.139650] (first_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[15.167863] (-) TimerEvent: {}
+[15.180042] (first_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[15.268030] (-) TimerEvent: {}
+[15.300593] (first_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[15.368304] (-) TimerEvent: {}
+[15.405305] (first_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[15.468509] (-) TimerEvent: {}
+[15.569152] (-) TimerEvent: {}
+[15.669967] (-) TimerEvent: {}
+[15.771023] (-) TimerEvent: {}
+[15.872551] (-) TimerEvent: {}
+[15.973297] (-) TimerEvent: {}
+[16.074759] (-) TimerEvent: {}
+[16.176039] (-) TimerEvent: {}
+[16.277329] (-) TimerEvent: {}
+[16.378285] (-) TimerEvent: {}
+[16.479092] (-) TimerEvent: {}
+[16.579917] (-) TimerEvent: {}
+[16.680707] (-) TimerEvent: {}
+[16.781857] (-) TimerEvent: {}
+[16.882814] (-) TimerEvent: {}
+[16.984408] (-) TimerEvent: {}
+[17.086086] (-) TimerEvent: {}
+[17.187981] (-) TimerEvent: {}
+[17.289117] (-) TimerEvent: {}
+[17.389697] (-) TimerEvent: {}
+[17.490418] (-) TimerEvent: {}
+[17.591249] (-) TimerEvent: {}
+[17.693165] (-) TimerEvent: {}
+[17.794869] (-) TimerEvent: {}
+[17.896398] (-) TimerEvent: {}
+[17.997627] (-) TimerEvent: {}
+[18.098631] (-) TimerEvent: {}
+[18.199884] (-) TimerEvent: {}
+[18.300798] (-) TimerEvent: {}
+[18.401661] (-) TimerEvent: {}
+[18.503197] (-) TimerEvent: {}
+[18.604723] (-) TimerEvent: {}
+[18.706138] (-) TimerEvent: {}
+[18.807569] (-) TimerEvent: {}
+[18.908913] (-) TimerEvent: {}
+[19.010003] (-) TimerEvent: {}
+[19.110690] (-) TimerEvent: {}
+[19.211840] (-) TimerEvent: {}
+[19.313275] (-) TimerEvent: {}
+[19.414945] (-) TimerEvent: {}
+[19.516388] (-) TimerEvent: {}
+[19.617665] (-) TimerEvent: {}
+[19.718824] (-) TimerEvent: {}
+[19.819856] (-) TimerEvent: {}
+[19.921208] (-) TimerEvent: {}
+[20.022386] (-) TimerEvent: {}
+[20.123746] (-) TimerEvent: {}
+[20.225384] (-) TimerEvent: {}
+[20.326865] (-) TimerEvent: {}
+[20.428373] (-) TimerEvent: {}
+[20.529887] (-) TimerEvent: {}
+[20.631322] (-) TimerEvent: {}
+[20.732933] (-) TimerEvent: {}
+[20.834945] (-) TimerEvent: {}
+[20.936767] (-) TimerEvent: {}
+[21.037880] (-) TimerEvent: {}
+[21.140003] (-) TimerEvent: {}
+[21.241962] (-) TimerEvent: {}
+[21.343260] (-) TimerEvent: {}
+[21.444968] (-) TimerEvent: {}
+[21.546486] (-) TimerEvent: {}
+[21.647791] (-) TimerEvent: {}
+[21.749082] (-) TimerEvent: {}
+[21.850618] (-) TimerEvent: {}
+[21.952373] (-) TimerEvent: {}
+[22.054979] (-) TimerEvent: {}
+[22.157351] (-) TimerEvent: {}
+[22.258592] (-) TimerEvent: {}
+[22.359833] (-) TimerEvent: {}
+[22.461872] (-) TimerEvent: {}
+[22.563225] (-) TimerEvent: {}
+[22.664682] (-) TimerEvent: {}
+[22.765930] (-) TimerEvent: {}
+[22.866989] (-) TimerEvent: {}
+[22.968394] (-) TimerEvent: {}
+[23.069926] (-) TimerEvent: {}
+[23.171254] (-) TimerEvent: {}
+[23.272765] (-) TimerEvent: {}
+[23.374324] (-) TimerEvent: {}
+[23.475750] (-) TimerEvent: {}
+[23.577602] (-) TimerEvent: {}
+[23.678926] (-) TimerEvent: {}
+[23.779966] (-) TimerEvent: {}
+[23.880646] (-) TimerEvent: {}
+[23.981894] (-) TimerEvent: {}
+[24.083516] (-) TimerEvent: {}
+[24.184806] (-) TimerEvent: {}
+[24.286256] (-) TimerEvent: {}
+[24.386932] (-) TimerEvent: {}
+[24.488262] (-) TimerEvent: {}
+[24.589411] (-) TimerEvent: {}
+[24.690553] (-) TimerEvent: {}
+[24.791891] (-) TimerEvent: {}
+[24.892689] (-) TimerEvent: {}
+[24.993556] (-) TimerEvent: {}
+[25.094653] (-) TimerEvent: {}
+[25.195981] (-) TimerEvent: {}
+[25.297044] (-) TimerEvent: {}
+[25.398401] (-) TimerEvent: {}
+[25.499815] (-) TimerEvent: {}
+[25.600904] (-) TimerEvent: {}
+[25.701421] (-) TimerEvent: {}
+[25.802091] (-) TimerEvent: {}
+[25.902759] (-) TimerEvent: {}
+[26.003794] (-) TimerEvent: {}
+[26.105243] (-) TimerEvent: {}
+[26.206688] (-) TimerEvent: {}
+[26.308014] (-) TimerEvent: {}
+[26.408993] (-) TimerEvent: {}
+[26.510216] (-) TimerEvent: {}
+[26.611243] (-) TimerEvent: {}
+[26.712255] (-) TimerEvent: {}
+[26.813626] (-) TimerEvent: {}
+[26.914930] (-) TimerEvent: {}
+[27.016328] (-) TimerEvent: {}
+[27.117753] (-) TimerEvent: {}
+[27.218714] (-) TimerEvent: {}
+[27.319919] (-) TimerEvent: {}
+[27.421157] (-) TimerEvent: {}
+[27.522212] (-) TimerEvent: {}
+[27.623860] (-) TimerEvent: {}
+[27.725141] (-) TimerEvent: {}
+[27.825847] (-) TimerEvent: {}
+[27.926455] (-) TimerEvent: {}
+[28.027123] (-) TimerEvent: {}
+[28.128001] (-) TimerEvent: {}
+[28.229072] (-) TimerEvent: {}
+[28.330814] (-) TimerEvent: {}
+[28.432157] (-) TimerEvent: {}
+[28.533835] (-) TimerEvent: {}
+[28.634563] (-) TimerEvent: {}
+[28.735452] (-) TimerEvent: {}
+[28.836637] (-) TimerEvent: {}
+[28.937425] (-) TimerEvent: {}
+[29.038153] (-) TimerEvent: {}
+[29.139342] (-) TimerEvent: {}
+[29.240579] (-) TimerEvent: {}
+[29.341412] (-) TimerEvent: {}
+[29.442337] (-) TimerEvent: {}
+[29.543104] (-) TimerEvent: {}
+[29.645000] (-) TimerEvent: {}
+[29.746295] (-) TimerEvent: {}
+[29.847233] (-) TimerEvent: {}
+[29.947974] (-) TimerEvent: {}
+[30.048580] (-) TimerEvent: {}
+[30.149282] (-) TimerEvent: {}
+[30.250427] (-) TimerEvent: {}
+[30.351740] (-) TimerEvent: {}
+[30.452445] (-) TimerEvent: {}
+[30.553259] (-) TimerEvent: {}
+[30.654152] (-) TimerEvent: {}
+[30.754693] (-) TimerEvent: {}
+[30.855212] (-) TimerEvent: {}
+[30.955778] (-) TimerEvent: {}
+[31.056455] (-) TimerEvent: {}
+[31.157435] (-) TimerEvent: {}
+[31.258443] (-) TimerEvent: {}
+[31.360149] (-) TimerEvent: {}
+[31.460922] (-) TimerEvent: {}
+[31.561573] (-) TimerEvent: {}
+[31.662451] (-) TimerEvent: {}
+[31.763647] (-) TimerEvent: {}
+[31.864286] (-) TimerEvent: {}
+[31.964827] (-) TimerEvent: {}
+[32.065750] (-) TimerEvent: {}
+[32.166953] (-) TimerEvent: {}
+[32.268012] (-) TimerEvent: {}
+[32.368523] (-) TimerEvent: {}
+[32.469449] (-) TimerEvent: {}
+[32.570765] (-) TimerEvent: {}
+[32.671772] (-) TimerEvent: {}
+[32.772211] (-) TimerEvent: {}
+[32.872712] (-) TimerEvent: {}
+[32.973172] (-) TimerEvent: {}
+[33.073767] (-) TimerEvent: {}
+[33.174340] (-) TimerEvent: {}
+[33.275151] (-) TimerEvent: {}
+[33.376451] (-) TimerEvent: {}
+[33.478050] (-) TimerEvent: {}
+[33.579299] (-) TimerEvent: {}
+[33.680408] (-) TimerEvent: {}
+[33.781289] (-) TimerEvent: {}
+[33.881934] (-) TimerEvent: {}
+[33.933452] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[33.942592] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[33.975494] (first_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") \n'}
+[33.975880] (first_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[33.982166] (-) TimerEvent: {}
+[34.016988] (first_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[34.017300] (first_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[34.017433] (first_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[34.059621] (first_interfaces) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[34.079769] (first_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[34.081520] (first_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[34.081730] (first_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[34.082496] (-) TimerEvent: {}
+[34.101169] (first_interfaces) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[34.101788] (first_interfaces) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[34.104404] (first_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[34.108625] (first_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[34.111194] (first_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[34.122748] (first_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[34.122939] (first_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[34.125596] (first_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[34.132493] (first_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[34.162473] (first_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[34.166604] (first_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/iliass/ros2_athens_ws/build/first_interfaces\n'}
+[34.182761] (-) TimerEvent: {}
+[34.209682] (first_interfaces) StdoutLine: {'line': b'[  3%] Built target first_interfaces__cpp\n'}
+[34.210401] (first_interfaces) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/custom_message__functions.c.o\x1b[0m\n'}
+[34.230437] (first_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_generator_c/first_interfaces/msg/detail/custom_message__functions.h:19\x1b[m\x1b[K,\n'}
+[34.230733] (first_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_generator_c/first_interfaces/msg/detail/custom_message__functions.c:4\x1b[m\x1b[K:\n'}
+[34.230819] (first_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_generator_c/first_interfaces/msg/detail/custom_message__struct.h:24:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kfirst_interfaces/msg/detail/string__struct.h: No such file or directory\n'}
+[34.230891] (first_interfaces) StderrLine: {'line': b'   24 | #include \x1b[01;31m\x1b[K"first_interfaces/msg/detail/string__struct.h"\x1b[m\x1b[K\n'}
+[34.230962] (first_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.231032] (first_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[34.232034] (first_interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/first_interfaces__rosidl_generator_c.dir/build.make:92: CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/custom_message__functions.c.o] Error 1\n'}
+[34.232455] (first_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:332: CMakeFiles/first_interfaces__rosidl_generator_c.dir/all] Error 2\n'}
+[34.232537] (first_interfaces) StderrLine: {'line': b'make[1]: *** Waiting for unfinished jobs....\n'}
+[34.241170] (first_interfaces) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_interfaces/msg/detail/custom_message__type_support.cpp.o\x1b[0m\n'}
+[34.241658] (first_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_interfaces/msg/custom_message__type_support.cpp.o\x1b[0m\n'}
+[34.243591] (first_interfaces) StdoutLine: {'line': b'[ 16%] \x1b[32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/dds_fastrtps/custom_message__type_support.cpp.o\x1b[0m\n'}
+[34.283175] (-) TimerEvent: {}
+[34.290901] (first_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_typesupport_introspection_cpp/first_interfaces/msg/detail/custom_message__type_support.cpp:12\x1b[m\x1b[K:\n'}
+[34.291137] (first_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_generator_cpp/first_interfaces/msg/detail/custom_message__struct.hpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kfirst_interfaces/msg/detail/string__struct.hpp: No such file or directory\n'}
+[34.291207] (first_interfaces) StderrLine: {'line': b'   19 | #include \x1b[01;31m\x1b[K"first_interfaces/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[34.291260] (first_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.291310] (first_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[34.293917] (first_interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/build.make:78: CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_interfaces/msg/detail/custom_message__type_support.cpp.o] Error 1\n'}
+[34.294362] (first_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:526: CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/all] Error 2\n'}
+[34.295426] (first_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_typesupport_cpp/first_interfaces/msg/custom_message__type_support.cpp:7\x1b[m\x1b[K:\n'}
+[34.295614] (first_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_generator_cpp/first_interfaces/msg/detail/custom_message__struct.hpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kfirst_interfaces/msg/detail/string__struct.hpp: No such file or directory\n'}
+[34.295697] (first_interfaces) StderrLine: {'line': b'   19 | #include \x1b[01;31m\x1b[K"first_interfaces/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[34.295764] (first_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.295824] (first_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[34.297167] (first_interfaces) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/custom_message__rosidl_typesupport_fastrtps_cpp.hpp:11\x1b[m\x1b[K,\n'}
+[34.297325] (first_interfaces) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/dds_fastrtps/custom_message__type_support.cpp:4\x1b[m\x1b[K:\n'}
+[34.297386] (first_interfaces) StderrLine: {'line': b'\x1b[01m\x1b[K/home/iliass/ros2_athens_ws/build/first_interfaces/rosidl_generator_cpp/first_interfaces/msg/detail/custom_message__struct.hpp:19:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kfirst_interfaces/msg/detail/string__struct.hpp: No such file or directory\n'}
+[34.297454] (first_interfaces) StderrLine: {'line': b'   19 | #include \x1b[01;31m\x1b[K"first_interfaces/msg/detail/string__struct.hpp"\x1b[m\x1b[K\n'}
+[34.297519] (first_interfaces) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[34.297581] (first_interfaces) StderrLine: {'line': b'compilation terminated.\n'}
+[34.298063] (first_interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/build.make:73: CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_interfaces/msg/custom_message__type_support.cpp.o] Error 1\n'}
+[34.298250] (first_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:499: CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/all] Error 2\n'}
+[34.299186] (first_interfaces) StderrLine: {'line': b'make[2]: *** [CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/build.make:78: CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/dds_fastrtps/custom_message__type_support.cpp.o] Error 1\n'}
+[34.299386] (first_interfaces) StderrLine: {'line': b'make[1]: *** [CMakeFiles/Makefile2:388: CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/all] Error 2\n'}
+[34.300049] (first_interfaces) StderrLine: {'line': b'make: *** [Makefile:141: all] Error 2\n'}
+[34.303174] (first_interfaces) CommandEnded: {'returncode': 2}
+[34.379032] (first_interfaces) JobEnded: {'identifier': 'first_interfaces', 'rc': 2}
+[34.383374] (-) TimerEvent: {}
+[34.390281] (-) EventReactorShutdown: {}

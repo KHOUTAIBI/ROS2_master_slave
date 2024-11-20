@@ -1,0 +1,306 @@
+[0.000000] (-) TimerEvent: {}
+[0.000419] (first_interfaces) JobQueued: {'identifier': 'first_interfaces', 'dependencies': OrderedDict()}
+[0.000792] (first_package) JobQueued: {'identifier': 'first_package', 'dependencies': OrderedDict()}
+[0.000848] (first_interfaces) JobStarted: {'identifier': 'first_interfaces'}
+[0.008219] (first_package) JobStarted: {'identifier': 'first_package'}
+[0.022093] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'cmake'}
+[0.023555] (first_interfaces) JobProgress: {'identifier': 'first_interfaces', 'progress': 'build'}
+[0.025095] (first_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/iliass/ros2_athens_ws/build/first_interfaces', '--', '-j16', '-l16'], 'cwd': '/home/iliass/ros2_athens_ws/build/first_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'iliass'), ('GIT_ASKPASS', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh'), ('LD_LIBRARY_PATH', '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('SHLVL', '2'), ('WT_PROFILE_ID', '{4dd1e689-b517-5f39-947d-78e8a8bdf958}'), ('HOME', '/home/iliass'), ('OLDPWD', '/home/iliass/ros2_athens_ws/src'), ('MOTD_SHOWN', 'update-motd'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-4df6ccf1-ff8e-4fd0-b18b-da4bc8bed43b.sock'), ('TERM_PROGRAM_VERSION', '1.95.3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_NODE', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('MAKEFLAGS', ''), ('COLORTERM', 'truecolor'), ('WSL_DISTRO_NAME', 'Ubuntu-20.04'), ('MAKE_TERMERR', '/dev/pts/7'), ('ROS_DISTRO', 'foxy'), ('COLCON_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install'), ('WAYLAND_DISPLAY', 'wayland-0'), ('LOGNAME', 'iliass'), ('_', '/usr/bin/make'), ('WSL_INTEROP', '/run/WSL/958_interop'), ('PULSE_SERVER', 'unix:/mnt/wslg/PulseServer'), ('NAME', 'Code'), ('ROS_VERSION', '2'), ('TERM', 'xterm-256color'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/MySQL/MySQL Shell 9.0/bin/:/mnt/c/Users/ailia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ailia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ailia/AppData/Roaming/npm:/mnt/c/Users/ailia/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/Users/ailia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/ailia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000/'), ('WT_SESSION', '360bba10-5121-4bae-a0d2-c6a3cb4dbe19'), ('MAKELEVEL', '1'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-dfefee26d2.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy'), ('SHELL', '/bin/bash'), ('MAKE_TERMOUT', '/dev/pts/7'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/iliass/ros2_athens_ws/build/first_interfaces'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('MFLAGS', ''), ('COLCON', '1'), ('WSL2_GUI_APPS_ENABLED', '1'), ('HOSTTYPE', 'x86_64'), ('WSLENV', 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'), ('CMAKE_PREFIX_PATH', '/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy')]), 'shell': False}
+[0.041924] (first_interfaces) StdoutLine: {'line': b"make[1]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'\n"}
+[0.056886] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.057046] (first_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_core: 0.9.12 (/opt/ros/foxy/share/ament_cmake_core/cmake)\n'}
+[0.079190] (first_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") \n'}
+[0.079409] (first_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.099758] (-) TimerEvent: {}
+[0.200295] (-) TimerEvent: {}
+[0.244302] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.246822] (first_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.300438] (-) TimerEvent: {}
+[0.400854] (-) TimerEvent: {}
+[0.501168] (-) TimerEvent: {}
+[0.592773] (first_package) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/first_package', 'build', '--build-base', '/home/iliass/ros2_athens_ws/build/first_package/build', 'install', '--record', '/home/iliass/ros2_athens_ws/build/first_package/install.log', '--install-scripts', '$base/lib/first_package', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/iliass/ros2_athens_ws/src/first_package', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'iliass', 'GIT_ASKPASS': '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass.sh', 'LD_LIBRARY_PATH': '/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib', 'SHLVL': '2', 'WT_PROFILE_ID': '{4dd1e689-b517-5f39-947d-78e8a8bdf958}', 'HOME': '/home/iliass', 'OLDPWD': '/home/iliass/ros2_athens_ws/src', 'MOTD_SHOWN': 'update-motd', 'VSCODE_IPC_HOOK_CLI': '/run/user/1000/vscode-ipc-4df6ccf1-ff8e-4fd0-b18b-da4bc8bed43b.sock', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/extensions/git/dist/askpass-main.js', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_NODE': '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/node', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'MAKEFLAGS': '', 'COLORTERM': 'truecolor', 'WSL_DISTRO_NAME': 'Ubuntu-20.04', 'MAKE_TERMERR': '/dev/pts/7', 'ROS_DISTRO': 'foxy', 'COLCON_PREFIX_PATH': '/home/iliass/ros2_athens_ws/install', 'WAYLAND_DISPLAY': 'wayland-0', 'LOGNAME': 'iliass', '_': '/usr/bin/make', 'WSL_INTEROP': '/run/WSL/958_interop', 'PULSE_SERVER': 'unix:/mnt/wslg/PulseServer', 'NAME': 'Code', 'ROS_VERSION': '2', 'TERM': 'xterm-256color', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/home/iliass/.vscode-server/bin/f1a4fb101478ce6ec82fe9627c43efbf9e98c813/bin/remote-cli:/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/usr/lib/wsl/lib:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/java8path:/mnt/c/Program Files (x86)/Common Files/Oracle/Java/javapath:/mnt/c/Windows/system32:/mnt/c/Windows:/mnt/c/Windows/System32/Wbem:/mnt/c/Windows/System32/WindowsPowerShell/v1.0/:/mnt/c/Windows/System32/OpenSSH/:/mnt/c/Program Files (x86)/NVIDIA Corporation/PhysX/Common:/mnt/c/Program Files/NVIDIA Corporation/NVIDIA NvDLISR:/mnt/c/Program Files/nodejs/:/mnt/c/Program Files/Git/cmd:/mnt/c/Program Files/dotnet/:/mnt/c/Program Files/usbipd-win/:/mnt/c/Program Files/MySQL/MySQL Shell 9.0/bin/:/mnt/c/Users/ailia/AppData/Local/Microsoft/WindowsApps:/mnt/c/Users/ailia/AppData/Local/Programs/Microsoft VS Code/bin:/mnt/c/Users/ailia/AppData/Roaming/npm:/mnt/c/Users/ailia/AppData/Local/Programs/oh-my-posh/bin:/mnt/c/Users/ailia/AppData/Local/GitHubDesktop/bin:/mnt/c/Users/ailia/AppData/Local/Packages/PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0/LocalCache/local-packages/Python311/Scripts:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1000/', 'WT_SESSION': '360bba10-5121-4bae-a0d2-c6a3cb4dbe19', 'MAKELEVEL': '1', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1000/vscode-git-dfefee26d2.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy', 'SHELL': '/bin/bash', 'MAKE_TERMOUT': '/dev/pts/7', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/iliass/ros2_athens_ws/build/first_package', 'XDG_DATA_DIRS': '/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/iliass/ros2_athens_ws/build/first_package/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages', 'MFLAGS': '', 'COLCON': '1', 'WSL2_GUI_APPS_ENABLED': '1', 'HOSTTYPE': 'x86_64', 'WSLENV': 'ELECTRON_RUN_AS_NODE/w:WT_SESSION:WT_PROFILE_ID:'}, 'shell': False}
+[0.601284] (-) TimerEvent: {}
+[0.701640] (-) TimerEvent: {}
+[0.783121] (first_package) StdoutLine: {'line': b'running egg_info\n'}
+[0.784051] (first_package) StdoutLine: {'line': b'writing ../../build/first_package/first_package.egg-info/PKG-INFO\n'}
+[0.784347] (first_package) StdoutLine: {'line': b'writing dependency_links to ../../build/first_package/first_package.egg-info/dependency_links.txt\n'}
+[0.784802] (first_package) StdoutLine: {'line': b'writing entry points to ../../build/first_package/first_package.egg-info/entry_points.txt\n'}
+[0.785753] (first_package) StdoutLine: {'line': b'writing requirements to ../../build/first_package/first_package.egg-info/requires.txt\n'}
+[0.786051] (first_package) StdoutLine: {'line': b'writing top-level names to ../../build/first_package/first_package.egg-info/top_level.txt\n'}
+[0.801709] (-) TimerEvent: {}
+[0.818991] (first_package) StdoutLine: {'line': b"reading manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[0.821112] (first_package) StdoutLine: {'line': b"writing manifest file '../../build/first_package/first_package.egg-info/SOURCES.txt'\n"}
+[0.821544] (first_package) StdoutLine: {'line': b'running build\n'}
+[0.821659] (first_package) StdoutLine: {'line': b'running build_py\n'}
+[0.821962] (first_package) StdoutLine: {'line': b'running install\n'}
+[0.822745] (first_package) StdoutLine: {'line': b'running install_lib\n'}
+[0.824098] (first_package) StdoutLine: {'line': b'running install_data\n'}
+[0.824343] (first_package) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.826178] (first_package) StdoutLine: {'line': b"removing '/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages/first_package-0.0.0-py3.8.egg-info' (and everything under it)\n"}
+[0.826457] (first_package) StdoutLine: {'line': b'Copying ../../build/first_package/first_package.egg-info to /home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages/first_package-0.0.0-py3.8.egg-info\n'}
+[0.827328] (first_package) StdoutLine: {'line': b'running install_scripts\n'}
+[0.843113] (first_package) StdoutLine: {'line': b'Installing simple_publisher_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[0.843507] (first_package) StdoutLine: {'line': b'Installing simple_pubsub_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[0.843956] (first_package) StdoutLine: {'line': b'Installing simple_subscriber_node script to /home/iliass/ros2_athens_ws/install/first_package/lib/first_package\n'}
+[0.844473] (first_package) StdoutLine: {'line': b"writing list of installed files to '/home/iliass/ros2_athens_ws/build/first_package/install.log'\n"}
+[0.863016] (first_package) CommandEnded: {'returncode': 0}
+[0.873597] (first_package) JobEnded: {'identifier': 'first_package', 'rc': 0}
+[0.901886] (-) TimerEvent: {}
+[1.002784] (-) TimerEvent: {}
+[1.104209] (-) TimerEvent: {}
+[1.205662] (-) TimerEvent: {}
+[1.306947] (-) TimerEvent: {}
+[1.408244] (-) TimerEvent: {}
+[1.509493] (-) TimerEvent: {}
+[1.610768] (-) TimerEvent: {}
+[1.712030] (-) TimerEvent: {}
+[1.813337] (-) TimerEvent: {}
+[1.914675] (-) TimerEvent: {}
+[2.015862] (-) TimerEvent: {}
+[2.117616] (-) TimerEvent: {}
+[2.219116] (-) TimerEvent: {}
+[2.320440] (-) TimerEvent: {}
+[2.422066] (-) TimerEvent: {}
+[2.523510] (-) TimerEvent: {}
+[2.624945] (-) TimerEvent: {}
+[2.726403] (-) TimerEvent: {}
+[2.827917] (-) TimerEvent: {}
+[2.930055] (-) TimerEvent: {}
+[3.031633] (-) TimerEvent: {}
+[3.132839] (-) TimerEvent: {}
+[3.234047] (-) TimerEvent: {}
+[3.335758] (-) TimerEvent: {}
+[3.437269] (-) TimerEvent: {}
+[3.538779] (-) TimerEvent: {}
+[3.640139] (-) TimerEvent: {}
+[3.741591] (-) TimerEvent: {}
+[3.842976] (-) TimerEvent: {}
+[3.944478] (-) TimerEvent: {}
+[4.045834] (-) TimerEvent: {}
+[4.147280] (-) TimerEvent: {}
+[4.248768] (-) TimerEvent: {}
+[4.349939] (-) TimerEvent: {}
+[4.451050] (-) TimerEvent: {}
+[4.552683] (-) TimerEvent: {}
+[4.654058] (-) TimerEvent: {}
+[4.755314] (-) TimerEvent: {}
+[4.856768] (-) TimerEvent: {}
+[4.958272] (-) TimerEvent: {}
+[5.059605] (-) TimerEvent: {}
+[5.160807] (-) TimerEvent: {}
+[5.262340] (-) TimerEvent: {}
+[5.363629] (-) TimerEvent: {}
+[5.465102] (-) TimerEvent: {}
+[5.566424] (-) TimerEvent: {}
+[5.668444] (-) TimerEvent: {}
+[5.769895] (-) TimerEvent: {}
+[5.871573] (-) TimerEvent: {}
+[5.972948] (-) TimerEvent: {}
+[6.074435] (-) TimerEvent: {}
+[6.175904] (-) TimerEvent: {}
+[6.277012] (-) TimerEvent: {}
+[6.377718] (-) TimerEvent: {}
+[6.478213] (-) TimerEvent: {}
+[6.578729] (-) TimerEvent: {}
+[6.679320] (-) TimerEvent: {}
+[6.779894] (-) TimerEvent: {}
+[6.880467] (-) TimerEvent: {}
+[6.980960] (-) TimerEvent: {}
+[7.082009] (-) TimerEvent: {}
+[7.183141] (-) TimerEvent: {}
+[7.283913] (-) TimerEvent: {}
+[7.384846] (-) TimerEvent: {}
+[7.485500] (-) TimerEvent: {}
+[7.586068] (-) TimerEvent: {}
+[7.686669] (-) TimerEvent: {}
+[7.787103] (-) TimerEvent: {}
+[7.887616] (-) TimerEvent: {}
+[7.988138] (-) TimerEvent: {}
+[8.088739] (-) TimerEvent: {}
+[8.189475] (-) TimerEvent: {}
+[8.290598] (-) TimerEvent: {}
+[8.392090] (-) TimerEvent: {}
+[8.493591] (-) TimerEvent: {}
+[8.595097] (-) TimerEvent: {}
+[8.696568] (-) TimerEvent: {}
+[8.798247] (-) TimerEvent: {}
+[8.899644] (-) TimerEvent: {}
+[9.001250] (-) TimerEvent: {}
+[9.102646] (-) TimerEvent: {}
+[9.204176] (-) TimerEvent: {}
+[9.305339] (-) TimerEvent: {}
+[9.406633] (-) TimerEvent: {}
+[9.508175] (-) TimerEvent: {}
+[9.609686] (-) TimerEvent: {}
+[9.711451] (-) TimerEvent: {}
+[9.812654] (-) TimerEvent: {}
+[9.913883] (-) TimerEvent: {}
+[10.015205] (-) TimerEvent: {}
+[10.116949] (-) TimerEvent: {}
+[10.217883] (-) TimerEvent: {}
+[10.319174] (-) TimerEvent: {}
+[10.420473] (-) TimerEvent: {}
+[10.522187] (-) TimerEvent: {}
+[10.623646] (-) TimerEvent: {}
+[10.725119] (-) TimerEvent: {}
+[10.826844] (-) TimerEvent: {}
+[10.928295] (-) TimerEvent: {}
+[11.029808] (-) TimerEvent: {}
+[11.131388] (-) TimerEvent: {}
+[11.232916] (-) TimerEvent: {}
+[11.334362] (-) TimerEvent: {}
+[11.435713] (-) TimerEvent: {}
+[11.537142] (-) TimerEvent: {}
+[11.638462] (-) TimerEvent: {}
+[11.739903] (-) TimerEvent: {}
+[11.841400] (-) TimerEvent: {}
+[11.942803] (-) TimerEvent: {}
+[12.043998] (-) TimerEvent: {}
+[12.145021] (-) TimerEvent: {}
+[12.246515] (-) TimerEvent: {}
+[12.347866] (-) TimerEvent: {}
+[12.449337] (-) TimerEvent: {}
+[12.550795] (-) TimerEvent: {}
+[12.652481] (-) TimerEvent: {}
+[12.753713] (-) TimerEvent: {}
+[12.854917] (-) TimerEvent: {}
+[12.956011] (-) TimerEvent: {}
+[13.057088] (-) TimerEvent: {}
+[13.158460] (-) TimerEvent: {}
+[13.259842] (-) TimerEvent: {}
+[13.361380] (-) TimerEvent: {}
+[13.462878] (-) TimerEvent: {}
+[13.564224] (-) TimerEvent: {}
+[13.665467] (-) TimerEvent: {}
+[13.766784] (-) TimerEvent: {}
+[13.868278] (-) TimerEvent: {}
+[13.969710] (-) TimerEvent: {}
+[14.071082] (-) TimerEvent: {}
+[14.173121] (-) TimerEvent: {}
+[14.274357] (-) TimerEvent: {}
+[14.375706] (-) TimerEvent: {}
+[14.476890] (-) TimerEvent: {}
+[14.578255] (-) TimerEvent: {}
+[14.679638] (-) TimerEvent: {}
+[14.780744] (-) TimerEvent: {}
+[14.881537] (-) TimerEvent: {}
+[14.983054] (-) TimerEvent: {}
+[15.084576] (-) TimerEvent: {}
+[15.185951] (-) TimerEvent: {}
+[15.287220] (-) TimerEvent: {}
+[15.388591] (-) TimerEvent: {}
+[15.489715] (-) TimerEvent: {}
+[15.590993] (-) TimerEvent: {}
+[15.692472] (-) TimerEvent: {}
+[15.793788] (-) TimerEvent: {}
+[15.895234] (-) TimerEvent: {}
+[15.996710] (-) TimerEvent: {}
+[16.097724] (-) TimerEvent: {}
+[16.198583] (-) TimerEvent: {}
+[16.299719] (-) TimerEvent: {}
+[16.400496] (-) TimerEvent: {}
+[16.501674] (-) TimerEvent: {}
+[16.602362] (-) TimerEvent: {}
+[16.703137] (-) TimerEvent: {}
+[16.804227] (-) TimerEvent: {}
+[16.905144] (-) TimerEvent: {}
+[17.006528] (-) TimerEvent: {}
+[17.107589] (-) TimerEvent: {}
+[17.208005] (-) TimerEvent: {}
+[17.308846] (-) TimerEvent: {}
+[17.410184] (-) TimerEvent: {}
+[17.511602] (-) TimerEvent: {}
+[17.612938] (-) TimerEvent: {}
+[17.714405] (-) TimerEvent: {}
+[17.815863] (-) TimerEvent: {}
+[17.917139] (-) TimerEvent: {}
+[18.018524] (-) TimerEvent: {}
+[18.119944] (-) TimerEvent: {}
+[18.221421] (-) TimerEvent: {}
+[18.322784] (-) TimerEvent: {}
+[18.424211] (-) TimerEvent: {}
+[18.525609] (-) TimerEvent: {}
+[18.627044] (-) TimerEvent: {}
+[18.729507] (-) TimerEvent: {}
+[18.830919] (-) TimerEvent: {}
+[18.932482] (-) TimerEvent: {}
+[19.033954] (-) TimerEvent: {}
+[19.135342] (-) TimerEvent: {}
+[19.237016] (-) TimerEvent: {}
+[19.338294] (-) TimerEvent: {}
+[19.439492] (-) TimerEvent: {}
+[19.540621] (-) TimerEvent: {}
+[19.641723] (-) TimerEvent: {}
+[19.742470] (-) TimerEvent: {}
+[19.843914] (-) TimerEvent: {}
+[19.944921] (-) TimerEvent: {}
+[20.045811] (-) TimerEvent: {}
+[20.147010] (-) TimerEvent: {}
+[20.248162] (-) TimerEvent: {}
+[20.349215] (-) TimerEvent: {}
+[20.450506] (-) TimerEvent: {}
+[20.552093] (-) TimerEvent: {}
+[20.653738] (-) TimerEvent: {}
+[20.755257] (-) TimerEvent: {}
+[20.856721] (-) TimerEvent: {}
+[20.958189] (-) TimerEvent: {}
+[21.059703] (-) TimerEvent: {}
+[21.161575] (-) TimerEvent: {}
+[21.263012] (-) TimerEvent: {}
+[21.364310] (-) TimerEvent: {}
+[21.465483] (-) TimerEvent: {}
+[21.566838] (-) TimerEvent: {}
+[21.600006] (first_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[21.667327] (-) TimerEvent: {}
+[21.707813] (first_interfaces) StdoutLine: {'line': b'-- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)\n'}
+[21.754034] (first_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[21.767449] (-) TimerEvent: {}
+[21.868194] (-) TimerEvent: {}
+[21.969274] (-) TimerEvent: {}
+[21.975590] (first_interfaces) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") \n'}
+[22.041722] (first_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[22.069460] (-) TimerEvent: {}
+[22.170216] (-) TimerEvent: {}
+[22.271580] (-) TimerEvent: {}
+[22.372369] (-) TimerEvent: {}
+[22.473579] (-) TimerEvent: {}
+[22.574610] (-) TimerEvent: {}
+[22.675578] (-) TimerEvent: {}
+[22.776887] (-) TimerEvent: {}
+[22.878177] (-) TimerEvent: {}
+[22.979655] (-) TimerEvent: {}
+[23.080915] (-) TimerEvent: {}
+[23.182651] (-) TimerEvent: {}
+[23.284095] (-) TimerEvent: {}
+[23.385476] (-) TimerEvent: {}
+[23.486664] (-) TimerEvent: {}
+[23.587509] (-) TimerEvent: {}
+[23.689097] (-) TimerEvent: {}
+[23.790600] (-) TimerEvent: {}
+[23.892443] (-) TimerEvent: {}
+[23.993675] (-) TimerEvent: {}
+[24.094887] (-) TimerEvent: {}
+[24.196150] (-) TimerEvent: {}
+[24.297622] (-) TimerEvent: {}
+[24.399035] (-) TimerEvent: {}
+[24.500309] (-) TimerEvent: {}
+[24.601652] (-) TimerEvent: {}
+[24.702853] (-) TimerEvent: {}
+[24.804384] (-) TimerEvent: {}
+[24.905653] (-) TimerEvent: {}
+[25.007064] (-) TimerEvent: {}
+[25.108581] (-) TimerEvent: {}
+[25.210285] (-) TimerEvent: {}
+[25.311448] (-) TimerEvent: {}
+[25.412415] (-) TimerEvent: {}
+[25.513449] (-) TimerEvent: {}
+[25.614622] (-) TimerEvent: {}
+[25.715757] (-) TimerEvent: {}
+[25.817011] (-) TimerEvent: {}
+[25.917706] (-) TimerEvent: {}
+[26.019298] (-) TimerEvent: {}
+[26.108450] (first_interfaces) StderrLine: {'line': b'make[1]: *** [Makefile:748: cmake_check_build_system] Interrupt\n'}
+[26.121029] (first_interfaces) CommandEnded: {'returncode': -2}
+[26.124368] (-) TimerEvent: {}
+[26.214162] (first_interfaces) JobEnded: {'identifier': 'first_interfaces', 'rc': 'SIGINT'}
+[26.225063] (-) EventReactorShutdown: {}

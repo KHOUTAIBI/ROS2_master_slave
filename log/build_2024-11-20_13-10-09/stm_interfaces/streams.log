@@ -1,0 +1,204 @@
+[0.015s] Invoking command in '/home/iliass/ros2_athens_ws/build/stm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --build /home/iliass/ros2_athens_ws/build/stm_interfaces -- -j16 -l16
+[0.157s] make[1]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.157s] make[2]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.157s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.157s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.157s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.157s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.158s] [  2%] Built target stm_interfaces__cpp
+[0.158s] [ 12%] Built target stm_interfaces__rosidl_generator_c
+[0.158s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.158s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.158s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.158s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.158s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.158s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.158s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.158s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.158s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.159s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.159s] [ 23%] Built target stm_interfaces__rosidl_typesupport_introspection_cpp
+[0.159s] [ 34%] Built target stm_interfaces__rosidl_typesupport_cpp
+[0.159s] [ 44%] Built target stm_interfaces__rosidl_typesupport_introspection_c
+[0.159s] [ 55%] Built target stm_interfaces__rosidl_typesupport_c
+[0.159s] [ 65%] Built target stm_interfaces__rosidl_typesupport_fastrtps_cpp
+[0.159s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.159s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.159s] [ 76%] Built target stm_interfaces__rosidl_typesupport_fastrtps_c
+[0.159s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.159s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.159s] [ 76%] Built target stm_interfaces
+[0.160s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.160s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.160s] [ 78%] Built target stm_interfaces__py
+[0.160s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.160s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.160s] [ 87%] Built target stm_interfaces__python
+[0.160s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.160s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.160s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.160s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.160s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.160s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.160s] [ 91%] Built target stm_interfaces__rosidl_typesupport_c__pyext
+[0.160s] [ 95%] Built target stm_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[0.160s] [100%] Built target stm_interfaces__rosidl_typesupport_introspection_c__pyext
+[0.160s] make[2]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.161s] make[1]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[0.165s] Invoked command in '/home/iliass/ros2_athens_ws/build/stm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --build /home/iliass/ros2_athens_ws/build/stm_interfaces -- -j16 -l16
+[0.219s] Invoking command in '/home/iliass/ros2_athens_ws/build/stm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --install /home/iliass/ros2_athens_ws/build/stm_interfaces
+[0.225s] -- Install configuration: ""
+[0.225s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/ament_index/resource_index/rosidl_interfaces/stm_interfaces
+[0.225s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces
+[0.225s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv
+[0.225s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail
+[0.225s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__functions.c
+[0.226s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__functions.h
+[0.226s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__struct.h
+[0.226s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__type_support.h
+[0.226s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/add_two_ints.h
+[0.226s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg
+[0.226s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/stm_control.h
+[0.226s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail
+[0.226s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__struct.h
+[0.226s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__functions.h
+[0.226s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__type_support.h
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__functions.h
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__functions.c
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__functions.c
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__struct.h
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__type_support.h
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/stm_state.h
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/library_path.sh
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/library_path.dsv
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_generator_c.so
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_c.h
+[0.227s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__rosidl_typesupport_fastrtps_c.h
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__rosidl_typesupport_fastrtps_c.h
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_fastrtps_c.so
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__rosidl_typesupport_fastrtps_cpp.hpp
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/dds_fastrtps
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail
+[0.228s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__rosidl_typesupport_fastrtps_cpp.hpp
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/dds_fastrtps
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__rosidl_typesupport_fastrtps_cpp.hpp
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__type_support.c
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_c.h
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__type_support.c
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__type_support.c
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__rosidl_typesupport_introspection_c.h
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__rosidl_typesupport_introspection_c.h
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_introspection_c.so
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_c.so
+[0.229s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__traits.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__type_support.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__builder.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__struct.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/add_two_ints.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/stm_control.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__builder.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__type_support.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__struct.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__traits.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__struct.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__type_support.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__builder.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__traits.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/stm_state.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__type_support.cpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/add_two_ints__rosidl_typesupport_introspection_cpp.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__type_support.cpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__rosidl_typesupport_introspection_cpp.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_control__rosidl_typesupport_introspection_cpp.hpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/detail/stm_state__type_support.cpp
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_introspection_cpp.so
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_cpp.so
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/pythonpath.sh
+[0.230s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/pythonpath.dsv
+[0.231s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/__init__.py
+[0.251s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/msg
+[0.251s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/msg/_stm_control.py
+[0.251s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/msg/__init__.py
+[0.252s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/msg/_stm_state_s.c
+[0.253s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/msg/_stm_state.py
+[0.253s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/msg/_stm_control_s.c
+[0.253s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv
+[0.253s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/_add_two_ints.py
+[0.253s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/_add_two_ints_s.c
+[0.253s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/__init__.py
+[0.253s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[0.253s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[0.253s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[0.254s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__python.so
+[0.254s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/msg/STMControl.idl
+[0.254s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/msg/STMState.idl
+[0.254s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/srv/AddTwoInts.idl
+[0.254s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/msg/STMControl.msg
+[0.254s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/msg/STMState.msg
+[0.254s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/srv/AddTwoInts.srv
+[0.254s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/srv/AddTwoInts_Request.msg
+[0.254s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/srv/AddTwoInts_Response.msg
+[0.254s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/ament_index/resource_index/package_run_dependencies/stm_interfaces
+[0.255s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/ament_index/resource_index/parent_prefix_path/stm_interfaces
+[0.255s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/ament_prefix_path.sh
+[0.255s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/ament_prefix_path.dsv
+[0.255s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/path.sh
+[0.256s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/path.dsv
+[0.256s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/local_setup.bash
+[0.256s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/local_setup.sh
+[0.256s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/local_setup.zsh
+[0.256s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/local_setup.dsv
+[0.257s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/package.dsv
+[0.257s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/ament_index/resource_index/packages/stm_interfaces
+[0.257s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_generator_cExport.cmake
+[0.257s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[0.257s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[0.257s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[0.257s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_cExport.cmake
+[0.258s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[0.258s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_generator_cppExport.cmake
+[0.258s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[0.258s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[0.259s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_cppExport.cmake
+[0.259s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[0.259s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/rosidl_cmake-extras.cmake
+[0.259s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.259s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[0.259s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[0.259s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.259s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[0.259s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[0.259s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfacesConfig.cmake
+[0.260s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfacesConfig-version.cmake
+[0.260s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/package.xml
+[0.260s] Invoked command in '/home/iliass/ros2_athens_ws/build/stm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --install /home/iliass/ros2_athens_ws/build/stm_interfaces

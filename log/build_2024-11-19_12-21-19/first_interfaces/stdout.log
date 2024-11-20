@@ -1,0 +1,27 @@
+make[1]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[2]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[  3%] Built target first_interfaces__cpp
+[  6%] [32mBuilding C object CMakeFiles/first_interfaces__rosidl_generator_c.dir/rosidl_generator_c/first_interfaces/msg/detail/custom_message__functions.c.o[0m
+make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+[  9%] [32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/first_interfaces/msg/detail/custom_message__type_support.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/first_interfaces/msg/detail/dds_fastrtps/custom_message__type_support.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/first_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/first_interfaces/msg/custom_message__type_support.cpp.o[0m
+make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[2]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'
+make[1]: Leaving directory '/home/iliass/ros2_athens_ws/build/first_interfaces'

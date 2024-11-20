@@ -1,6 +1,6 @@
 set(_AMENT_PACKAGE_NAME "stm_interfaces")
 set(stm_interfaces_VERSION "0.0.0")
-set(stm_interfaces_MAINTAINER "iliass <iliass@todo.todo>")
+set(stm_interfaces_MAINTAINER "athens2024ros <p.romero.sorozabal@gmail.com>")
 set(stm_interfaces_BUILD_DEPENDS "std_msgs")
 set(stm_interfaces_BUILDTOOL_DEPENDS "ament_cmake" "rosidl_default_generators")
 set(stm_interfaces_BUILD_EXPORT_DEPENDS "std_msgs")

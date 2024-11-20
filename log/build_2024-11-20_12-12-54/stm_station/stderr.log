@@ -1,5 +1,0 @@
-  File "/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/stm_serial_node_pub_sub.py", line 94
-    self.serial_port.write(.....encode('utf-8'))
-                               ^
-SyntaxError: invalid syntax
-

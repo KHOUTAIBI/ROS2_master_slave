@@ -9,12 +9,12 @@ from rclpy.node import Node
 
 # TODO: Import the custom message types STMState and STMControl
 # from stm_interfaces.msg import STMState, STMControl
-from stm_interfaces.msg import STMState, STMControl
+from stm_interfaces.msg import STMControl, STMState
 from std_msgs.msg import Float32MultiArray
 
 # TODO: Import the custom service type STMSetControlType
 # from stm_interfaces.srv import STMSetControlType
-from stm_interfaces.srv import STMSetControlType
+from stm_interfaces.srv import  STMSetControlType
 
 # 2. Define the STMControlNode class
 class STMControlNode(Node):

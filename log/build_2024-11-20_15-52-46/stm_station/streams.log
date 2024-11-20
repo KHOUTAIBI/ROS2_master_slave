@@ -1,0 +1,53 @@
+[2.526s] Invoking command in '/home/iliass/ros2_athens_ws/src/stm_station': PYTHONPATH=/home/iliass/ros2_athens_ws/build/stm_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stm_station build --build-base /home/iliass/ros2_athens_ws/build/stm_station/build install --record /home/iliass/ros2_athens_ws/build/stm_station/install.log --install-scripts $base/lib/stm_station --single-version-externally-managed install_data
+[2.826s] running egg_info
+[2.827s] creating ../../build/stm_station/stm_station.egg-info
+[2.828s] writing ../../build/stm_station/stm_station.egg-info/PKG-INFO
+[2.828s] writing dependency_links to ../../build/stm_station/stm_station.egg-info/dependency_links.txt
+[2.829s] writing entry points to ../../build/stm_station/stm_station.egg-info/entry_points.txt
+[2.829s] writing requirements to ../../build/stm_station/stm_station.egg-info/requires.txt
+[2.829s] writing top-level names to ../../build/stm_station/stm_station.egg-info/top_level.txt
+[2.830s] writing manifest file '../../build/stm_station/stm_station.egg-info/SOURCES.txt'
+[2.861s] reading manifest file '../../build/stm_station/stm_station.egg-info/SOURCES.txt'
+[2.862s] writing manifest file '../../build/stm_station/stm_station.egg-info/SOURCES.txt'
+[2.862s] running build
+[2.863s] running build_py
+[2.863s] creating /home/iliass/ros2_athens_ws/build/stm_station/build
+[2.863s] creating /home/iliass/ros2_athens_ws/build/stm_station/build/lib
+[2.863s] creating /home/iliass/ros2_athens_ws/build/stm_station/build/lib/stm_station
+[2.863s] copying stm_station/__init__.py -> /home/iliass/ros2_athens_ws/build/stm_station/build/lib/stm_station
+[2.863s] copying stm_station/stm_serial_communication.py -> /home/iliass/ros2_athens_ws/build/stm_station/build/lib/stm_station
+[2.863s] copying stm_station/stm_control_node_poscontrol.py -> /home/iliass/ros2_athens_ws/build/stm_station/build/lib/stm_station
+[2.864s] copying stm_station/stm_serial_node.py -> /home/iliass/ros2_athens_ws/build/stm_station/build/lib/stm_station
+[2.864s] copying stm_station/stm_serial_node_pub_sub.py -> /home/iliass/ros2_athens_ws/build/stm_station/build/lib/stm_station
+[2.864s] running install
+[2.864s] running install_lib
+[2.865s] creating /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station
+[2.865s] copying /home/iliass/ros2_athens_ws/build/stm_station/build/lib/stm_station/__init__.py -> /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station
+[2.866s] copying /home/iliass/ros2_athens_ws/build/stm_station/build/lib/stm_station/stm_serial_communication.py -> /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station
+[2.866s] copying /home/iliass/ros2_athens_ws/build/stm_station/build/lib/stm_station/stm_control_node_poscontrol.py -> /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station
+[2.866s] copying /home/iliass/ros2_athens_ws/build/stm_station/build/lib/stm_station/stm_serial_node.py -> /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station
+[2.866s] copying /home/iliass/ros2_athens_ws/build/stm_station/build/lib/stm_station/stm_serial_node_pub_sub.py -> /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station
+[2.866s] byte-compiling /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/__init__.py to __init__.cpython-38.pyc
+[2.867s] byte-compiling /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/stm_serial_communication.py to stm_serial_communication.cpython-38.pyc
+[2.869s] byte-compiling /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/stm_control_node_poscontrol.py to stm_control_node_poscontrol.cpython-38.pyc
+[2.869s] byte-compiling /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/stm_serial_node.py to stm_serial_node.cpython-38.pyc
+[2.869s]   File "/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/stm_control_node_poscontrol.py", line 17
+[2.869s]     from stm_interfaces.srv import
+[2.869s]                                    ^
+[2.869s] SyntaxError: invalid syntax
+[2.869s] 
+[2.870s] byte-compiling /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/stm_serial_node_pub_sub.py to stm_serial_node_pub_sub.cpython-38.pyc
+[2.871s] running install_data
+[2.871s] creating /home/iliass/ros2_athens_ws/install/stm_station/share/ament_index
+[2.871s] creating /home/iliass/ros2_athens_ws/install/stm_station/share/ament_index/resource_index
+[2.872s] creating /home/iliass/ros2_athens_ws/install/stm_station/share/ament_index/resource_index/packages
+[2.872s] copying resource/stm_station -> /home/iliass/ros2_athens_ws/install/stm_station/share/ament_index/resource_index/packages
+[2.872s] copying package.xml -> /home/iliass/ros2_athens_ws/install/stm_station/share/stm_station
+[2.872s] running install_egg_info
+[2.873s] Copying ../../build/stm_station/stm_station.egg-info to /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station-0.0.0-py3.8.egg-info
+[2.874s] running install_scripts
+[2.892s] Installing stm_control_node_poscontrol script to /home/iliass/ros2_athens_ws/install/stm_station/lib/stm_station
+[2.892s] Installing stm_serial_node script to /home/iliass/ros2_athens_ws/install/stm_station/lib/stm_station
+[2.893s] Installing stm_serial_node_pub_sub script to /home/iliass/ros2_athens_ws/install/stm_station/lib/stm_station
+[2.893s] writing list of installed files to '/home/iliass/ros2_athens_ws/build/stm_station/install.log'
+[2.914s] Invoked command in '/home/iliass/ros2_athens_ws/src/stm_station' returned '0': PYTHONPATH=/home/iliass/ros2_athens_ws/build/stm_station/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_package/lib/python3.8/site-packages:/home/iliass/ros2_athens_ws/install/first_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/stm_station build --build-base /home/iliass/ros2_athens_ws/build/stm_station/build install --record /home/iliass/ros2_athens_ws/build/stm_station/install.log --install-scripts $base/lib/stm_station --single-version-externally-managed install_data

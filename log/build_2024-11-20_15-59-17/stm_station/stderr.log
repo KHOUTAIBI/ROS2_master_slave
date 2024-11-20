@@ -1,0 +1,5 @@
+  File "/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/stm_control_node_poscontrol.py", line 12
+    from stm_interfaces.
+                        ^
+SyntaxError: invalid syntax
+

@@ -1,0 +1,281 @@
+[0.022s] Invoking command in '/home/iliass/ros2_athens_ws/build/stm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake /home/iliass/ros2_athens_ws/src/stm_interfaces -DCMAKE_INSTALL_PREFIX=/home/iliass/ros2_athens_ws/install/stm_interfaces
+[0.446s] -- The C compiler identification is GNU 9.4.0
+[0.691s] -- The CXX compiler identification is GNU 9.4.0
+[0.989s] -- Check for working C compiler: /usr/bin/cc
+[1.313s] -- Check for working C compiler: /usr/bin/cc -- works
+[1.315s] -- Detecting C compiler ABI info
+[1.611s] -- Detecting C compiler ABI info - done
+[1.627s] -- Detecting C compile features
+[1.628s] -- Detecting C compile features - done
+[1.631s] -- Check for working CXX compiler: /usr/bin/c++
+[1.975s] -- Check for working CXX compiler: /usr/bin/c++ -- works
+[1.976s] -- Detecting CXX compiler ABI info
+[2.260s] -- Detecting CXX compiler ABI info - done
+[2.274s] -- Detecting CXX compile features
+[2.275s] -- Detecting CXX compile features - done
+[2.277s] -- Found ament_cmake: 0.9.12 (/opt/ros/foxy/share/ament_cmake/cmake)
+[2.302s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[2.302s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[2.485s] -- Found std_msgs: 2.0.5 (/opt/ros/foxy/share/std_msgs/cmake)
+[2.617s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.623s] -- Found rosidl_adapter: 1.3.1 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[5.145s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  
+[8.936s] -- Found FastRTPS: /opt/ros/foxy/include  
+[14.632s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[14.685s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[14.719s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[14.852s] -- Found ament_cmake_ros: 0.9.2 (/opt/ros/foxy/share/ament_cmake_ros/cmake)
+[25.805s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[25.844s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[25.893s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3.5") 
+[25.894s] -- Found python_cmake_module: 0.8.1 (/opt/ros/foxy/share/python_cmake_module/cmake)
+[26.617s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3.5") 
+[26.618s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[26.618s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8
+[26.618s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so
+[26.661s] -- Found PythonExtra: .so  
+[26.817s] -- Found ament_lint_auto: 0.9.8 (/opt/ros/foxy/share/ament_lint_auto/cmake)
+[26.843s] -- Added test 'copyright' to check source files copyright and LICENSE
+[26.845s] -- Added test 'lint_cmake' to check CMake code style
+[26.847s] -- Added test 'xmllint' to check XML markup files
+[26.851s] -- Configuring done
+[26.888s] -- Generating done
+[26.892s] -- Build files have been written to: /home/iliass/ros2_athens_ws/build/stm_interfaces
+[26.901s] Invoked command in '/home/iliass/ros2_athens_ws/build/stm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake /home/iliass/ros2_athens_ws/src/stm_interfaces -DCMAKE_INSTALL_PREFIX=/home/iliass/ros2_athens_ws/install/stm_interfaces
+[26.907s] Invoking command in '/home/iliass/ros2_athens_ws/build/stm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --build /home/iliass/ros2_athens_ws/build/stm_interfaces -- -j16 -l16
+[26.916s] make[1]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[26.942s] make[2]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[26.943s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[26.944s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[26.953s] [  3%] [34m[1mGenerating C code for ROS interfaces[0m
+[26.953s] [35m[1mScanning dependencies of target stm_interfaces__cpp[0m
+[26.954s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[26.956s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[26.964s] [  6%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[27.420s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.430s] [  6%] Built target stm_interfaces__cpp
+[27.433s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.433s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.434s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.443s] [  9%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[27.444s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[27.444s] [35m[1mScanning dependencies of target stm_interfaces__rosidl_generator_c[0m
+[27.447s] [ 16%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[27.448s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.451s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.463s] [ 19%] [32mBuilding C object CMakeFiles/stm_interfaces__rosidl_generator_c.dir/rosidl_generator_c/stm_interfaces/srv/detail/stm_set_control_type__functions.c.o[0m
+[27.555s] [ 22%] [32m[1mLinking C shared library libstm_interfaces__rosidl_generator_c.so[0m
+[27.749s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.765s] [ 22%] Built target stm_interfaces__rosidl_generator_c
+[27.768s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.769s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.781s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[27.787s] [ 29%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[27.932s] [35m[1mScanning dependencies of target stm_interfaces__rosidl_typesupport_cpp[0m
+[27.938s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.941s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.959s] [ 32%] [32mBuilding CXX object CMakeFiles/stm_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/stm_interfaces/srv/stm_set_control_type__type_support.cpp.o[0m
+[27.973s] [35m[1mScanning dependencies of target stm_interfaces__rosidl_typesupport_introspection_cpp[0m
+[27.976s] [35m[1mScanning dependencies of target stm_interfaces__rosidl_typesupport_fastrtps_cpp[0m
+[27.978s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.981s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.984s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.988s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[27.998s] [ 35%] [32mBuilding CXX object CMakeFiles/stm_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/stm_interfaces/srv/detail/stm_set_control_type__type_support.cpp.o[0m
+[27.999s] [ 38%] [32mBuilding CXX object CMakeFiles/stm_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/stm_interfaces/srv/detail/dds_fastrtps/stm_set_control_type__type_support.cpp.o[0m
+[28.275s] [35m[1mScanning dependencies of target stm_interfaces__rosidl_typesupport_c[0m
+[28.278s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[28.280s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[28.294s] [ 41%] [32mBuilding CXX object CMakeFiles/stm_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/stm_interfaces/srv/stm_set_control_type__type_support.cpp.o[0m
+[28.341s] [ 45%] [32m[1mLinking CXX shared library libstm_interfaces__rosidl_typesupport_c.so[0m
+[28.354s] [35m[1mScanning dependencies of target stm_interfaces__rosidl_typesupport_introspection_c[0m
+[28.358s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[28.362s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[28.375s] [ 48%] [32mBuilding C object CMakeFiles/stm_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/stm_interfaces/srv/detail/stm_set_control_type__type_support.c.o[0m
+[28.431s] [ 51%] [32m[1mLinking C shared library libstm_interfaces__rosidl_typesupport_introspection_c.so[0m
+[28.475s] [ 54%] [32m[1mLinking CXX shared library libstm_interfaces__rosidl_typesupport_cpp.so[0m
+[28.499s] [ 58%] [32m[1mLinking CXX shared library libstm_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[28.537s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[28.549s] [ 58%] Built target stm_interfaces__rosidl_typesupport_c
+[28.614s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[28.629s] [ 58%] Built target stm_interfaces__rosidl_typesupport_introspection_c
+[28.677s] [ 61%] [32m[1mLinking CXX shared library libstm_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[28.681s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[28.694s] [ 61%] Built target stm_interfaces__rosidl_typesupport_cpp
+[28.695s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[28.703s] [ 61%] Built target stm_interfaces__rosidl_typesupport_introspection_cpp
+[29.100s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[29.110s] [ 61%] Built target stm_interfaces__rosidl_typesupport_fastrtps_cpp
+[29.112s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[29.120s] [ 64%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[29.421s] [35m[1mScanning dependencies of target stm_interfaces__rosidl_typesupport_fastrtps_c[0m
+[29.429s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[29.431s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[29.440s] [ 67%] [32mBuilding CXX object CMakeFiles/stm_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/stm_interfaces/srv/detail/stm_set_control_type__type_support_c.cpp.o[0m
+[29.782s] [ 70%] [32m[1mLinking CXX shared library libstm_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[30.068s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[30.080s] [ 70%] Built target stm_interfaces__rosidl_typesupport_fastrtps_c
+[30.082s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[30.094s] [35m[1mScanning dependencies of target stm_interfaces[0m
+[30.095s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[30.106s] [ 70%] Built target stm_interfaces
+[30.109s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[30.118s] [35m[1mScanning dependencies of target stm_interfaces__py[0m
+[30.119s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[30.121s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[30.130s] [ 74%] [34m[1mGenerating Python code for ROS interfaces[0m
+[30.828s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[30.832s] [ 74%] Built target stm_interfaces__py
+[30.834s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[30.843s] [35m[1mScanning dependencies of target stm_interfaces__python[0m
+[30.853s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[30.856s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[30.866s] [ 77%] [32mBuilding C object CMakeFiles/stm_interfaces__python.dir/rosidl_generator_py/stm_interfaces/srv/_stm_set_control_type_s.c.o[0m
+[31.010s] [ 80%] [32m[1mLinking C shared library rosidl_generator_py/stm_interfaces/libstm_interfaces__python.so[0m
+[31.379s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.392s] [ 80%] Built target stm_interfaces__python
+[31.396s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.396s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.396s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.405s] [35m[1mScanning dependencies of target stm_interfaces__rosidl_typesupport_c__pyext[0m
+[31.406s] [35m[1mScanning dependencies of target stm_interfaces__rosidl_typesupport_introspection_c__pyext[0m
+[31.406s] [35m[1mScanning dependencies of target stm_interfaces__rosidl_typesupport_fastrtps_c__pyext[0m
+[31.413s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.414s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.415s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.416s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.418s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.419s] make[3]: Entering directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.427s] [ 83%] [32mBuilding C object CMakeFiles/stm_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/stm_interfaces/_stm_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[31.429s] [ 87%] [32mBuilding C object CMakeFiles/stm_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/stm_interfaces/_stm_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[31.431s] [ 90%] [32mBuilding C object CMakeFiles/stm_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/stm_interfaces/_stm_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[31.527s] [ 93%] [32m[1mLinking CXX shared library rosidl_generator_py/stm_interfaces/stm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so[0m
+[31.529s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/stm_interfaces/stm_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so[0m
+[31.530s] [100%] [32m[1mLinking C shared library rosidl_generator_py/stm_interfaces/stm_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so[0m
+[31.672s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.673s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.685s] [100%] Built target stm_interfaces__rosidl_typesupport_c__pyext
+[31.685s] [100%] Built target stm_interfaces__rosidl_typesupport_introspection_c__pyext
+[31.707s] make[3]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.720s] [100%] Built target stm_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[31.721s] make[2]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.732s] make[1]: Leaving directory '/home/iliass/ros2_athens_ws/build/stm_interfaces'
+[31.735s] Invoked command in '/home/iliass/ros2_athens_ws/build/stm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --build /home/iliass/ros2_athens_ws/build/stm_interfaces -- -j16 -l16
+[31.799s] Invoking command in '/home/iliass/ros2_athens_ws/build/stm_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --install /home/iliass/ros2_athens_ws/build/stm_interfaces
+[31.809s] -- Install configuration: ""
+[31.809s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/ament_index/resource_index/rosidl_interfaces/stm_interfaces
+[31.810s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces
+[31.810s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv
+[31.810s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail
+[31.810s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__functions.h
+[31.810s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__struct.h
+[31.810s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__functions.c
+[31.810s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__type_support.h
+[31.810s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/stm_set_control_type.h
+[31.811s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg
+[31.811s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_generator_c__visibility_control.h
+[31.812s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/library_path.sh
+[31.812s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/library_path.dsv
+[31.812s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_generator_c.so
+[31.812s] -- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_generator_c.so" to ""
+[31.813s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces
+[31.813s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv
+[31.813s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail
+[31.813s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__rosidl_typesupport_fastrtps_c.h
+[31.813s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg
+[31.813s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[31.813s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_fastrtps_c.so
+[31.813s] -- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[31.813s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces
+[31.814s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv
+[31.814s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail
+[31.814s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__rosidl_typesupport_fastrtps_cpp.hpp
+[31.814s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/dds_fastrtps
+[31.814s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg
+[31.814s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[31.814s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[31.815s] -- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[31.815s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces
+[31.815s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv
+[31.815s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail
+[31.815s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__type_support.c
+[31.815s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__rosidl_typesupport_introspection_c.h
+[31.815s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg
+[31.815s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[31.815s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_introspection_c.so
+[31.815s] -- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[31.815s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_c.so
+[31.816s] -- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_c.so" to ""
+[31.816s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces
+[31.817s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv
+[31.817s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail
+[31.818s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__builder.hpp
+[31.818s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__traits.hpp
+[31.818s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__type_support.hpp
+[31.818s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__struct.hpp
+[31.819s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/stm_set_control_type.hpp
+[31.820s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg
+[31.820s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[31.820s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces
+[31.821s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv
+[31.821s] -- Up-to-date: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail
+[31.821s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__rosidl_typesupport_introspection_cpp.hpp
+[31.821s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/include/stm_interfaces/srv/detail/stm_set_control_type__type_support.cpp
+[31.821s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_introspection_cpp.so
+[31.821s] -- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[31.821s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_cpp.so
+[31.821s] -- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__rosidl_typesupport_cpp.so" to ""
+[31.821s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/pythonpath.sh
+[31.821s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/pythonpath.dsv
+[31.822s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/__init__.py
+[31.880s] Compiling '/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/__init__.py'...
+[31.886s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv
+[31.887s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/_stm_set_control_type.py
+[31.887s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/_stm_set_control_type_s.c
+[31.887s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/srv/__init__.py
+[31.888s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so
+[31.888s] -- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""
+[31.888s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so
+[31.889s] -- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""
+[31.890s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so
+[31.890s] -- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/python3.8/site-packages/stm_interfaces/stm_interfaces_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""
+[31.890s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__python.so
+[31.891s] -- Set runtime path of "/home/iliass/ros2_athens_ws/install/stm_interfaces/lib/libstm_interfaces__python.so" to ""
+[31.891s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/srv/STMSetControlType.idl
+[31.891s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/srv/STMSetControlType.srv
+[31.892s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/srv/STMSetControlType_Request.msg
+[31.892s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/srv/STMSetControlType_Response.msg
+[31.892s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/ament_index/resource_index/package_run_dependencies/stm_interfaces
+[31.892s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/ament_index/resource_index/parent_prefix_path/stm_interfaces
+[31.892s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/ament_prefix_path.sh
+[31.893s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/ament_prefix_path.dsv
+[31.893s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/path.sh
+[31.893s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/environment/path.dsv
+[31.893s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/local_setup.bash
+[31.893s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/local_setup.sh
+[31.894s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/local_setup.zsh
+[31.894s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/local_setup.dsv
+[31.894s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/package.dsv
+[31.894s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/ament_index/resource_index/packages/stm_interfaces
+[31.894s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_generator_cExport.cmake
+[31.895s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_generator_cExport-noconfig.cmake
+[31.895s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[31.895s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[31.895s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_cExport.cmake
+[31.896s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[31.896s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_generator_cppExport.cmake
+[31.896s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[31.896s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[31.896s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_cppExport.cmake
+[31.897s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[31.897s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/rosidl_cmake-extras.cmake
+[31.897s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[31.897s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[31.897s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[31.898s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[31.898s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[31.898s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[31.898s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfacesConfig.cmake
+[31.898s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/cmake/stm_interfacesConfig-version.cmake
+[31.898s] -- Installing: /home/iliass/ros2_athens_ws/install/stm_interfaces/share/stm_interfaces/package.xml
+[31.901s] Invoked command in '/home/iliass/ros2_athens_ws/build/stm_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/iliass/ros2_athens_ws/install/stm_station:/home/iliass/ros2_athens_ws/install/first_package:/opt/ros/foxy /usr/bin/cmake --install /home/iliass/ros2_athens_ws/build/stm_interfaces

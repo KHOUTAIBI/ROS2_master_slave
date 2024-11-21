@@ -7,6 +7,3 @@ float32 accel_z         	 # Acceleration in z-axis
 float32 gyro_x          	 # Gyroscope reading in x-axis
 float32 gyro_y          	 # Gyroscope reading in y-axis
 float32 gyro_z          	 # Gyroscope reading in z-axis
-float32 angle_x         	 # Angle in x-axis
-float32 angle_y         	 # Angle in y-axis
-float32 angle_z         	 # Angle in z-axis

@@ -34,9 +34,6 @@ stm_interfaces__msg__STMState__init(stm_interfaces__msg__STMState * msg)
   // gyro_x
   // gyro_y
   // gyro_z
-  // angle_x
-  // angle_y
-  // angle_z
   return true;
 }
 
@@ -56,9 +53,6 @@ stm_interfaces__msg__STMState__fini(stm_interfaces__msg__STMState * msg)
   // gyro_x
   // gyro_y
   // gyro_z
-  // angle_x
-  // angle_y
-  // angle_z
 }
 
 bool
@@ -105,18 +99,6 @@ stm_interfaces__msg__STMState__are_equal(const stm_interfaces__msg__STMState * l
   if (lhs->gyro_z != rhs->gyro_z) {
     return false;
   }
-  // angle_x
-  if (lhs->angle_x != rhs->angle_x) {
-    return false;
-  }
-  // angle_y
-  if (lhs->angle_y != rhs->angle_y) {
-    return false;
-  }
-  // angle_z
-  if (lhs->angle_z != rhs->angle_z) {
-    return false;
-  }
   return true;
 }
 
@@ -150,12 +132,6 @@ stm_interfaces__msg__STMState__copy(
   output->gyro_y = input->gyro_y;
   // gyro_z
   output->gyro_z = input->gyro_z;
-  // angle_x
-  output->angle_x = input->angle_x;
-  // angle_y
-  output->angle_y = input->angle_y;
-  // angle_z
-  output->angle_z = input->angle_z;
   return true;
 }
 

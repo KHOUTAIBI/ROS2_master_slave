@@ -20,17 +20,16 @@ find_package(ament_cmake REQUIRED)
 find_package(std_msgs REQUIRED)
 find_package(rosidl_default_generators REQUIRED)
 
-set(msg_files
-  "msg/STMControl.msg"
-  "msg/STMState.msg"
-)
-set(srv
-  "srv/STMSetControlType.srv"
-)
+# Declare the list of messages you want to generate:
+set(msg_srv_files "msg/STMControl.msg"
+              "msg/STMState.msg"
+              "srv/STMSetControlType.srv")
 
-rosidl_generate_interfaces(${PROJECT_NAME} 
-        ${msg_files}
-        ${srv})
+# Generate the messages:
+rosidl_generate_interfaces(${PROJECT_NAME} ${msg_srv_files})
+
+# Also make sure you export the message runtime dependency:​
+ament_export_dependencies(rosidl_default_runtime)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)

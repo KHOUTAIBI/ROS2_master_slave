@@ -66,9 +66,6 @@ class STMState(metaclass=Metaclass_STMState):
         '_gyro_x',
         '_gyro_y',
         '_gyro_z',
-        '_angle_x',
-        '_angle_y',
-        '_angle_z',
     ]
 
     _fields_and_field_types = {
@@ -81,16 +78,10 @@ class STMState(metaclass=Metaclass_STMState):
         'gyro_x': 'float',
         'gyro_y': 'float',
         'gyro_z': 'float',
-        'angle_x': 'float',
-        'angle_y': 'float',
-        'angle_z': 'float',
     }
 
     SLOT_TYPES = (
         rosidl_parser.definition.NamespacedType(['std_msgs', 'msg'], 'Header'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
-        rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
         rosidl_parser.definition.BasicType('float'),  # noqa: E501
@@ -115,9 +106,6 @@ class STMState(metaclass=Metaclass_STMState):
         self.gyro_x = kwargs.get('gyro_x', float())
         self.gyro_y = kwargs.get('gyro_y', float())
         self.gyro_z = kwargs.get('gyro_z', float())
-        self.angle_x = kwargs.get('angle_x', float())
-        self.angle_y = kwargs.get('angle_y', float())
-        self.angle_z = kwargs.get('angle_z', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -165,12 +153,6 @@ class STMState(metaclass=Metaclass_STMState):
         if self.gyro_y != other.gyro_y:
             return False
         if self.gyro_z != other.gyro_z:
-            return False
-        if self.angle_x != other.angle_x:
-            return False
-        if self.angle_y != other.angle_y:
-            return False
-        if self.angle_z != other.angle_z:
             return False
         return True
 
@@ -296,42 +278,3 @@ class STMState(metaclass=Metaclass_STMState):
                 isinstance(value, float), \
                 "The 'gyro_z' field must be of type 'float'"
         self._gyro_z = value
-
-    @property
-    def angle_x(self):
-        """Message field 'angle_x'."""
-        return self._angle_x
-
-    @angle_x.setter
-    def angle_x(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'angle_x' field must be of type 'float'"
-        self._angle_x = value
-
-    @property
-    def angle_y(self):
-        """Message field 'angle_y'."""
-        return self._angle_y
-
-    @angle_y.setter
-    def angle_y(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'angle_y' field must be of type 'float'"
-        self._angle_y = value
-
-    @property
-    def angle_z(self):
-        """Message field 'angle_z'."""
-        return self._angle_z
-
-    @angle_z.setter
-    def angle_z(self, value):
-        if __debug__:
-            assert \
-                isinstance(value, float), \
-                "The 'angle_z' field must be of type 'float'"
-        self._angle_z = value

@@ -33,9 +33,6 @@ typedef struct stm_interfaces__msg__STMState
   float gyro_x;
   float gyro_y;
   float gyro_z;
-  float angle_x;
-  float angle_y;
-  float angle_z;
 } stm_interfaces__msg__STMState;
 
 // Struct for a sequence of stm_interfaces__msg__STMState.

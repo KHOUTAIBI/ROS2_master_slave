@@ -3,6 +3,8 @@ from tkinter import ttk, messagebox
 import serial
 import threading
 import time
+from stm_interfaces.msg import STMState 
+
 
 class SerialInterface:
     def __init__(self, port='/dev/ttyACM0', baudrate=115_200, callback=None):

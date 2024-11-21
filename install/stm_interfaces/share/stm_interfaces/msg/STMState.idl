@@ -42,18 +42,6 @@ module stm_interfaces {
       @verbatim (language="comment", text=
         " Gyroscope reading in z-axis")
       float gyro_z;
-
-      @verbatim (language="comment", text=
-        " Angle in x-axis")
-      float angle_x;
-
-      @verbatim (language="comment", text=
-        " Angle in y-axis")
-      float angle_y;
-
-      @verbatim (language="comment", text=
-        " Angle in z-axis")
-      float angle_z;
     };
   };
 };

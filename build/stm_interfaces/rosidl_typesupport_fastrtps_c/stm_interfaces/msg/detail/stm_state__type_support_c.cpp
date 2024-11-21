@@ -117,21 +117,6 @@ static bool _STMState__cdr_serialize(
     cdr << ros_message->gyro_z;
   }
 
-  // Field name: angle_x
-  {
-    cdr << ros_message->angle_x;
-  }
-
-  // Field name: angle_y
-  {
-    cdr << ros_message->angle_y;
-  }
-
-  // Field name: angle_z
-  {
-    cdr << ros_message->angle_z;
-  }
-
   return true;
 }
 
@@ -196,21 +181,6 @@ static bool _STMState__cdr_deserialize(
   // Field name: gyro_z
   {
     cdr >> ros_message->gyro_z;
-  }
-
-  // Field name: angle_x
-  {
-    cdr >> ros_message->angle_x;
-  }
-
-  // Field name: angle_y
-  {
-    cdr >> ros_message->angle_y;
-  }
-
-  // Field name: angle_z
-  {
-    cdr >> ros_message->angle_z;
   }
 
   return true;
@@ -279,24 +249,6 @@ size_t get_serialized_size_stm_interfaces__msg__STMState(
   // field.name gyro_z
   {
     size_t item_size = sizeof(ros_message->gyro_z);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name angle_x
-  {
-    size_t item_size = sizeof(ros_message->angle_x);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name angle_y
-  {
-    size_t item_size = sizeof(ros_message->angle_y);
-    current_alignment += item_size +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
-  }
-  // field.name angle_z
-  {
-    size_t item_size = sizeof(ros_message->angle_z);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -385,27 +337,6 @@ size_t max_serialized_size_stm_interfaces__msg__STMState(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
   }
   // member: gyro_z
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-  // member: angle_x
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-  // member: angle_y
-  {
-    size_t array_size = 1;
-
-    current_alignment += array_size * sizeof(uint32_t) +
-      eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint32_t));
-  }
-  // member: angle_z
   {
     size_t array_size = 1;
 

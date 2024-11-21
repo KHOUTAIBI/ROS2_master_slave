@@ -8,7 +8,9 @@ from rclpy.node import Node
 from std_msgs.msg import Float32MultiArray  # Standard message type for arrays
 import serial
 import numpy as np
+from stm_interfaces.msg import STMControl
 
+print(STMControl())
 class SerialPublisherNode(Node):
     def __init__(self):
         """

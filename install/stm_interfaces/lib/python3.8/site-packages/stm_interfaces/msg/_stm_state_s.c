@@ -137,33 +137,6 @@ bool stm_interfaces__msg__stm_state__convert_from_py(PyObject * _pymsg, void * _
     ros_message->gyro_z = (float)PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // angle_x
-    PyObject * field = PyObject_GetAttrString(_pymsg, "angle_x");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->angle_x = (float)PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
-  {  // angle_y
-    PyObject * field = PyObject_GetAttrString(_pymsg, "angle_y");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->angle_y = (float)PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
-  {  // angle_z
-    PyObject * field = PyObject_GetAttrString(_pymsg, "angle_z");
-    if (!field) {
-      return false;
-    }
-    assert(PyFloat_Check(field));
-    ros_message->angle_z = (float)PyFloat_AS_DOUBLE(field);
-    Py_DECREF(field);
-  }
 
   return true;
 }
@@ -282,39 +255,6 @@ PyObject * stm_interfaces__msg__stm_state__convert_to_py(void * raw_ros_message)
     field = PyFloat_FromDouble(ros_message->gyro_z);
     {
       int rc = PyObject_SetAttrString(_pymessage, "gyro_z", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // angle_x
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->angle_x);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "angle_x", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // angle_y
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->angle_y);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "angle_y", field);
-      Py_DECREF(field);
-      if (rc) {
-        return NULL;
-      }
-    }
-  }
-  {  // angle_z
-    PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->angle_z);
-    {
-      int rc = PyObject_SetAttrString(_pymessage, "angle_z", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

@@ -9,6 +9,7 @@ from std_msgs.msg import Float32MultiArray  # Standard message type for arrays
 import serial
 import numpy as np
 
+
 class SerialPublisherNode(Node):
     def __init__(self):
         """

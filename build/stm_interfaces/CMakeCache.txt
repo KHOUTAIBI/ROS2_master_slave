@@ -399,6 +399,12 @@ fastrtps_DIR:PATH=/opt/ros/foxy/share/fastrtps/cmake
 //The directory containing a CMake configuration file for fastrtps_cmake_module.
 fastrtps_cmake_module_DIR:PATH=/opt/ros/foxy/share/fastrtps_cmake_module/cmake
 
+//Value Computed by CMake
+first_interfaces_BINARY_DIR:STATIC=/home/iliass/ros2_athens_ws/build/stm_interfaces
+
+//Value Computed by CMake
+first_interfaces_SOURCE_DIR:STATIC=/home/iliass/ros2_athens_ws/src/stm_interfaces
+
 //The directory containing a CMake configuration file for foonathan_memory.
 foonathan_memory_DIR:PATH=/opt/ros/foxy/lib/foonathan_memory/cmake
 

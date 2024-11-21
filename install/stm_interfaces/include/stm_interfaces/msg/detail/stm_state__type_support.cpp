@@ -37,7 +37,7 @@ void STMState_fini_function(void * message_memory)
   typed_message->~STMState();
 }
 
-static const ::rosidl_typesupport_introspection_cpp::MessageMember STMState_message_member_array[12] = {
+static const ::rosidl_typesupport_introspection_cpp::MessageMember STMState_message_member_array[9] = {
   {
     "header",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_MESSAGE,  // type
@@ -172,58 +172,13 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember STMState_mess
     nullptr,  // get_const(index) function pointer
     nullptr,  // get(index) function pointer
     nullptr  // resize(index) function pointer
-  },
-  {
-    "angle_x",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(stm_interfaces::msg::STMState, angle_x),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "angle_y",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(stm_interfaces::msg::STMState, angle_y),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr  // resize(index) function pointer
-  },
-  {
-    "angle_z",  // name
-    ::rosidl_typesupport_introspection_cpp::ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    nullptr,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(stm_interfaces::msg::STMState, angle_z),  // bytes offset in struct
-    nullptr,  // default value
-    nullptr,  // size() function pointer
-    nullptr,  // get_const(index) function pointer
-    nullptr,  // get(index) function pointer
-    nullptr  // resize(index) function pointer
   }
 };
 
 static const ::rosidl_typesupport_introspection_cpp::MessageMembers STMState_message_members = {
   "stm_interfaces::msg",  // message namespace
   "STMState",  // message name
-  12,  // number of fields
+  9,  // number of fields
   sizeof(stm_interfaces::msg::STMState),
   STMState_message_member_array,  // message members
   STMState_init_function,  // function to initialize message memory (memory has to be allocated)

@@ -20,64 +20,16 @@ namespace msg
 namespace builder
 {
 
-class Init_STMState_angle_z
-{
-public:
-  explicit Init_STMState_angle_z(::stm_interfaces::msg::STMState & msg)
-  : msg_(msg)
-  {}
-  ::stm_interfaces::msg::STMState angle_z(::stm_interfaces::msg::STMState::_angle_z_type arg)
-  {
-    msg_.angle_z = std::move(arg);
-    return std::move(msg_);
-  }
-
-private:
-  ::stm_interfaces::msg::STMState msg_;
-};
-
-class Init_STMState_angle_y
-{
-public:
-  explicit Init_STMState_angle_y(::stm_interfaces::msg::STMState & msg)
-  : msg_(msg)
-  {}
-  Init_STMState_angle_z angle_y(::stm_interfaces::msg::STMState::_angle_y_type arg)
-  {
-    msg_.angle_y = std::move(arg);
-    return Init_STMState_angle_z(msg_);
-  }
-
-private:
-  ::stm_interfaces::msg::STMState msg_;
-};
-
-class Init_STMState_angle_x
-{
-public:
-  explicit Init_STMState_angle_x(::stm_interfaces::msg::STMState & msg)
-  : msg_(msg)
-  {}
-  Init_STMState_angle_y angle_x(::stm_interfaces::msg::STMState::_angle_x_type arg)
-  {
-    msg_.angle_x = std::move(arg);
-    return Init_STMState_angle_y(msg_);
-  }
-
-private:
-  ::stm_interfaces::msg::STMState msg_;
-};
-
 class Init_STMState_gyro_z
 {
 public:
   explicit Init_STMState_gyro_z(::stm_interfaces::msg::STMState & msg)
   : msg_(msg)
   {}
-  Init_STMState_angle_x gyro_z(::stm_interfaces::msg::STMState::_gyro_z_type arg)
+  ::stm_interfaces::msg::STMState gyro_z(::stm_interfaces::msg::STMState::_gyro_z_type arg)
   {
     msg_.gyro_z = std::move(arg);
-    return Init_STMState_angle_x(msg_);
+    return std::move(msg_);
   }
 
 private:

@@ -50,9 +50,6 @@ struct STMState_
       this->gyro_x = 0.0f;
       this->gyro_y = 0.0f;
       this->gyro_z = 0.0f;
-      this->angle_x = 0.0f;
-      this->angle_y = 0.0f;
-      this->angle_z = 0.0f;
     }
   }
 
@@ -70,9 +67,6 @@ struct STMState_
       this->gyro_x = 0.0f;
       this->gyro_y = 0.0f;
       this->gyro_z = 0.0f;
-      this->angle_x = 0.0f;
-      this->angle_y = 0.0f;
-      this->angle_z = 0.0f;
     }
   }
 
@@ -104,15 +98,6 @@ struct STMState_
   using _gyro_z_type =
     float;
   _gyro_z_type gyro_z;
-  using _angle_x_type =
-    float;
-  _angle_x_type angle_x;
-  using _angle_y_type =
-    float;
-  _angle_y_type angle_y;
-  using _angle_z_type =
-    float;
-  _angle_z_type angle_z;
 
   // setters for named parameter idiom
   Type & set__header(
@@ -167,24 +152,6 @@ struct STMState_
     const float & _arg)
   {
     this->gyro_z = _arg;
-    return *this;
-  }
-  Type & set__angle_x(
-    const float & _arg)
-  {
-    this->angle_x = _arg;
-    return *this;
-  }
-  Type & set__angle_y(
-    const float & _arg)
-  {
-    this->angle_y = _arg;
-    return *this;
-  }
-  Type & set__angle_z(
-    const float & _arg)
-  {
-    this->angle_z = _arg;
     return *this;
   }
 
@@ -255,15 +222,6 @@ struct STMState_
       return false;
     }
     if (this->gyro_z != other.gyro_z) {
-      return false;
-    }
-    if (this->angle_x != other.angle_x) {
-      return false;
-    }
-    if (this->angle_y != other.angle_y) {
-      return false;
-    }
-    if (this->angle_z != other.angle_z) {
       return false;
     }
     return true;

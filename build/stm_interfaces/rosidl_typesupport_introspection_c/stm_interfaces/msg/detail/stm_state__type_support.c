@@ -37,7 +37,7 @@ void STMState__rosidl_typesupport_introspection_c__STMState_fini_function(void *
   stm_interfaces__msg__STMState__fini(message_memory);
 }
 
-static rosidl_typesupport_introspection_c__MessageMember STMState__rosidl_typesupport_introspection_c__STMState_message_member_array[12] = {
+static rosidl_typesupport_introspection_c__MessageMember STMState__rosidl_typesupport_introspection_c__STMState_message_member_array[9] = {
   {
     "header",  // name
     rosidl_typesupport_introspection_c__ROS_TYPE_MESSAGE,  // type
@@ -172,58 +172,13 @@ static rosidl_typesupport_introspection_c__MessageMember STMState__rosidl_typesu
     NULL,  // get_const(index) function pointer
     NULL,  // get(index) function pointer
     NULL  // resize(index) function pointer
-  },
-  {
-    "angle_x",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(stm_interfaces__msg__STMState, angle_x),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "angle_y",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(stm_interfaces__msg__STMState, angle_y),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL  // resize(index) function pointer
-  },
-  {
-    "angle_z",  // name
-    rosidl_typesupport_introspection_c__ROS_TYPE_FLOAT,  // type
-    0,  // upper bound of string
-    NULL,  // members of sub message
-    false,  // is array
-    0,  // array size
-    false,  // is upper bound
-    offsetof(stm_interfaces__msg__STMState, angle_z),  // bytes offset in struct
-    NULL,  // default value
-    NULL,  // size() function pointer
-    NULL,  // get_const(index) function pointer
-    NULL,  // get(index) function pointer
-    NULL  // resize(index) function pointer
   }
 };
 
 static const rosidl_typesupport_introspection_c__MessageMembers STMState__rosidl_typesupport_introspection_c__STMState_message_members = {
   "stm_interfaces__msg",  // message namespace
   "STMState",  // message name
-  12,  // number of fields
+  9,  // number of fields
   sizeof(stm_interfaces__msg__STMState),
   STMState__rosidl_typesupport_introspection_c__STMState_message_member_array,  // message members
   STMState__rosidl_typesupport_introspection_c__STMState_init_function,  // function to initialize message memory (memory has to be allocated)

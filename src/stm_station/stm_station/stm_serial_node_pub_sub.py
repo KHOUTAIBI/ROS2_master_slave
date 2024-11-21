@@ -8,29 +8,31 @@ import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32MultiArray
 import serial
+import numpy as np
 
 class SerialPubSubNode(Node):
     def __init__(self):
         """
         Initialize the SerialPubSubNode with publishers, subscribers, and serial interface.
         """
-        super().__init__('stm_serial_node',namespace='/groupe_2')
+        super().__init__('stm_serial_node')
 
         # Get Serial Configuration Values 
-        self.port = '/dev/ttyACM1'
+        self.port = '/dev/ttyACM0'
         self.baudrate = 115200
         self.loop_frequency = 1000  # Hz
 
         # Create a publisher for Float32MultiArray messages
         # TODO: Create a publisher for 'serial_data' topic
-        self.data_publisher = self.create_publisher(Float32MultiArray,"topic_motor_2",10)
+        self.data_publisher = self.create_publisher(Float32MultiArray,"topic_1",10)
 
         # Create a subscriber for control commands
         # TODO: Create a subscriber for 'control_commands' topic with 'control_callback' as the callback
         self.control_subscriber = self.create_subscription(Float32MultiArray,
-                                                           "topic_motor",
+                                                           "topic_1",
                                                            self.control_callback,
                                                            10)
+        self.control_subscriber
 
         # Create a timer to read data periodically
         self.timer = self.create_timer(1 / self.loop_frequency, self.timer_callback)
@@ -70,7 +72,7 @@ class SerialPubSubNode(Node):
                     # Create a Float32MultiArray message
                     # TODO: Create and populate the Float32MultiArray message
                     array_msg = Float32MultiArray()
-                    array_msg.data = float(serial_data)
+                    array_msg.data = [float(data) for data in float_values]
                     # Publish the message
                     # TODO: Publish the array_msg
                     self.data_publisher.publish(array_msg)
@@ -92,8 +94,8 @@ class SerialPubSubNode(Node):
             # TODO: Send the serial data:
             # format: {control_type, goal_position, Kp, PWM}
             # control_type: 0 = Stop, 1 = Position Control (Close Loop), 2 = PWM Control (Open Loop)
-            control_data = f"{{{msg.control_type}, {msg.goal_position}, {msg.Kp}, {msg.PWM}}}"
-
+            # control_data = f"{{{msg.control_type}, {msg.goal_position}, {msg.Kp}, {msg.PWM}}}"
+            control_data = f"{{0, 0, 1, 250}}"
             # Send the control data to the serial device
             # TODO: Write the control data to the serial port
             self.serial_port.write((control_data + '\n').encode('utf-8'))

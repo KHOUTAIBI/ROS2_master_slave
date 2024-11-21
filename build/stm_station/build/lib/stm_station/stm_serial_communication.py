@@ -3,7 +3,7 @@ from tkinter import ttk, messagebox
 import serial
 import threading
 import time
-from stm_interfaces.msg import STMState 
+
 
 
 class SerialInterface:

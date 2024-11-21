@@ -23,6 +23,7 @@ setup(
             'stm_serial_node = stm_station.stm_serial_node:main',
             'stm_serial_node_pub_sub = stm_station.stm_serial_node_pub_sub:main',
             'stm_control_node_poscontrol = stm_station.stm_control_node_poscontrol:main',
+            'stm_control_node_master_slave = stm_station.stm_control_node_master_slave:main'
         ],
     },
 )

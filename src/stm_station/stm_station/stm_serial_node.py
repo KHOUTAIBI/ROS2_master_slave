@@ -15,7 +15,7 @@ class SerialPublisherNode(Node):
         """
         Initialize the SerialPublisherNode with a publisher and serial interface.
         """
-        super().__init__('stm_serial_node', namespace="/groupe_1")
+        super().__init__('stm_serial_node')
 
         # Get Serial Configuration Values 
         self.port = '/dev/ttyACM0'
@@ -24,7 +24,9 @@ class SerialPublisherNode(Node):
 
         # Create a publisher for Float32MultiArray messages
         # TODO: Create a publisher for 'serial_data' topic
-        self.data_publisher =self.create_publisher(Float32MultiArray,"topic_motor",10)
+        self.data_publisher =self.create_publisher(Float32MultiArray,
+                                                   "stm_state",
+                                                   10)
 
         # Create a timer to read data periodically
         self.timer = self.create_timer(1 / self.loop_frequency, self.timer_callback)

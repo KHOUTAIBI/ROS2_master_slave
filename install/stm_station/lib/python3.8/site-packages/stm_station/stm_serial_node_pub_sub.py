@@ -7,9 +7,10 @@
 import rclpy
 from rclpy.node import Node
 from std_msgs.msg import Float32MultiArray
+from stm_interfaces.msg import STMControl, STMState
 import serial
 import numpy as np
-
+    
 class SerialPubSubNode(Node):
     def __init__(self):
         """
@@ -24,12 +25,14 @@ class SerialPubSubNode(Node):
 
         # Create a publisher for Float32MultiArray messages
         # TODO: Create a publisher for 'serial_data' topic
-        self.data_publisher = self.create_publisher(Float32MultiArray,"topic_1",10)
+        self.data_publisher = self.create_publisher(STMState,
+                                                    "stm_state",
+                                                    10)
 
         # Create a subscriber for control commands
         # TODO: Create a subscriber for 'control_commands' topic with 'control_callback' as the callback
-        self.control_subscriber = self.create_subscription(Float32MultiArray,
-                                                           "topic_1",
+        self.control_subscriber = self.create_subscription(STMControl,
+                                                           "stm_control",
                                                            self.control_callback,
                                                            10)
         self.control_subscriber
@@ -71,11 +74,20 @@ class SerialPubSubNode(Node):
                 if len(float_values) == 8:
                     # Create a Float32MultiArray message
                     # TODO: Create and populate the Float32MultiArray message
-                    array_msg = Float32MultiArray()
-                    array_msg.data = [float(data) for data in float_values]
+                    array_msg = STMState()
+                    array_msg.motor_encoder = float(float_values[0])
+                    array_msg.motor_velocity = float(float_values[1])
+                    array_msg.accel_x =  float(float_values[2])
+                    array_msg.accel_y = float(float_values[3])
+                    array_msg.accel_z = float(float_values[4])
+                    array_msg.gyro_x = float(float_values[5])
+                    array_msg.gyro_y = float(float_values[6])
+                    array_msg.gyro_z = float(float_values[7])
+                    # array_msg.data = [float(data) for data in float_values]
                     # Publish the message
                     # TODO: Publish the array_msg
                     self.data_publisher.publish(array_msg)
+
                 
 
                 self.get_logger().info(f'Published data: {float_values}')
@@ -95,7 +107,7 @@ class SerialPubSubNode(Node):
             # format: {control_type, goal_position, Kp, PWM}
             # control_type: 0 = Stop, 1 = Position Control (Close Loop), 2 = PWM Control (Open Loop)
             # control_data = f"{{{msg.control_type}, {msg.goal_position}, {msg.Kp}, {msg.PWM}}}"
-            control_data = f"{{0, 0, 1, 250}}"
+            control_data = f"{{{msg.control_type}, {msg.setpoint}, {msg.kp}, {msg.pwm}}}"
             # Send the control data to the serial device
             # TODO: Write the control data to the serial port
             self.serial_port.write((control_data + '\n').encode('utf-8'))

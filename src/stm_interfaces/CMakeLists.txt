@@ -26,7 +26,7 @@ set(msg_srv_files "msg/STMControl.msg"
               "srv/STMSetControlType.srv")
 
 # Generate the messages:
-rosidl_generate_interfaces(${PROJECT_NAME} ${msg_srv_files})
+rosidl_generate_interfaces(${PROJECT_NAME} ${msg_srv_files} DEPENDENCIES std_msgs)
 
 # Also make sure you export the message runtime dependency:​
 ament_export_dependencies(rosidl_default_runtime)

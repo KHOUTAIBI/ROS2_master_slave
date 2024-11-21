@@ -5,4 +5,4 @@ stm_station :
 colcon:
 	colcon build
 poscontrol :
-	ros2 run stm_station stm_control_node_poscontrol
+	ros2 run stm_station stm_control_node_master_slave

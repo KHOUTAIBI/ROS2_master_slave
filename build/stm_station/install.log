@@ -2,11 +2,13 @@
 /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/__init__.py
 /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/stm_serial_communication.py
 /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/stm_serial_node.py
+/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/stm_control_imp_node_master_slave_poscontrol.py
 /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/stm_serial_node_pub_sub.py
 /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/__pycache__/stm_control_node_master_slave.cpython-38.pyc
 /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/__pycache__/__init__.cpython-38.pyc
 /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/__pycache__/stm_serial_communication.cpython-38.pyc
 /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/__pycache__/stm_serial_node.cpython-38.pyc
+/home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/__pycache__/stm_control_imp_node_master_slave_poscontrol.cpython-38.pyc
 /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station/__pycache__/stm_serial_node_pub_sub.cpython-38.pyc
 /home/iliass/ros2_athens_ws/install/stm_station/share/ament_index/resource_index/packages/stm_station
 /home/iliass/ros2_athens_ws/install/stm_station/share/stm_station/package.xml
@@ -17,6 +19,7 @@
 /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station-0.0.0-py3.8.egg-info/entry_points.txt
 /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station-0.0.0-py3.8.egg-info/top_level.txt
 /home/iliass/ros2_athens_ws/install/stm_station/lib/python3.8/site-packages/stm_station-0.0.0-py3.8.egg-info/SOURCES.txt
+/home/iliass/ros2_athens_ws/install/stm_station/lib/stm_station/stm_control_imp_node_master_slave_poscontrol
 /home/iliass/ros2_athens_ws/install/stm_station/lib/stm_station/stm_control_node_master_slave
 /home/iliass/ros2_athens_ws/install/stm_station/lib/stm_station/stm_control_node_poscontrol
 /home/iliass/ros2_athens_ws/install/stm_station/lib/stm_station/stm_serial_node

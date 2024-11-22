@@ -16,10 +16,10 @@ class SerialPubSubNode(Node):
         """
         Initialize the SerialPubSubNode with publishers, subscribers, and serial interface.
         """
-        super().__init__('stm_master_node')
+        super().__init__('stm_slave_node')
 
         # Get Serial Configuration Values 
-        self.port = '/dev/ttyACM0'
+        self.port = '/dev/ttyACM1'
         self.baudrate = 115200
         self.loop_frequency = 1000  # Hz
 

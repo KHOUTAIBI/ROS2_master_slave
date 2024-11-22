@@ -35,8 +35,9 @@ class STMControlNode(Node):
 
         # 4. TODO: Retrieve parameter values from the node's configuration and assign them to instance 
         # variables
-        self.master_group_id = self.get_parameter('master_group_id').get_parameter_value().integer_value
-        self.slave_group_id = self.get_parameter('slave_group_id').get_parameter_value().integer_value
+        
+        self.master_group_id = self.get_parameter('master_group_id').value
+        self.slave_group_id = self.get_parameter('slave_group_id').value
 
         # 5. TODO: Define topic names for master and slave based on group IDs obtained from parameters
         self.master_state_topic = f"/group_{self.master_group_id}/stm_state"  # Master stm_state topic (/group_id/stm_state)

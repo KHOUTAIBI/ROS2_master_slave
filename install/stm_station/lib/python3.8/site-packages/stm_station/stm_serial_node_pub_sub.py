@@ -16,7 +16,7 @@ class SerialPubSubNode(Node):
         """
         Initialize the SerialPubSubNode with publishers, subscribers, and serial interface.
         """
-        super().__init__('stm_serial_node')
+        super().__init__('stm_master_node')
 
         # Get Serial Configuration Values 
         self.port = '/dev/ttyACM0'

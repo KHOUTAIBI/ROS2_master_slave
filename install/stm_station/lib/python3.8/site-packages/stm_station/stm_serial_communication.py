@@ -7,7 +7,7 @@ import time
 
 
 class SerialInterface:
-    def __init__(self, port='/dev/ttyACM0', baudrate=115_200, callback=None):
+    def __init__(self, port='/dev/ttyACM1', baudrate=115_200, callback=None):
         self.port = port
         self.baudrate = baudrate
         self.ser = None

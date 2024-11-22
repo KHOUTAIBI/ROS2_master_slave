@@ -68,13 +68,13 @@ bool stm_interfaces__srv__stm_set_control_type__request__convert_from_py(PyObjec
     ros_message->kp = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
-  {  // kd
-    PyObject * field = PyObject_GetAttrString(_pymsg, "kd");
+  {  // kv
+    PyObject * field = PyObject_GetAttrString(_pymsg, "kv");
     if (!field) {
       return false;
     }
     assert(PyFloat_Check(field));
-    ros_message->kd = PyFloat_AS_DOUBLE(field);
+    ros_message->kv = PyFloat_AS_DOUBLE(field);
     Py_DECREF(field);
   }
 
@@ -121,11 +121,11 @@ PyObject * stm_interfaces__srv__stm_set_control_type__request__convert_to_py(voi
       }
     }
   }
-  {  // kd
+  {  // kv
     PyObject * field = NULL;
-    field = PyFloat_FromDouble(ros_message->kd);
+    field = PyFloat_FromDouble(ros_message->kv);
     {
-      int rc = PyObject_SetAttrString(_pymessage, "kd", field);
+      int rc = PyObject_SetAttrString(_pymessage, "kv", field);
       Py_DECREF(field);
       if (rc) {
         return NULL;

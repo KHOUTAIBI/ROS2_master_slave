@@ -55,13 +55,13 @@ class STMSetControlType_Request(metaclass=Metaclass_STMSetControlType_Request):
     __slots__ = [
         '_control_type',
         '_kp',
-        '_kd',
+        '_kv',
     ]
 
     _fields_and_field_types = {
         'control_type': 'int32',
         'kp': 'double',
-        'kd': 'double',
+        'kv': 'double',
     }
 
     SLOT_TYPES = (
@@ -76,7 +76,7 @@ class STMSetControlType_Request(metaclass=Metaclass_STMSetControlType_Request):
             ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.control_type = kwargs.get('control_type', int())
         self.kp = kwargs.get('kp', float())
-        self.kd = kwargs.get('kd', float())
+        self.kv = kwargs.get('kv', float())
 
     def __repr__(self):
         typename = self.__class__.__module__.split('.')
@@ -111,7 +111,7 @@ class STMSetControlType_Request(metaclass=Metaclass_STMSetControlType_Request):
             return False
         if self.kp != other.kp:
             return False
-        if self.kd != other.kd:
+        if self.kv != other.kv:
             return False
         return True
 
@@ -149,17 +149,17 @@ class STMSetControlType_Request(metaclass=Metaclass_STMSetControlType_Request):
         self._kp = value
 
     @property
-    def kd(self):
-        """Message field 'kd'."""
-        return self._kd
+    def kv(self):
+        """Message field 'kv'."""
+        return self._kv
 
-    @kd.setter
-    def kd(self, value):
+    @kv.setter
+    def kv(self, value):
         if __debug__:
             assert \
                 isinstance(value, float), \
-                "The 'kd' field must be of type 'float'"
-        self._kd = value
+                "The 'kv' field must be of type 'float'"
+        self._kv = value
 
 
 # Import statements for member types

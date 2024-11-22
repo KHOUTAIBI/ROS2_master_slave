@@ -39,7 +39,7 @@ struct STMSetControlType_Request_
     {
       this->control_type = 0l;
       this->kp = 0.0;
-      this->kd = 0.0;
+      this->kv = 0.0;
     }
   }
 
@@ -51,7 +51,7 @@ struct STMSetControlType_Request_
     {
       this->control_type = 0l;
       this->kp = 0.0;
-      this->kd = 0.0;
+      this->kv = 0.0;
     }
   }
 
@@ -62,9 +62,9 @@ struct STMSetControlType_Request_
   using _kp_type =
     double;
   _kp_type kp;
-  using _kd_type =
+  using _kv_type =
     double;
-  _kd_type kd;
+  _kv_type kv;
 
   // setters for named parameter idiom
   Type & set__control_type(
@@ -79,10 +79,10 @@ struct STMSetControlType_Request_
     this->kp = _arg;
     return *this;
   }
-  Type & set__kd(
+  Type & set__kv(
     const double & _arg)
   {
-    this->kd = _arg;
+    this->kv = _arg;
     return *this;
   }
 
@@ -134,7 +134,7 @@ struct STMSetControlType_Request_
     if (this->kp != other.kp) {
       return false;
     }
-    if (this->kd != other.kd) {
+    if (this->kv != other.kv) {
       return false;
     }
     return true;

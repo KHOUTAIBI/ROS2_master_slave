@@ -18,7 +18,7 @@ module stm_interfaces {
 
       @verbatim (language="comment", text=
         " kd control constant")
-      double kd;
+      double kv;
     };
     @verbatim (language="comment", text=
       " Response")

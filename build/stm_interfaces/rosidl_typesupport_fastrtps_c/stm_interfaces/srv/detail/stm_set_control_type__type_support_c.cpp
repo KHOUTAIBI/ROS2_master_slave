@@ -59,9 +59,9 @@ static bool _STMSetControlType_Request__cdr_serialize(
     cdr << ros_message->kp;
   }
 
-  // Field name: kd
+  // Field name: kv
   {
-    cdr << ros_message->kd;
+    cdr << ros_message->kv;
   }
 
   return true;
@@ -86,9 +86,9 @@ static bool _STMSetControlType_Request__cdr_deserialize(
     cdr >> ros_message->kp;
   }
 
-  // Field name: kd
+  // Field name: kv
   {
-    cdr >> ros_message->kd;
+    cdr >> ros_message->kv;
   }
 
   return true;
@@ -120,9 +120,9 @@ size_t get_serialized_size_stm_interfaces__srv__STMSetControlType_Request(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // field.name kd
+  // field.name kv
   {
-    size_t item_size = sizeof(ros_message->kd);
+    size_t item_size = sizeof(ros_message->kv);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -164,7 +164,7 @@ size_t max_serialized_size_stm_interfaces__srv__STMSetControlType_Request(
     current_alignment += array_size * sizeof(uint64_t) +
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
-  // member: kd
+  // member: kv
   {
     size_t array_size = 1;
 

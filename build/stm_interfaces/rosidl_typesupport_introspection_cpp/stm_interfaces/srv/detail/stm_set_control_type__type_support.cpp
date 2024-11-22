@@ -69,14 +69,14 @@ static const ::rosidl_typesupport_introspection_cpp::MessageMember STMSetControl
     nullptr  // resize(index) function pointer
   },
   {
-    "kd",  // name
+    "kv",  // name
     ::rosidl_typesupport_introspection_cpp::ROS_TYPE_DOUBLE,  // type
     0,  // upper bound of string
     nullptr,  // members of sub message
     false,  // is array
     0,  // array size
     false,  // is upper bound
-    offsetof(stm_interfaces::srv::STMSetControlType_Request, kd),  // bytes offset in struct
+    offsetof(stm_interfaces::srv::STMSetControlType_Request, kv),  // bytes offset in struct
     nullptr,  // default value
     nullptr,  // size() function pointer
     nullptr,  // get_const(index) function pointer

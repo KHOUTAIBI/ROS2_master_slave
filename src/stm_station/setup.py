@@ -28,7 +28,8 @@ setup(
             'stm_serial_node_pub_sub = stm_station.stm_serial_node_pub_sub:main',
             'stm_control_node_poscontrol = stm_station.stm_control_node_poscontrol:main',
             'stm_control_node_master_slave = stm_station.stm_control_node_master_slave:main',
-            'stm_node_slave=stm_station.stm_node_slave:main'
+            'stm_node_slave=stm_station.stm_node_slave:main',
+            'stm_control_node_master_slave_impedance_control = stm_station.stm_control_node_master_slave_impedance_control:main'
         ],
     },
 )

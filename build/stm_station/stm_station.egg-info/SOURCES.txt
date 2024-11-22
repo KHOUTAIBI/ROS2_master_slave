@@ -12,6 +12,7 @@ launch/stm_serial_launch.py
 resource/stm_station
 stm_station/__init__.py
 stm_station/stm_control_node_master_slave.py
+stm_station/stm_control_node_master_slave_impedance_control.py
 stm_station/stm_node_slave.py
 stm_station/stm_serial_communication.py
 stm_station/stm_serial_node.py

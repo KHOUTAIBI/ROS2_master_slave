@@ -36,8 +36,8 @@ cdr_serialize(
   cdr << ros_message.control_type;
   // Member: kp
   cdr << ros_message.kp;
-  // Member: kd
-  cdr << ros_message.kd;
+  // Member: kv
+  cdr << ros_message.kv;
   return true;
 }
 
@@ -53,8 +53,8 @@ cdr_deserialize(
   // Member: kp
   cdr >> ros_message.kp;
 
-  // Member: kd
-  cdr >> ros_message.kd;
+  // Member: kv
+  cdr >> ros_message.kv;
 
   return true;
 }
@@ -84,9 +84,9 @@ get_serialized_size(
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
-  // Member: kd
+  // Member: kv
   {
-    size_t item_size = sizeof(ros_message.kd);
+    size_t item_size = sizeof(ros_message.kv);
     current_alignment += item_size +
       eprosima::fastcdr::Cdr::alignment(current_alignment, item_size);
   }
@@ -125,7 +125,7 @@ max_serialized_size_STMSetControlType_Request(
       eprosima::fastcdr::Cdr::alignment(current_alignment, sizeof(uint64_t));
   }
 
-  // Member: kd
+  // Member: kv
   {
     size_t array_size = 1;
 

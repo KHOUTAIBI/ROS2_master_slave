@@ -2,8 +2,8 @@ from launch import LaunchDescription  # Import LaunchDescription to define what 
 from launch_ros.actions import Node  # Import Node to define individual ROS nodes to launch
  
 # TODO: Use a variable to define the namespace
-stm_name_space_master = 'group_4'
-stm_name_space_slave = 'groupe_7'
+stm_name_space_master = 'group_1'
+stm_name_space_slave = 'group_2'
 parameters = {"control_type" : 1, 
                   "kp" : 1.5}
  
@@ -14,13 +14,13 @@ def generate_launch_description():
     """
 
     parameters = {
-        'master_group_id' : 4,
-        'slave_group_id' : 7
+        'master_group_id' : 1,
+        'slave_group_id' : 2
     }
 
-    stm_name_space_master = 'group_4'
-    stm_name_space_slave = 'group_7'
-    stm_name_space_control = 'group_7'
+    stm_name_space_master = 'group_1'
+    stm_name_space_slave = 'group_2'
+    # stm_name_space_control = 'group_1'
     
     # Return a LaunchDescription containing the nodes to launch
     return LaunchDescription([
@@ -42,9 +42,8 @@ def generate_launch_description():
         ),
         Node(
             package='stm_station',                  # ROS package containing the node's executable
-            executable='stm_control_node_master_slave',           # Name of the executable to run
+            executable='stm_control_node_master_slave_impedence_control',           # Name of the executable to run
             name='stm_control_node',                 # Name to assign to the node (used in logs and debugging)
-            namespace = stm_name_space_control,
             parameters = [parameters],
             output='screen'
         )

@@ -18,7 +18,7 @@ stm_interfaces__srv__STMSetControlType_Request__init(stm_interfaces__srv__STMSet
   }
   // control_type
   // kp
-  // kd
+  // kv
   return true;
 }
 
@@ -30,7 +30,7 @@ stm_interfaces__srv__STMSetControlType_Request__fini(stm_interfaces__srv__STMSet
   }
   // control_type
   // kp
-  // kd
+  // kv
 }
 
 bool
@@ -47,8 +47,8 @@ stm_interfaces__srv__STMSetControlType_Request__are_equal(const stm_interfaces__
   if (lhs->kp != rhs->kp) {
     return false;
   }
-  // kd
-  if (lhs->kd != rhs->kd) {
+  // kv
+  if (lhs->kv != rhs->kv) {
     return false;
   }
   return true;
@@ -66,8 +66,8 @@ stm_interfaces__srv__STMSetControlType_Request__copy(
   output->control_type = input->control_type;
   // kp
   output->kp = input->kp;
-  // kd
-  output->kd = input->kd;
+  // kv
+  output->kv = input->kv;
   return true;
 }
 

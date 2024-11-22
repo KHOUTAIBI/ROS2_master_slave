@@ -20,15 +20,15 @@ namespace srv
 namespace builder
 {
 
-class Init_STMSetControlType_Request_kd
+class Init_STMSetControlType_Request_kv
 {
 public:
-  explicit Init_STMSetControlType_Request_kd(::stm_interfaces::srv::STMSetControlType_Request & msg)
+  explicit Init_STMSetControlType_Request_kv(::stm_interfaces::srv::STMSetControlType_Request & msg)
   : msg_(msg)
   {}
-  ::stm_interfaces::srv::STMSetControlType_Request kd(::stm_interfaces::srv::STMSetControlType_Request::_kd_type arg)
+  ::stm_interfaces::srv::STMSetControlType_Request kv(::stm_interfaces::srv::STMSetControlType_Request::_kv_type arg)
   {
-    msg_.kd = std::move(arg);
+    msg_.kv = std::move(arg);
     return std::move(msg_);
   }
 
@@ -42,10 +42,10 @@ public:
   explicit Init_STMSetControlType_Request_kp(::stm_interfaces::srv::STMSetControlType_Request & msg)
   : msg_(msg)
   {}
-  Init_STMSetControlType_Request_kd kp(::stm_interfaces::srv::STMSetControlType_Request::_kp_type arg)
+  Init_STMSetControlType_Request_kv kp(::stm_interfaces::srv::STMSetControlType_Request::_kp_type arg)
   {
     msg_.kp = std::move(arg);
-    return Init_STMSetControlType_Request_kd(msg_);
+    return Init_STMSetControlType_Request_kv(msg_);
   }
 
 private:

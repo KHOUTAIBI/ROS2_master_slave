@@ -22,7 +22,7 @@ typedef struct stm_interfaces__srv__STMSetControlType_Request
 {
   int32_t control_type;
   double kp;
-  double kd;
+  double kv;
 } stm_interfaces__srv__STMSetControlType_Request;
 
 // Struct for a sequence of stm_interfaces__srv__STMSetControlType_Request.

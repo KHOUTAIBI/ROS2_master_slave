@@ -17,6 +17,7 @@ stm_station/stm_node_slave.py
 stm_station/stm_serial_communication.py
 stm_station/stm_serial_node.py
 stm_station/stm_serial_node_pub_sub.py
+stm_station/stm_visualization.py
 test/test_copyright.py
 test/test_flake8.py
 test/test_pep257.py

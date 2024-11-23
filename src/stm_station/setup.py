@@ -29,7 +29,8 @@ setup(
             'stm_control_node_poscontrol = stm_station.stm_control_node_poscontrol:main',
             'stm_control_node_master_slave = stm_station.stm_control_node_master_slave:main',
             'stm_node_slave=stm_station.stm_node_slave:main',
-            'stm_control_node_master_slave_impedance_control = stm_station.stm_control_node_master_slave_impedance_control:main'
+            'stm_control_node_master_slave_impedance_control = stm_station.stm_control_node_master_slave_impedance_control:main',
+            'stm_visualization = stm_station.stm_visualization:main'
         ],
     },
 )

@@ -20,37 +20,44 @@ def generate_launch_description():
 
     stm_name_space_master = 'group_1'
     stm_name_space_slave = 'group_2'
-    # stm_name_space_control = 'group_1'
+    stm_name_space_control = 'group_1'
     
     # Return a LaunchDescription containing the nodes to launch
     return LaunchDescription([
         # Run the stm serial node
-        # Node(
-            # package='stm_station',                  # ROS package containing the node's executable
-            # executable='stm_serial_node_pub_sub',           # Name of the executable to run
-            # name='stm_master_node',                 # Name to assign to the node (used in logs and debugging)
-            # namespace= stm_name_space_master,
-            # output='screen'                             # Specify where to send the node's output (console or log file)
-        # ),
-# 
-        # Node(
-            # package='stm_station',                  # ROS package containing the node's executable
-            # executable='stm_node_slave',           # Name of the executable to run
-            # name='stm_slave_node',                 # Name to assign to the node (used in logs and debugging)
-            # namespace= stm_name_space_slave,
-            # output='screen'
-        # ),
-        # Node(
-            # package='stm_station',                  # ROS package containing the node's executable
-            # executable='stm_control_node_master_slave_impedence_control',           # Name of the executable to run
-            # name='stm_control_node',                 # Name to assign to the node (used in logs and debugging)
-            # parameters = [parameters],
-            # output='screen'
-        # ),
+        Node(
+            package='stm_station',                  # ROS package containing the node's executable
+            executable='stm_serial_node_pub_sub',           # Name of the executable to run
+            name='stm_master_node',                 # Name to assign to the node (used in logs and debugging)
+            namespace= stm_name_space_master,
+            output='screen'                             # Specify where to send the node's output (console or log file)
+        ),
+
+        Node(
+            package='stm_station',                  # ROS package containing the node's executable
+            executable='stm_node_slave',           # Name of the executable to run
+            name='stm_slave_node',                 # Name to assign to the node (used in logs and debugging)
+            namespace= stm_name_space_slave,
+            output='screen'
+        ),
+
+        Node(
+            package='stm_station',                  # ROS package containing the node's executable
+            executable='stm_control_node_master_slave',           # Name of the executable to run
+            name='stm_control_node',                 # Name to assign to the node (used in logs and debugging)
+            parameters = [parameters],
+            output='screen'
+        ),
         Node(
             package='stm_station',                  # ROS package containing the node's executable
             executable='stm_visualization',           # Name of the executable to run
             name='stm_visualization_node',                 # Name to assign to the node (used in logs and debugging)
+            output='screen'            
+        ),
+        Node(
+            package='stm_station',                  # ROS package containing the node's executable
+            executable='stm_turtlebot_control',           # Name of the executable to run
+            name='stm_turtlebot_control_node',                 # Name to assign to the node (used in logs and debugging)
             output='screen'            
         )
     ])

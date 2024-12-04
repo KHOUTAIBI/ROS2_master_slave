@@ -7,6 +7,7 @@ import rclpy                                          # Main ROS 2 library for P
 from rclpy.node import Node                           # Node class to create ROS 2 nodes
 from stm_interfaces.msg import STMState               # Custom message type for STM data
 # Import the ROS 2 message type for TurtleBot control commands (linear and angular speeds) /cmd_vel
+from geometry_msgs.msg import Twist 
 
 # Step 2: Create the STMTurtleBotControlNode class
 class STMTurtleBotControlNode(Node):
@@ -22,23 +23,30 @@ class STMTurtleBotControlNode(Node):
         self.group_id = self.get_parameter('group_id').get_parameter_value().integer_value  # Get group_id value
 
         # Step 2.2 TODO: Define the topic name for subscribing to STMState messages
-        stm_state_topic = f'group_{self.group_id}....
+        stm_state_topic = f'group_{self.group_id}/stm_state/'
 
         # Step 2.3 TODO: Create a subscriber for the STMState topic
         self.stm_state_subscriber = self.create_subscription(
-            ....
+            STMState,
+            stm_state_topic,
+            self.stm_state_callback,
+            10
         )
+
+        self.stm_state_subscriber
 
         # Step 2.4: Create a publisher for controlling the TurtleBot3 in Gazebo /cmd_vel topic of type ...
         self.twist_publisher = self.create_publisher(
-            ...
+            STMState,
+            "/cmd_vel",
+            10
         )
 
         # Step 2.5: Log setup details for confirmation
         self.get_logger().info(f"Subscribed to {stm_state_topic} and publishing to /cmd_vel")
 
     # Step 3: Define the callback function for STMState messages
-    def stm_state_callback(self, msg):
+    def stm_state_callback(self, msg : STMState):
         """
         Callback for receiving STMState data, processing it, and publishing as Twist messages to control the TurtleBot3.
 
@@ -48,19 +56,19 @@ class STMTurtleBotControlNode(Node):
         # Transform the received rotational speed of the motors to linear speed in the x-axis 
         # taking into account the number of ticks per revolution of the motor, the reduction ratio, 
         # and the wheel radius.
-        twist = ...
+        twist = Twist()
 
         # Step 3.2 TODO: Extract and map motor_velocity to linear speed in the x-axis
-        twist. ...
+        twist.linear = [1/9*(msg.motor_encoder/12),0,0]
 
         # Step 3.3 TODO: Extract and map gyro_z to angular speed
-        twist. ...
+        twist.angular = [0,0,msg.gyro_z]
 
         # Step 3.4: Publish the Twist message to control the TurtleBot3
         self.twist_publisher.publish(twist)
 
         # Step 3.5 TODO: Log the published speeds for debugging and monitoring
-        self.get_logger().info(f"Published ...
+        self.get_logger().info(f"Published data {twist}")
 
 # Step 4: Define the main function
 def main(args=None):

@@ -19,7 +19,7 @@ class SerialPubSubNode(Node):
         super().__init__('stm_master_node')
 
         # Get Serial Configuration Values 
-        self.port = '/dev/ttyS0'
+        self.port = '/dev/ttyACM0'
         self.baudrate = 115200
         self.loop_frequency = 1000  # Hz
 

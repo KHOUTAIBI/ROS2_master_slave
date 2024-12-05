@@ -7,7 +7,7 @@ import rclpy                                          # Main ROS 2 library for P
 from rclpy.node import Node                           # Node class to create ROS 2 nodes
 from stm_interfaces.msg import STMState               # Custom message type for STM data
 # Import the ROS 2 message type for TurtleBot control commands (linear and angular speeds) /cmd_vel
-from geometry_msgs.msg import Twist 
+from geometry_msgs.msg import Twist , Vector3
 
 # Step 2: Create the STMTurtleBotControlNode class
 class STMTurtleBotControlNode(Node):
@@ -23,7 +23,7 @@ class STMTurtleBotControlNode(Node):
         self.group_id = self.get_parameter('group_id').get_parameter_value().integer_value  # Get group_id value
 
         # Step 2.2 TODO: Define the topic name for subscribing to STMState messages
-        stm_state_topic = f'group_{self.group_id}/stm_state/'
+        stm_state_topic = f'group_{self.group_id}/stm_state'
 
         # Step 2.3 TODO: Create a subscriber for the STMState topic
         self.stm_state_subscriber = self.create_subscription(
@@ -37,7 +37,7 @@ class STMTurtleBotControlNode(Node):
 
         # Step 2.4: Create a publisher for controlling the TurtleBot3 in Gazebo /cmd_vel topic of type ...
         self.twist_publisher = self.create_publisher(
-            STMState,
+            Twist,
             "/cmd_vel",
             10
         )
@@ -57,12 +57,24 @@ class STMTurtleBotControlNode(Node):
         # taking into account the number of ticks per revolution of the motor, the reduction ratio, 
         # and the wheel radius.
         twist = Twist()
+        vector_rotation = Vector3()
+        vector_gyro = Vector3()
+        
+        # Updating vector rotation
+        vector_rotation.x = 1/9*(msg.motor_encoder/12)
+        vector_rotation.y = 0.0
+        vector_rotation.z = 0.0 
+        
+        # updating vetor of gyros
+        vector_gyro.x = 0.0
+        vector_gyro.y = 0.0
+        vector_gyro.z = msg.gyro_z
 
         # Step 3.2 TODO: Extract and map motor_velocity to linear speed in the x-axis
-        twist.linear = [1/9*(msg.motor_encoder/12),0,0]
+        twist.linear = vector_rotation
 
         # Step 3.3 TODO: Extract and map gyro_z to angular speed
-        twist.angular = [0,0,msg.gyro_z]
+        twist.angular = vector_gyro
 
         # Step 3.4: Publish the Twist message to control the TurtleBot3
         self.twist_publisher.publish(twist)

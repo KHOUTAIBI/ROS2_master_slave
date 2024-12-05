@@ -48,12 +48,12 @@ def generate_launch_description():
             parameters = [parameters],
             output='screen'
         ),
-        # Node(
-            # package='stm_station',                  # ROS package containing the node's executable
-            # executable='stm_visualization',           # Name of the executable to run
-            # name='stm_visualization_node',                 # Name to assign to the node (used in logs and debugging)
-            # output='screen'            
-        # ),
+        Node(
+            package='stm_station',                  # ROS package containing the node's executable
+            executable='stm_visualization',           # Name of the executable to run
+            name='stm_visualization_node',                 # Name to assign to the node (used in logs and debugging)
+            output='screen'            
+        ),
         Node(
             package='stm_station',                  # ROS package containing the node's executable
             executable='stm_turtlebot_control',           # Name of the executable to run
